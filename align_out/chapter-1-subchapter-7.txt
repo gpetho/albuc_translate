@@ -1,0 +1,6 @@
+chapter seven .	capitol . vii .	1.02692
+on the cauterization of a chronic apoplexy .	de cauterizacio de apoplextia antiqua .	0.702857
+when an apoplexy has lasted a long while and has been treated by those methods we have given and your treatment has been ineffective but the patient has no fever , then burn him with four cauterizations : one on each frontal prominence ; one in the middle of his head as we have described ; and one at the back of the head as has been said .	quan apoplextia es antiquada e curas aquela am aquo que havem dit e no confereys la tua medicacio e le malaute no ha febre , lahoras cauteriza aquel am quatre cauteris : sobre totz les corn del sieu cap ; e am cauteri e le mieg loc del cap , ayssi cum havem dit ; e am cauteri en le coguot .	0.910823
+the shape of the cauteries to be as before .	e la manieyra del cauteri es fayta segon que es desus dit .	0.745455
+he may also be given one burn over the cardia of the stomach ; that will be more efficacious . ~~~ then treat as described .	e ja es cauterizat sobre la boca del estomac ; e es mays derier ; e aprop sia curat am aquo que procezeys .	0.33938
+		0.3

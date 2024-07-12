@@ -1,0 +1,24 @@
+current_chapter = ''
+with (open("combined_path.txt") as path_f,
+      open("unaligned.txt", "w") as unaligned_f):
+    for line in path_f:
+        if line.strip() == '':
+            continue
+        if line[0] != '[':
+            current_chapter = line.strip()
+            print(current_chapter, file=unaligned_f)
+        else:
+            chat_line, eng_line, score = line.strip().split(':')
+            if float(score) > 0:
+                continue
+            with (open(f"sentalign_input/deu/{current_chapter}") as chat_f,
+                  open(f"sentalign_input/eng/{current_chapter}") as eng_f):
+                chat_text = chat_f.readlines()
+                eng_text = eng_f.readlines()
+                print(chat_line, eng_line, file=unaligned_f)
+                if chat_line == '[]':
+                    for line in eng_line[1:-1].split(','):
+                        print(eng_text[int(line)], file=unaligned_f)
+                else:
+                    for line in chat_line[1:-1].split(','):
+                        print(chat_text[int(line)], file=unaligned_f)

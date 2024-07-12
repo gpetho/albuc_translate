@@ -1,0 +1,8 @@
+chapter twenty-two .	capitol . xxii .	0.942857
+on cauterization of scrofulous tumours .	de cauterizacio de extrophulos .	0.727586
+when the tumours arise from phlegm and cold humidities and are not to be dispersed with medicines and you wish for a rapid dispersal , then heat the hollow cautery of which this is the figure . ~~~ it is open at both ends to give exit for the fumes of burning from the other end .	quan extrophulos so de flecma e de humors fregas e no so hobedientz a digistio per medicinas e tu voys la digistio de aquelas leugerament , lahoras tu igneys le cauteri conquau la forma del qual es aquesta seguen , havent dos extremitatz hubertas per que yesca le fum deves le cauteri per l’autra extremitat , e pausa aquel ignit sobre aquel apostema una veguada , e autre si indigeyses de aquel , entro que pervengua al preon del apostema .	-0.0174107
+place it hot , right on the tumour , once , or twice if need be , till you reach the bottom of the tumour . ~~~ if the tumour be small , suit the cautery to the size of the tumour . ~~~ then let be for three days and apply cotton wool soaked in butter until the eschar has disappeared .	e si l’apostema es pauca , lahoras pausa le cauteri segon la quantitat del apostema , e aprop leyssa le per tres jorns e pausa sobre lu coto enfus en boder entro que sia remaugut aquo que·l foc ha comburit .	-0.0097522
+then treat with ointments and with plugs of lint till healed . [	e aprop cura aquel am enguent e tentas e draps entro que sia sanat .	0.502965
+cauterize at whichever end you prefer according to circumstances .	e la forma de la cannula o deu cauteri a tal es comveyter .	0.502515
+this is the figure of the tube ] .		-0.3
+		0.3

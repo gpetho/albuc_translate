@@ -1,0 +1,5 @@
+chapter fifty-four .	capitol . liiii .	0.97
+on cauterization for tremor .	de cauterizacio de tremor .	1.275
+when someone has a tremor , either from chill in a nerve or quartan fever , or from some other cause , you should cauterize him four or five times over the vertebrae of the back , one between each vertebra , and one on his breast and one on his stomach , with an olivary cautery .	quan endeve ad alcu tremor per freg en le nervi o per febre de causa frega , o per autra causa semblant , lahoras cove que tu cauterises aquel am quatre cauteris o am v sobre les spondils del dos , entre quascun spondilh am un cauteri ; e am cauteri en le pietz de lu , e sobre l‘estomac de lu , am cauteri olivar .	0.722806
+thus the tremor will be stilled and the dispersal of the cold distemper will be hastened .	e la tremor de lu se repausa e festina la sanetat de la malautia frega .	0.917951
+		0.3

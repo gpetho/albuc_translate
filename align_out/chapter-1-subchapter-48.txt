@@ -1,0 +1,7 @@
+chapter forty-eight .	capitol . xlviii .	0.975
+on cauterization for numbness .	de cauterizacio de stupor .	0.75
+when some limb is affected with numbness and it is treated with drugs and ointments and plasters , but is not cured , burn the benumbed limb itself with cauterizations proportionate to its bigness or smallness .	quan alcun membre es stabozit o adormit e es curat am medicinas , olis e emplastres , e no es sanat , lahoras tu cauteriza aquel membre stabozit am cauteris segon que merita la grandesa del membre o la parvitat de lu .	0.929874
+let the cauterization somewhat penetrate the thickness of the skin ; then dress with ointments till healed .	e sia lo tieu cauteri intrant la ispicitut de la codena un pauc . ~~~ e aprop cura aquel am enguent entro que sia sanat .	0.193478
+for numbness that occurs in the hand or foot it is possible to cauterize over the dorsal vertebrae at the exit of the nerve activating that part ; and the numbness will go .	e alscunas veguadas es cauterizada alcuna stupor le qual endeve a las mas e als pes , e als spondils del dos e ves le eysiment dels nervis les quals mavon aquel membre , e es remauguda la stupor .	0.778116
+this should not be attempted except by one who has a good knowledge of the anatomy of the limbs and of the exits of the nerves that move the body .	mays no prusuma sobre aquo sino aquel que es savi en la anotomia dels membre e de la egressio dels nervis tot le cors moventz .	0.478533
+		0.3

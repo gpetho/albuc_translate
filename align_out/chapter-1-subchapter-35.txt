@@ -1,0 +1,7 @@
+chapter thirty-five .	capitol . xxxv .	0.921429
+	de cauterizacio de atheyl aprop la abscizio de lor .	-0.3
+on cauterization of warts after excision .	quan tu abscindes atheyl , lahoras tu igneys le cauteri que es asemblat a ray .	0.822973
+when you excise warts , heat a spike-shaped cautery and bring it , hot , to the site of the excised wart , and press down till the cautery reaches the mouth of the vessel whence the blood comes .	aprop entremet aquel ignit en aquel atheyl abscis , e ultima la tieua ma entro que pervengua le cauteri al orifici de la vena de la qual ve la sanc .	0.48875
+do this once or twice over . ~~~ if the warts be more than one , sear each one separately as we have described ; then dress with suitable ointments till healed .	e fay aquo una vetz o doas , quar si achieyl son trops , lahoras cauteriza quascun de lor segon que havem recontat , e aprop cura aquels am aquo que confereys a lor dels enguentz entro que sia sanat .	0.0781753
+and if you burn the patient with one big cauterization over the lumbar region that will add to the effect .	e si cauterizas am gran cauteri sobre alquatin , es mays derier en juvament .	0.5625
+		0.3

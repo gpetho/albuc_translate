@@ -1,0 +1,6 @@
+chapter thirty-eight .	capitol . xxxviii .	0.979412
+on cauterization of the urinary bladder .	de cauterizacio de la vesica .	1.04176
+when there occurs in the urinary bladder a weakness and relaxation due to chill and humidities , so that the patient cannot retain his water , sear him once below his navel , on the bladder , where the pubic hair begins ; burn him once also on the right side and once on the left side of the navel ; and let the distance of the burn from either side be the length of the joint of the thumb .	quan accideys en la vesica debelitat e mollificacio per freg e per humiditatz ayssi que·l malaute la urina no retengua , lahoras cauteriza aquel en la partida pus dejos sobre la vesiqua , la hon comensan les pels del pentenilh , e cauteriza am un cauteri en la partida dreyta , e am autre en la senestra de lu .	0.820203
+cauterize him also once on the lower part of the back , or twice if you need .	e sia la longitut de quascun cauteri segon la cantitat dels not del pous ; e cauteriza aquel am cauteri en la partida pus bassa del dos , o am dos cauteris si es necessitat .	0.712054
+the cautery should be claviform , as described .	e sia cauteri clavilh segon que es procesit .	0.576316
+		0.3

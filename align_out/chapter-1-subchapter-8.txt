@@ -1,0 +1,10 @@
+chapter eight .	capitol . viii .	1.05
+on cauterization for lethargy due to phlegm .	de cauterizacio de obblivio fayta per flacma .	0.625641
+first , great electuaries should be given to the patient to drink ; and pills to clear the head .	cove que sian donatz al malaute en le comensament jerras grans e pilulas le servel mondificantz .	0.788608
+then let his whole head be shaved and apply a mustard plaster to the hinder part as described in the treatise on plasters .	e aprop ras le cap tot del malaute e pausa sus le coguot de lu emplaustre de cetre descrit en le tractat dels emplastres .	0.773939
+that should be applied several times as it is a kind of cauterization ; do it in the very way described there .	e pausa aquel alcunas veguadas , quar aquel es manieyra de cauteri .	0.769173
+if he is cured , well and good ; but if not , burn him with three cauterizations on the back of the head , arranging them in a row downward from the upper part of the head to the base of the neck ; and make an interval between each pair of one finger's breadth .	e fay aquo segon aquel meteys orde le qual ja he dit . ~~~ e donc si per aqueles sanat bo es ; e sino , lahoras fay a lu tres cauteris en la deriera partida de sieu cap , les quals sian deysendentz de la partida pus sobirana del cap entro a la partida pus dejos del col .	0.283611
+then treat as aforesaid .	e pausa entre quascun cauteri la grossetut del dit , e aprop cura lo cauteri am aquo que es procedit .	-0.0318182
+if you wish to add to these cauterizations and the patient be fit to bear it , give him a burn in the middle ; and if still more , then burn him on the two frontal prominences .	mays si tu vos addicio e le malaute es aquo tollerant , lahoras fay a lu cauteri en le mieg loc ; e si voys major addicio , lahora cauteriza aquel sobre les dos corns .	0.935216
+then dress till healed . ~~~ let the cautery be an olivary as described before .	aprop cura aquel entro que sia sanat ; e sia le cauteri olivar segon la forma denant donat .	0.226923
+		0.3

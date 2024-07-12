@@ -1,0 +1,10 @@
+File: chapter-2-subchapter-77.txt
+File Elapsed Time: 0:00:00.911676
+Source file length: 23
+Target file length: 23
+Nodes: 625
+Gale-Church Elapsed Time: 2024-07-09 01:20:03.914736
+Align Elapsed Time: 0:02:58.278517
+Calc Anchors Elapsed Time: 2024-07-09 01:20:03.914737
+Greedy Algorithm Elapsed Time: 2024-07-09 01:20:03.914738
+Anchors: [[23, 23]]

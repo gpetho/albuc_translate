@@ -1,0 +1,10 @@
+File: all_text.txt
+File Elapsed Time: 0:13:17.695725
+Source file length: 3096
+Target file length: 3486
+Nodes: 10805824
+Gale-Church Elapsed Time: 42.81277101400002
+Align Elapsed Time: 0:13:17.695977
+Calc Anchors Elapsed Time: 0.09285437799996998
+Greedy Algorithm Elapsed Time: 2024-07-08 23:50:24.833613
+Anchors: [[3096, 3486]]

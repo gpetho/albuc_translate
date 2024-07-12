@@ -1,0 +1,10 @@
+chapter forty-three .	capitol . xliii .	0.95
+on cauterization of early hunchback .	de cauterizacio al comensament de gilbositat .	0.655844
+	motas veguadas endeve aquesta malautia als petitz enfantz ; e senhal del comensament de lu en les enfantz es que accideys sobre lor estrectura en le ale eves la elevacio e·l movement .	-0.3
+this disease often occurs in small children .	e atrobas en le derier espondil del dos e dels notz de lu que ja comensa a sobremontar sobre les autres spondils .	0.217949
+the sign of the beginning of the disease in a child is that he suffers shortness of breath when standing or moving , and you will find that at the end of his dorsal vertebrae there is one visibly projecting above the other vertebrae .	e donc quan tu vezes aquo e voles prohibir , lahoras cauterisa aquel am cauteri que sia cercle segon aquesta forma :	0.263995
+so when you see this and you wish to stop it , cauterize him with a cautery that should be circular so that the cauterization takes in equally all sides of the vertebra .	que prengua le cauteri sobre tota partida del spondilh engualment .	0.636207
+if you wish , you can cauterize two or three lines around the vertebra with the punctate cautery ; let the punctures be close to one another .	e si vols , cauteriza en le circuit del spondilh am le cauteri de punt dos linhas o tres . ~~~ e sian les puntz propdas entre lor .	0.147735
+then dress the place with those remedies we have mentioned , till healed .	e aprop cura le loc entro que sia sanat am aquo que havem dit .	0.628
+but beware of using the cautery in the deformity arising from a nervous spasm .	mays guarda que cauteri no sia administrat en gelbositat que sia fayta per spasme de nervi .	1
+		0.3

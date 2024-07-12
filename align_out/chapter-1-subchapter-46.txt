@@ -1,0 +1,6 @@
+chapter forty-six .	capitol . xlvi .	0.964286
+on cauterization for contusion .	de cauterizacio de torcio .	0.7375
+when pain occurs in some limb due to a fall or a blow and the pain becomes chronic and medical treatment has no effect upon it , you should cauterize it with the punctate cautery .	quan endeve en alscus membres per cazement o per percussio dolor e persevera aquela dolor per lonc temps e no comfereys al u curacio am medicinas , lahoras cove que cauterizes am cauteri de punt .	0.591448
+in each case the cauterization should be in proportion to the size of the limb , its strength or weakness , and the chronicity of the pain and contusion in it .	e sia le cauteri de tot membre segon la magnitut e la parvitat de lu , e vertut e develitat de lu , e locacio de torcio e dolor de lu .	1.04675
+if it is cured at the first cauterization , good ; otherwise repeat the cauterization . ~~~ for it is customary for these pains to move from one part to a neighbouring part , and you must follow them with the cautery till the patient is cured .	donc si·s sanat per le primier cauteri , bo es ; e sino , lahoras itera sobre lu le cauteri ; quar de costuma de aquelas dolors es que sian punctatz de membre ad aquel membre le qual apropinque al u , per que cove que consieguas aquels am cauteri entro que·l malaute sia sanat .	0.307373
+		0.3

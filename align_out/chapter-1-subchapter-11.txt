@@ -1,0 +1,13 @@
+chapter eleven .	capitol . xi .	0.975
+on cauterization for melancholy .	de cauterizacio de melencolia .	0.778571
+when the cause of the melancholy be corrupt humours and a thick phlegm , burn him with those cauterizations mentioned in the case of the paralytic .	quan las causas de melencolia so humiditatz corrompudas e flacma gros , lahoras cauteriza aquel am les cauteris les quals havem ditz en le havent paralisi .	0.601916
+if the cause of the melancholy be a redundance of humour turning to black bile , and the patient's body be humid , make him drink that which will purge his head as described in a previous section .	e si la causa de melencolia es superfluitat declinant a melencolia , e le cors del malaute es humit , lahoras da ha beure aquo que mundifica le cervel de lu segon aquo que ha precedut en la divisio .	0.748125
+then shave the patient's head and apply a compact ring-bandage of linen and put it round the middle of his head .	e aprop ras le cap del malaute , e aprop fay tortora decentment fayta de li sobre le cercle , e aprop depausa aquela en le mieg loc del cap .	1.02132
+have him sit cross-legged , held firmly on all sides .	e le malaute sia sesent cayrat , e sia tengut de tota partida .	0.76
+then take a pound of stale sheep's butter and warm it on the fire to a moderate heat so that a finger put in can bear it ; then pour it out on the middle of the head inside the circle of the bandage and leave it till it has cooled .		-0.3
+do this once a week with other efficacious treatment till he is cured .	e aprop pausa liniment ; et es pus digne de boder antic de ovelhas .	0.478182
+if you wish , burn him with multiple small puncture cauterizations ; nor press long on the cautery but let this cauterization be only just punctured .	e escalfa aquel sobre le foc per calefaccio temprada per mesura , le qual le dit sufferta quan es mes en lu .	0.548864
+for this kind of cauterization will moderately moisten the brain .	e aprop vuo’ aquel en le mieg loc del cap de lu en le cercle , e leysa lu entro que sia enfregidat .	0.939474
+	e fay aquo am le malaute en tota semmana una veguada , am le autre regiment de lu bo entro que sia sanat ; o si vols , cauteriza aquel fazen petitz puntz segon lo mays de lu , sino que tenguas la ma am un cauteri ayssi ordenat : aquesta es specia de cauteri la qual humecta le cervel am equalitat .	-0.3
+then let cotton soaked in butter or hen's grease be applied .	e aprop pausa aquel coto enbegut en boder o en grays de gualina .	0.519005
+		0.3

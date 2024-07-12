@@ -1,0 +1,12 @@
+chapter fifty-two .	capitol . lii .	0.934615
+on cauterization of gangrene .	de cauterizacio de corrodent .	0.8
+gangrene is a creeping corruption of a limb , consuming it as fire consumes dry wood .	corrodent es corrupcio ambulant en le membre , la qual corrodeys aquel ayssi cum a foc comedent lenha secca .	1.04883
+if you see gangrene in a part which can tolerate the actual cautery , heat a number of claviform cauteries , small or large to suit the site of the gangrene .	donc si vezes aquel corrodent en loc le qual sufferte cauteri am foc , lahoras tu igneys cauteris clavils motz paucs , e grans segon que es convenent en aquel loc en le qual es corrodent .	0.87777
+then cauterize it all over till the whole corruption is eradicated and none remains .	e aprop cauteriza aquel de tota partida entro que erradiques tota la corrosio e no romangua alcuna causa de lu .	0.775
+then let be for three days , applying to the cauterized site sulphur beaten up with oil , until the whole eschar comes away , and all the corruption .	e aprop leyssa aquel per tres dias , e pausa sobre les locs cauterizats solpre trissat am oli mesclat entro que las scaras sian totas eradicadas e tota la corrupcio .	0.940534
+then treat with stimulating ointments .	e aprop cura aquel am enguentz carn engendrantz .	0.668571
+if after three days you see the flesh growing healthily and no corruption in it , good .	mays si aprop tres dias vezes que la carn nasca sana en la qual no es corrupcio , bo es ; mays sino , lahoras itera le cauteri sobre aquo que es romas en les locs corrumputz .	0.810307
+otherwise repeat the cauterization over whatever corrupt parts are left .	e corrodent es medicat alcunas vetz am medicina aguda , quar aquela es meza en loc de cauteri .	0.984375
+gangrene is also sometimes cured with caustic , for that takes the place of fire ; but the actual cautery acts more speedily .	mays empero cauteri am foc es de pus leugier juvament .	0.921739
+i have already spoken of the treatment of it by caustic in its section , so take it from there when you have need of it .	e yeu ja e dit la curacio de lu am medicina aguda en la divisio , e donc pren aquela quan de lu auras endegencia .	0.835556
+		0.3

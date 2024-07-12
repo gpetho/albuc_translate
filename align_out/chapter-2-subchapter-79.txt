@@ -1,0 +1,7 @@
+chapter seventy-nine .	de curacio del cul del enfant no-perforat .	0.821429
+on imperforate anus .	motz enfantz naysso e les culs de lu no so perforatz , les quals ya ciphac subtil e opilat .	0.0315789
+infants are quite often born with the anus imperforate , closed by a fine membrane ; then the midwife should perforate the membrane with her finger or pierce it with a sharp scalpel , being careful not to touch the muscle .	adonc cove a la matrona que perfore am le sieu dit aquel ciphac ; e sino , perfora aquel am spatum agut , e guarda se que no toque le lacert .	0.746185
+then wool dipped in oil and wine should be applied , and treat it with ointments until healed .	e aprop pause sobre aquel lana enfusa en vi e oli ; e aprop cura aquel am enguent entro que sia senat .	0.434615
+if you are afraid it may close up , put into the opening a leaden tube for many days , which will be removed when the child wants to evacuate the bowel .	mays si temes que sia opilat , lahoras pausa en le trauc una canula per motz dias , e osta la quan le enfant voldra degerir .	0.662571
+sometimes also the anus is closed by the scarring of a wound or an abscess ; then the scarring should be incised , and then dressed by those methods we have mentioned , including the leaden tube .	e ja accideys oppilacio del cul per consolidacio de plagua o de apostema ; adonc cove que aquela consolidacio sia inscidida , e aprop sia curada am aquo que avem dit de la curacio e del plom .	0.753846
+		0.3

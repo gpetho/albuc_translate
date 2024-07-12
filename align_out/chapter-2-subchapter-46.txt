@@ -1,0 +1,51 @@
+chapter forty-six .	capitol . xlvi .	0.214286
+on the shapes of the instruments used for incising and perforating .	de las formas del sturmentz necessaris en seccio e perforacio .	0.527778
+among these are the various explorers . ~~~ there are three varieties of this instrument , large , medium , and small .	de aquels so las formas dels intromesas , e so de tres specias , que de aquels es alcu gran , e de lor es migier , e de lor es petit .	0.650806
+this is the figure of the large explorer .	la forma de intromes gran es aquesta :	0.605208
+figure of the medium explorer .	la forma de intromes migier es aquesta :	0.650794
+figure of the small explorer .	la forma de intromes petit es aquesta :	0.647802
+they should all be made of the best damascene steel , with quadrangular points , and strong , to assist entry into the tumours .	sian faytz de ferr , de alfulud , de extremitatz cayradas decentment , per so que festino le intrament en les apostemas .	0.66
+and this is the shape of the probes ; they are also called burud .	e aquestas so las formas dels experientz , e son nompnatz albered , e un de aquels es apelat berid .	0.516509
+there are three kinds of this , too : large , medium , and small .	e so de tres especias , quar de lor es gran , migier e pauc .	0.973967
+figure of the large probe .	la forma de experient gran , forma de lu :	1.44224
+figure of the medium probe .	la forma de experient migier , forma de lu :	1.43571
+figure of the small probe .	la forma de experient pauc , forma de lu :	1.44224
+they are suitable for exploring tumours , wounds , fistulas , and sinuses , to see what is inside them such as bones , etc .	conveneysso que sian per aquels apostemas e exituras e fistulas e bubos per so que entre aquelas so dels osses e de autras causas .	0.968308
+they are made round , polished , and smooth , like packing-needles , of chinese copper or of white copper , or of brass , silver , or iron . ~~~ the best are those made of white copper .	e so faytz redontz , grosses , leons , ayssi cum grans agulhas am las quals son cosidas las selhas , e son faytas de eram citri , o de eram o de ferr , o de argent , e las milhors so quan so faytas de eram citri .	0.417117
+sometimes probes are made of black lead , for investigating fistulas whose deeper course is devious ; so that by reason of their softness they can adapt themselves to the curves .	e son faytz les experient de plum negre , les quals se acordan que per aquels sian ubertas las fistulas en la conquavitat de las quals so reflexios , que sian reflectidas am la sua levitat am aquelas refleccios .	0.795119
+of these , too , there are three varieties : the long , the medium , and the short , proportioned to the requirement of the depth of every fistula . ~~~ their thickness also should be proportioned to the width or narrowness of the fistula . ~~~ the large lead probe .	e so de tres specias , quar alcus de lor so loncs , e dels autres migiers , e dels autres breus , segon la quantitat del ample de la fistula e de la strictura de lu .	0.361702
+the medium lead probe .	forma del experient gran de plom :	0.665
+the small lead probe . *	forma del experient migier de plom :	0.563571
+figures of hooks .	forma del experient petit de plom :	1.2375
+there are many kinds of hook . ~~~ for example , there are the simple hooks , that is , having only one prong ; there are three kinds of this : large , medium , and small .	las formas dels oncis so de motas specias , quar de aquels so alcus simples , als quals es una curvitat solament , e so de tres specias : grans , paucs e migiers .	0.276635
+there are also the blind hooks , of which there are three kinds .	e de lor so uncis orps , e so de tres specias .	1.22976
+and there are the hooks provided with two prongs , of which there are three kinds .	e de aquels so uncis haventz doas curvaturas , e so de tres specias .	0.985714
+and there are the bent hooks with two prongs , of which there are three kinds .	e de lor so haventz tres curvaturas , e so de tres specias .	1
+and there are the hooks provided with three prongs , of which there are three kinds .	e totz aquetz so necessaris en lor loc .	0.263636
+all of these kinds are necessary in their place .	forma de unci simple gran , forma de lu :	0.772727
+the large , medium , and small simple hook .	forma de unci simple migier :	1.02514
+the large and medium blind hooks .	forma de unci simple pauc , forma de lu :	1.38362
+the small blind hook .	forma de unci orp gran :	0.784211
+the large , medium , and small , double-pronged hooks	forma de unci orp migier , forma de lu :	0.996307
+the large triple-pronged hook .	forma de unci orp pauc , forma de lu :	1.27857
+the medium , and small triplepronged hooks .	forma de unci gran havent dos curvaturas :	0.95
+these are the figures of the scarifying scalpels with which you incise and dissect away cysts and tumours .	forma de unci migier havent dos curvatas :	0.183333
+they too are of three kinds : large , medium , and small .	forma de unci pauc havent dos curvaturas :	0.883333
+figure of the large scarifying scalpel .	forma de unci gran havent tres curvaturas :	0.657857
+figure of the medium scarifying scalpel .	forma de unci migier havent tres curvaturas :	0.65
+figure of the small scarifying scalpel .	forma de unci pauc havent tres curvaturas :	0.657857
+the cutting edges should be sharp , and the other ends blunt .	e aquestas so las formas dels scalpels am les quals son seccatz e scorjatz les nodes e le apostemas , e so de tres specias , quar de aquels es gran , migier , e pauc . ~~~ forma de scapel gran : ~~~ forma del scapel migier :	0.0268908
+the reason for making them like this is so that they can be utilized in dissecting away cysts where there is a fear of cutting a vein or nerve , and also that the patient may console himself thereby and find some small relief from the pain involved in the dissection of a tumour .	forma de scapel pauc : ~~~ las extramitatz de aquels am les quals es fayta seccio so agudas e las autres extramitatz so no-agudas , e no so pausadas en tal manieyra , sino per que sia fayt juvament en la excorjacio dels nodes la temor de inscizio de vena o de nervi , e per aquels sia sanat le malaute e atrobe tranquilitat un petit per la adustio la qual atroba deves la excoriacio del apostema .	0.166048
+here are the figures of the 'deceivers' of which also there are three kinds , large , medium , and small .	e aquestas son las formas de almagidas , e so de tres specias : gran , migier e pauc , ayssi cum veyras .	1.07177
+they are made of brass and resemble the rod for instilling eye-salve .	la forma de magda gran : ~~~ forma de magda migier : ~~~ forma de magda pauc :	0.0153846
+at one end there is the likeness of a broad spoon made of two plates , in the extremity of which is the point of a hidden scalpel ; thus the knife is masked like a bird's tongue , moving in and out at will , as you see .	sian faytas de eram e so semblantz de ray am le qual e fayt alcofol .	0.367701
+figures of the scalpels which are hidden between the fingers when tumours are to be opened , so that they are not noticed by the patient .	e es en la extramitat lada punctada am spatum occultada e en aquela corr a las partidas dedintz e defora , quan tu vols , ayssi cum veses .	0.61875
+they are of three varieties : large , medium , and small .	las formas de spatimis , les quals so amaguatz entre los ditz deves la perforacio dels apostemas e no les percebo les malautes , e so de tres specias : gran , migier e pauc .	0.777812
+figures of the cupping vessels with which haemorrhage is stanched .	e aquestas so las formas de aquels :	0.686667
+there are three kinds : large , medium , and small .	las formas de ventozas am las quals es abscindit le flux del sanc , e so de tres specias ; gran , migiera e pauca ; las formas de lu :	1.23462
+they are made of bronze or of chinese alloy , round but slightly elongated , as you see , and also rather thin .	sian faytas de eram citri , redondas am alcuna longitut , e sian subtils .	0.719877
+you should have these kinds by you , large and small , so that haemorrhage may be quickly stopped in an emergency and when you have no medicine .	e cove que sian aquestas specias de ventosas deves tu grans , migieras e paucas , per so que per aquelas abscindas flux de sanc am velocitat en necessitat , e lahoras quan a tu primieyrament no es medicina .	0.970339
+but they are not to be used for suppressing haemorrhage in all parts of the body , but only in the fleshy parts such as the calf and thigh muscles , the arm muscles , the breasts , belly , and groin , and other similar fleshy soft parts .	enpero no uses de aquelas ad abscidir sanc en tot loc del cors , e non uses sino en locs carnoses , ayssi cum en les lacertis de las cambas e de las coyssas , e en les lacertz dels brasses , e de las mamillas e del ventre e dels engonars , e semblantz a lor dels lacertz carnoses humitz .	0.887059
+sometimes of this class small instruments , like nutshells , are made , like this . ~~~ haemorrhage from a venesection is stopped by these ; or in the case of a cut artery or vein .	e alcunas veguadas son faytz de aquels strumentz autres petitz semblantz scorsas de fisacs segon aquesta forma ; per les quals lo sanc es abscindit quan es fayt per fleubotomia , o deves inscizio de vena o de arceria .	0.320936
+sometimes round ones are made , like this .	e alcunas veguadas son faytas redondas segon aquesta forma :	0.466667
+		0.3

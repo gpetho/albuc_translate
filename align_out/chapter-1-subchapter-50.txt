@@ -1,0 +1,6 @@
+chapter fifty .	capitol . l .	0.968182
+on cauterization for cancer .	de cauterizacio de cranc .	0.76087
+when the cancer is in its initial stage and you wish to arrest it , burn all round the circumference of the cancer with the circular cautery .	quan canser es comensan e vols aquel ostar , lahoras cauteriza aquel am cauteri de cercle en le circuit de lu ayssi cum es revolgut .	0.725178
+some doctors have said that it may be cauterized with one extensive cauterization in the middle . ~~~ this hardly seems right to me , for i should expect it to ulcerate out ; which i have several times seen .	e diysero les savis que sia cauterizat am lo derier cauteri en le mieg loc ; mays a mi no es vist aquo , quar temi que sia ulcerat , e yeu ja e vist aquo alcunas veguadas .	0.13
+so it is correct to burn around the circumference with a circular cautery as we have said , or with multiple cauterizations .	e es pus dreyturier que sia cauterizat en le circuit de lu am cercle ayssi cum avem dit , o am motz cauteris .	0.620455
+		0.3

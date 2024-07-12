@@ -1,0 +1,8 @@
+chapter eighteen .	capitol . xviii .	1.01
+on cauterization of hare lip .	de cauterizacio de la fendedura des potz .	0.613187
+there often occur fissures in the lip to which are given the name 'hairs' ; they are particularly common in the lips of boys .	motas veguadas accideysso fissuras en las labias , e majorment en las labias dels enfantz .	0.375172
+when you have ineffectually treated these clefts with those things that we have mentioned in their section , then heat a small edged cautery of this shape .	donc cum tu curas aquelas fissuras am aquo que nos havem dit en las divisios e no aprofieyta la tua cura , lahoras igneys le cauteri petit cutellar segon aquesta forma que s’ensiec :	0.357294
+the hollow should be as sharp as a knife .	e sia la conquavitat de lu segon la subtilitat de cotella .	0.713102
+then quickly place it , hot , right on the fissure till the burning has reached the depth of the lip .	aprop pausa aquel init cuytadament en aquelas fissuras entro que·l cauteri pervengua al preon de las fissuras .	0.568228
+then treat with wax plaster till healed .	e aprop cura aquel am cerotz entro que sia sanat .	0.581905
+		0.3

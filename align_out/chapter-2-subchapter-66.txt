@@ -1,0 +1,6 @@
+chapter sixty-six .	capitol . lxvi .	0.964286
+on flatulent hernia .	de hernia ventosa .	1.46471
+i have not seen anyone pluck up enough courage to attempt the operative treatment of this kind of rupture .	en aquesta hernia no e vist alcu que sia estat ardit sus la curacio de lu am ferr .	0.345455
+the ancients indeed said it ought to be done in the same way as hernia with varicocele ; namely , to ligate the blood-vessels after cutting down upon them , gently , and lower down . ~~~ then make an incision in the middle and apply to the tumour such things as will keep it open until the blood-vessels fall away .	e les primiers diyssero que es fayta ayssi cum havem recomtat en la hernia que es am vi ; la qual es que tu lies les vayssels aprop la seccio sobre aquela am fecilitat de lu ; e aprop secca en le mieg loc en enviro le apostema am aquo que obro aquel , entro que caian les vayssels .	0.0851351
+and dress the wound in the manner we have already mentioned until it heals .	e cura la plagua segon que havem dit entro que sia sanada .	0.420536
+		0.3

@@ -1,0 +1,10 @@
+chapter ten .	capitol . x .	1.02273
+on cauterizing for epilepsy .	de cauterisacio de epilemcia .	0.788462
+the epileptic who may be cauterized is he whose epilepsy arises from phlegm .	no es cauterizat le epilemtic sino aquella epilemcia es per flecma .	0.494562
+when the patient is an adult and can stand taking the drugs , he should first purify his brain by great electuaries and the rest of the treatment mentioned in that section .	e donc cove que mondifiques le cervel de lu al comensament de lu am yeras e am l’autra curacio la qual havem dicta en la divisio quan le malaute es gran e es tollerant la exceperacio de las medicinas .	0.69681
+but if it be a boy unable to tolerate the drugs he should employ gargles and medicaments to chew , to clear his brain , for several days beforehand , with an improvement in his diet .	e si es enfant le qual no sufferte las medicinas , lahoras aministra guarguarissmes e mastiguatoris le servel mondifican , denant aquo per motz dias , am bonifficacio de las viandas .	0.835319
+then let his head be shaved and burn him with the single cauterization on the middle of the head in the manner described before , and with one cauterization on the occiput , and one on each frontal prominence ; and , if the patient be fit and able to bear it , add those additional cauterizations on the cervical and dorsal vertebrae that we have already described for paralysis and for flaccidity .	e aprop ras le cap del malaute , e aprop cauteriza aquel am un cauteri en le mieg loc del cap segon la manieyra precedent , e am autre cauteri en le occiput de lu , e sobre quascun corn del cap sieu cauterisa .	0.925618
+the cautery should be olivary , the shape before described .	e si le malaute es fort e es tollerant , lahoras cauteriza aquel am cauteris les quals he ditz , en havent paraliticament e mollificacio del cors sobre les spondils del col e les spondils del dos .	0.902941
+if the patient be a boy , use a fine cautery .	e sia cauteri olivar segon qu’es precedit .	1.29167
+	mays si le malaute es enfant , lahoras pausa cauteri subtil segon aquesta manieyra .	-0.3
+		0.3

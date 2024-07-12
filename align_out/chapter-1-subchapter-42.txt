@@ -1,0 +1,8 @@
+chapter forty-two .	capitol . xlii .	0.964286
+on cauterization for pain in the back .	de cauterizacio de dolor de dos .	1.37143
+many different causes give pain in the back . ~~~ sometimes it happens from a fall or a blow , or from excessive evacuation or the like . ~~~ it may also be due to an influx of humid matter .	alcunas veguadas dolor es en le dos per tropas causas , cum per cazement o per percucio o per superflua evacuacio , e per causas ad aquelas semblantz , per infusio de materia frega e humida .	0.0160766
+cauterization is only to be employed in this last case , which arises from an influx of cold matter .	e cauteri no catz sino en aquesta sola specia la qual es fayta per efusio de materia frega .	0.718
+when the patient has been purged with foetid pills or the like , he should be cauterized in his back where the pain is , over the breadth of the flat of the back , after the place has been marked with ink , with three rows of cauterizations , five in each , or more , in proportion to what you see of the patient's endurance and strength .	donc cove , aprop evacuacio del malaute am pillulas fitidas e am semblant a lor , que sian faytas sobre·l dos en le qual es la dolor tres linhas segon la latitut de lu , pus que senhas am tentha en quascuna linha v cauteris o mays , segon la quantitat que ve de la tolleransa del malaute e de la vertut de lu .	0.725396
+use the punctate cautery .	e sia fayta cauterizacio am cauteri de punt .	1.60435
+if you like , you may give him three or four cauterizations with the middle-sized claviform cautery .	e si vols , cauteriza am tres cauteris o am quatre am cauteri clavilh medial segon aquesta forma :	0.758869
+		0.3

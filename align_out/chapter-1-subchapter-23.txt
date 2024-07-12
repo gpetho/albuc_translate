@@ -1,0 +1,8 @@
+chapter twenty-three .	capitol . xxiii .	0.93
+on cauterization for hoarseness and for constriction of the breath .	de cauterizacio de rauquiera de votz e de constriccio de ale .	1.00962
+when humidities prevail over the windpipe , and especially when there is a frigid temperament , the patient should first have his bowels opened with a laxative .	quan las humiditatz veno sobre le quanal del pulmo , e majorment quan aquo es am fregiditat de compleccio , lahoras cove que·l malaute sia evacuat al comensament am medicinas laxativas , e aprop cauteriza aquel deves la razit del golayro en le loc depremegut .	0.533793
+then cauterize him once in the hollow of the jugular fossa at the root of the throat in the hollow part .	e guarda te que no pervenguas am le cauteri al golayro ni no comburas de la codena de lu sino un pauc .	0.680329
+take care that the cautery does not pierce through to the gullet , and burn no more than half of the thickness of the skin .	e cauteriza aquel am autra cauteri deves la junctura del col en le derier espondil de lu .	0.668279
+then cauterize him once more , strongly , at the junction of the neck with its last vertebra , the cautery being claviform as described above .	e·l cauteri de lu sia clavilh sego la maniera precedent .	0.6125
+then treat as prescribed before till healed .	e aprop cura aquel am aquo que es precedit entro que sia sanat .	0.533333
+		0.3

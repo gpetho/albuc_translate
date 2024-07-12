@@ -1,0 +1,10 @@
+File: chapter-1-subchapter-17.txt
+File Elapsed Time: 0:00:01.037582
+Source file length: 16
+Target file length: 19
+Nodes: 378
+Gale-Church Elapsed Time: 2024-07-09 01:20:03.914736
+Align Elapsed Time: 0:02:50.756593
+Calc Anchors Elapsed Time: 2024-07-09 01:20:03.914737
+Greedy Algorithm Elapsed Time: 2024-07-09 01:20:03.914738
+Anchors: [[16, 19]]

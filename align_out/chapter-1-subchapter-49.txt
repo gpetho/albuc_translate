@@ -1,0 +1,5 @@
+chapter forty-nine .	capitol . xlix .	0.942857
+on cauterization for leprosy .	de cauterizacio de albaras que es morfea .	0.7
+when leprosy is of long standing and no device of medicine has any effect upon it , make a cauterization over it to a slight depth according to the thickness of the skin , until the whiteness has gone and the colour of the skin altered .	quan albaras es antiqua e no comfereys a lu alcu dels enguentz de medicina , lahoras tu cauteriza sobre aquela am cauteri preon un pauc segon la quantitat de la specitut de la codena entro que sia remauguda la blancor e la color de lu , e la color de lu sia mudada .	0.890625
+then treat with lentil flour , oil of roses , arnoglossa leaves , and pigeons' or swallows' blood , of each equal parts mixed all together and spread on lint ; let this stick to the place till healed .	e aprop cura aquel am farina de errs e de lentilhas am oli rozat e am folhas de arnagrosa , e am sanc de colomba o am sanc de yronda , da cascuna sia una partida e totas sian mescladas , e aprop sia linit un drap e sus le loc sia pausat entro que sia sanat .	0.740416
+		0.3

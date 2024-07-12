@@ -1,0 +1,7 @@
+chapter eight .	capitol . viii .	1.05
+on the treatment of warts on the eyelids .	de cura de athezil le qual endeveno a las palpebras .	0.522857
+these warts which occur on the eyelids are sometimes humid , sometimes dry .	athezil les quals endeveno a las paupebras dels huels alcuna veguada so humitz , alscunas veguadas son secs .	0.56875
+you should hold them with forceps or a hook , and cut them away from the roots with a scalpel ; then put powdered vitriol on the place .	donc cove que tu tenguas aquels am tenhalhas o am onci , e inscindas aquels am espatum de las suas razitz , e aprop pausa sobre les locs segi trissat .	0.86422
+if there is bleeding from them , cauterize them with a fine lenticular cautery .	mays si dolor am flux de sanc veno , lahoras tu cauteriza aquels am cauteri lanticular subtil .	0.621269
+cauterization of them after excision is best , for they often return when a part of their roots is left behind ; but when they are cauterized the roots are burnt and they will not come back .	e la milhor cauterizacio es aprop las inscizios e tropas veguadas retornam quan reman alcuna causa de sas razitz ; e quan so cauterizadas am foc , aquelas razitz son comburidas e no retornan .	0.708925
+		0.3

@@ -1,0 +1,8 @@
+chapter forty-eight .	capitol . xlviii .	0.975
+on the opening of axillary tumours .	de perforacio de apostemas que veno dejos le titillic .	0.895161
+these tumours under the armpit are of the type of scrofulous tumours , hard , enclosed in a capsule .	aquetz apostemas que veno dejos le titillic so de las specias de scrophulas , durs , las quals conte una pel que es sac .	0.960069
+some contain humidity . ~~~ those that contain humidity should be opened with a semicircular incision like this , from b to g . when you have removed all the pus that had been in the tumour , pack the wound with teased-out cotton wool and leave till another day .	e de aquelas so alcunas que conteno humiditatz ; e aquelas que conteno humiditatz cove que sian inscididas am seccio lunar segon aquesta figura : de la linha de . g . a la linha de . b . e cum es tot evacuat aquo que es en le apostema de la sania , lahoras tu le comple de coto viel e leysa le entro al autra dia .	0.26329
+then remove the cotton wool and dress with a suitable ointment until healed .	e aprop le coto sia ostat e sia curat am enguent convenient ad aquo , entro que sia sanat .	0.463077
+if the tumour be of the nodular scrofulous kind , cut directly down on it just as we prescribed for that kind .	e si le apostema de las specias dels nodes es , e de las scrophulas , lahoras tu scindeys sobre aquel ayssi cum havem dit en la seccio sobre las scrophulas engualment .	0.643333
+if the wound continue to discharge pus , apply the cautery to it as prescribed before .	may si la plagua es extenduda en aysso que yesca poyredura , lahoras administra en lu cauteri segon que en aquo havem denant dit .	0.4875
+		0.3

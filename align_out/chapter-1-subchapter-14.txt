@@ -1,0 +1,6 @@
+chapter fourteen .	capitol . xiiii .	1.01
+on cauterization for foetor of the nose .	de cauterizacio de fetor de nas .	0.6
+when you have treated foetor by those methods given in its section and your treatment is unsuccessful , give the patient laxative draughts for three days ; then shave his head ; and burn with a median cauterization with the olivary cautery ; then cauterize him twice above the eyebrows a little below the hair with a claviform cautery .	quan tu medicas aquel am aquo que havem dit en la divisio e no aprofieyta la tua medicacio , lahoras tu aparelha e dona en beure al malaute las cochias per tres noytz ; e aprop ras le cap de lu , e cauteriza le am cauteri migier am cauteri olivar . ~~~ e aprop cauteriza aquel am cauteri clavelh am dos cauteris sobre les dos sobrecilhs dejos les cabels un petit .	0.0638746
+beware of cutting the artery .	e guarda te de la arceria que no incindas aquela .	0.555495
+the figure of the claviform cautery .	e del cauteri clavilh aquesta es la forma .	0.6375
+		0.3

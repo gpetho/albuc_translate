@@ -1,0 +1,7 @@
+chapter sixty-eight .	capitol . lxviii .	0.975
+on the loosening of the skin of the scrotum .	de mollificacio de la codena dels testiculs .	0.617117
+in some men there often occurs a loosening of the skin of the scrotum without any loosening of the organs within . ~~~ this has a horrible appearance .	motas veguadas la codena dels testiculs en alcus homes es mollificada per aysso quar las carns que so entre aquela son mollificadas , e es fedat le reguardament de lu .	0.0457052
+he who desires to treat this condition should make the patient lie on his back ; and he should cut away all the loose skin that is over and above the normal . ~~~ then he should bring together the two edges of the incision with a suture .	adonc necessari es ad aquel que es preguat en la curacio de lu que fassa jazer le malaute segon le sieu dos , e enscida tota la codena la qual es mollificada sobre la codena natural ; e aprop que ajuste doas labias am la sutura .	0.083344
+or , if you prefer , first suture the excess of loose skin together , with three or four stitches , and make the suture firm .	e si vols , cus en le comensament la superfluitat de la codena mollificada am tres cozeduras o quatre e am ferma sutura .	0.533939
+then cut away what is taken up between the stitches . ~~~ then dress the wound with the usual dressings till it heals and the stitches come away .	e aprop inscideys entre las suturas ; e aprop cura per curacio de las autras plaguas entro que sia sanat e caian les fiels .	0.0580858
+		0.3

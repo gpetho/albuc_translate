@@ -1,0 +1,9 @@
+chapter forty .	capitol . xl .	1
+on cauterization of a dislocated hip .	de cauterizacio de la dislocacio de l’anqua .	0.995455
+sometimes harmful humidities reach the hip joint and result in its coming out of its place . ~~~ the symptom of this is that one leg is longer than the other when one is measured against the other ; and a hollow is found there [ i . e .	quan humiditatz moucozas so efundudas a la partida de la anqua , e so faytas causas del yssiment del sieu loc , e senhal de lu es que la coyssa es prolonguada sobre l’autre quan so comparadas entre lor .	0.23
+at the hip ] .	e le loc de la dislocacio es atrobat en lu quays boyt .	0.4
+then you should cauterize the patient over the hip joint itself with a circular burn , after you have marked with ink a circle round the femoral joint , so that the joint falls in the middle of the circle .	adonc cove que cauterizas le malaute sobre la partida de la anqua de lu am cauteri a sercle semblant , pus que tu auras senhat am tenta en le cercuit de la partida ayssi cum es revolguda , e per so que la partida caia el mieg loc del cercle .	0.896151
+the cautery should be the one whose description has already been given in cauterization of the stomach .	e sia le cauteri del qual precedit la forma en la cauterizacio del estomac .	0.930952
+but if you have not this cautery by you , give him three cauterizations with the larger size olivary cautery .	e si aquest cauteri no es a tu present , lahoras cauteriza aquel am tres cauteris am cauteri olivar gran .	0.831661
+the burn should be to the depth of the whole thickness of the skin . ~~~ then dress till healed .	e sia fayt le cauteri segon la quantitat de la ispicitut de tota la codena ; e aprop cura aquel entro que sia sanat .	0.268636
+		0.3

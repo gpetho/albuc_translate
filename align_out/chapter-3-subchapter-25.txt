@@ -1,0 +1,9 @@
+chapter twenty-five .	capitol . xxv .	0.888462
+on the reduction of a dislocation of the clavicle and of the head of the humerus .	de reduccio de la dislocacio de la furcula e de la extremitat del muscle .	0.645492
+the clavicle is never dislocated inwards because of its continuity with the breast-bone ; but sometimes it is dislocated outwards , and then it is detected by palpation .	furcula no es dislocada del latz dedintz per la sua continuacio am le pietz ; e alcunas veguadas es dislocada a la partida defora , e aquo es declarat al sentiment .	0.782222
+the replacement is thus : the patient is to lie on his back and stretch out both arms ; then with the palm of your hand press heavily upon the place and it will go back .	e la restauracio de lu es que·l malaute jagua sobre le sieu dos e extenda les sieus brasses . ~~~ e aprop coarta le loc am la tua palma am fort coartacio , quar ela retornara .	0.161111
+then apply to it the plaster and pads , and bandage it up .	e aprop pausa sobre aquela emplastre e pulvils e strenh aquela .	1.1784
+as to the extremity of the clavicle , which is close to the shoulder and joined to it , it is only rarely dislocated ; but if ever it is dislocated you must reduce it and set it straight as we have mentioned , by any convenient means .	mays la extremitat de aquel que siec le coyde e·s continuat am aquel , no es dislocada en alcun dia ; lahoras cove que sia reduzida e engualhada segon que havem dit e segon que es a tu aparelhat .	0.608892
+then apply the plaster , pads , and bandages , and bid the patient keep quiet and still until it is healed .	e aprop pausa sobre aquela emplastre , e pulvils , e extrictura , e comanda al malaute adherir a trenquilitat e a repaus entro que sia sanat .	1.325
+by this same treatment you may also reduce the head of the humerus when it is displaced .	e am aquesta meteyssa curacio es reduzida la extremita del muscle quan es separada del sieu loc .	0.582913
+		0.3

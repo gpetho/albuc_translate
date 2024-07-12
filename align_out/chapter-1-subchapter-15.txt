@@ -1,0 +1,7 @@
+chapter fifteen .	capitol . xv .	0.95
+on cauterization for relaxation of the eyelid .	de cauteri de mollificacio de palpebras dels huels .	0.937398
+when an eyelid droops either from disease or humidity , then burn the lid with a single cauterization with this crescent-shaped cautery .	quan la palpebra del huel es mollificada per malautia o per humiditat , lahoras cauteriza aquela palpebre1 am un cauteri am aquest cauteri lunar ; e aquesta es la forma de lu :	0.725
+and if you wish burn him also a little above the eyebrows with two cauterizations ( ; that is , one ) on each side ; but keep clear of the temples ; and let each cauterization be of the length of the eyebrow .	e si vos , cauteriza aquel sobre les dos sobrecils un petit am dos cauteris en tota partida , e sian elonguatz de las timporas .	0.343376
+nor let your hand apply the cautery longer than to burn a third of the way through the skin .	e sia la longitut de quascun cauteri segon la quantitat del sobrecil .	1.07579
+the shape of the cautery .	e no premas trop la tua ma am le cauteri , mays segon la quantitat que la tersa partida de la palpebre sia adhurida .	1.46104
+		0.3

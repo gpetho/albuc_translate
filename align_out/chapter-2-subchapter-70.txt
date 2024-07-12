@@ -1,0 +1,9 @@
+chapter seventy .	capitol . lxx .	0.980769
+on the treatment of the hermaphrodite .	de la cura de hermafrodozia .	1.47771
+there are two kinds of male hermaphrodite : one has the appearance as of female pudenda with hair in the region of the perineum ; the other has the same in the skin of the scrotum between the testes .	hermafrodozia en les homes es segon dos manieyras : la una es quar o appar en aquo que siec l’espazi en la codena de testiculs , en aquel que es entre dos testiculs figura quar cunh de femna en la qual so pels .	0.652891
+sometimes also urine is excreted through that which is in the skin of the scrotum .	e alcunas veguadas de aquel corr urina le qual es en la codena dels testiculs .	0.63448
+there is also one kind among women , in which there is , above the female pudenda , on the pubes , what resembles the male organs .	mays en las femnas es una specia : e es que·l conh de la femna sobre le pentenilh es ayssi cum dos testiculs de home un pauc de tot yminiheys a la partida deforo ayssi cum le perpucii de home e dos testicols .	0.640099
+these are small indeed , but protuberant , one being like the penis and the two others like testicles .	e la curacio es de tres specias : de dos dels homes e de una specia de las femnas .	1.06484
+this is the treatment of all three kinds , that is , two male and one female : the superfluous growths must be cut away so that every trace is destroyed ; then the usual treatment for wounds should be applied until they are healed .	e es que cove que tu inscidas aquelas carns ajustadas entro que efuga la emprecio de aquela , e aprop que cures aquelas am curacio de las autras plaguas .	0.539478
+as to the second kind , in man , where the opening is in the scrotum and the urine runs out of it , there is no operation for this , and no cure .	e en la segonda specia dels homes de la qual yeys urina la qual es en la codena dels testiculs , no es curacio ni opperacio en lu .	0.574038
+		0.3

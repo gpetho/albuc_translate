@@ -1,0 +1,5 @@
+chapter thirty-seven .	capitol . xxxvii .	0.95625
+on cauterization of the kidneys .	de cauterizacio dels ronhos .	0.765385
+when pain strikes the kidneys from chill or heavy vapour , and the patient's sexual vigour is impaired thereby , you should burn him right over the kidneys , once on each kidney , with the claviform cautery mentioned before .	quan en les ronhos endeve dolor per freg o per grossa ventozitat , e per aysso le coyt del malaute es amermat , lahoras cove que cauterizes aquel sobre les ronhos am cauteri sobre quascun ronho am cauteri clavilh del qual precesic la rememoracio .	0.485253
+i have often burnt him with a third cauterization on the flat of the back , making three cauterizations in a line , which is most effective .	e fort leu cauterizam am le segon un petit dejos , per que vindran tres cauteris liniatz , e donc siran mays deriers en juvament .	0.607862
+		0.3

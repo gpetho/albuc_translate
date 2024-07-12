@@ -1,0 +1,11 @@
+chapter fifty .	capitol . l .	0.968182
+on the tumour arising from the twisting of a tendon .	del apostema le qual accideys per torcio de nervis .	0.572727
+as a tumour arises on an artery or a vein , so may it also come in a tendon when it has been bruised ; or it may arise from excessive fatigue , or such causes .	ayssi cum accideys apostema en arceria e en vena , e semblantment accideys apostema en les nervis quan accideys en lor percussio o accideys per trebal superfluable , e per semblantz .	0.778255
+this occurs mostly at the wrists , at the heel , and at all sites of articular movement .	e es fayt le mays de lu en les locs dels adjutoris o del talo , o en tot loc en le qual so maugudas las juncturas .	0.679167
+it is a hard tumour of the same colour as the rest of the body , and is generally painless , and when strong pressure is put upon it the patient has a numb feeling in it .	e es apostema greu , e es asemblat a la color del autre cors , e es en las majors de lu disposicios ses de lor e quan es streyt am vehementia , sent en lu le malaute semblant stupor .	0.895385
+it is a tumour that does not form in the deeper tissues but is subcutaneous .	e no es apostema agreguat en le preon del cors , e per so es dejos la codena , e el es maugut a tota partida e no va a las partidas denant ni detras .	0.929972
+it is freely movable laterally , but will not go forward or backward .	donc aquo de aquels que es en las juncturas no cove que sia envasit am ferr , quar fort leu endevenguera contracio .	0.508621
+those that are situated on joints should certainly not be tackled with the knife , for that often causes palsy .	mays aquel que es en le cap o en le front fen la codena am spatum .	0.230128
+incise the skin of those occurring on the head or forehead , and if the tumour be small take hold of it with the forceps and cut it away by the root .	mays si es apostema pauc , lahoras te aquel am les forfecs e abscindeys aquel de razitz .	0.584643
+but if it be large , catch it up with a hook and dissect it away and remove it ; and sew up the incision and dress until healed .	e si es gran , lahoras tu le suspen am unci , e excorja aquel , e aprop osta aquel ; e ajusta la plagua am sutura , e cura aquel entro que sia sanat .	1.02964
+		0.3

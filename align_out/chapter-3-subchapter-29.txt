@@ -1,0 +1,10 @@
+chapter twenty-nine .	capitol . xxix .	0.921429
+on the treatment of dislocation of the fingers .	de la curacio de dislocacio dels ditz .	0.560606
+the fingers may be dislocated in any direction .	alcunas veguadas so dislocatz les ditz a tota partida .	0.556098
+when one of the fingers is dislocated dorsally or ventrally , then extend the finger and thrust the dislocation with your thumb until it goes back .	e quan es dislocat alcun dit de aquels al dos de la palma o al ventre de lu , lahoras sten le dit e impelleys la dislocacio de lu am les tieus pouses , entro que retorne .	0.699303
+then bind the head of the phalanx , suspending it in the direction in which it was dislocated , and leave it for two days .	e aprop sostenta le cap del dit , e suspen aquel deves la part a la qual es dislocat , e layssa aquel per dos dias .	0.940293
+then unbind it and extend it so that it may straighten out all that day .	e aprop suspen aquel e exten aquel entro que dreyt sia engualhat en aquel sieu dia .	0.778564
+then at nightfall bind it in just the same way . ~~~ continue to loosen it by day and to exercise it with movement , bandaging it by night . ~~~ do this for some days until it is knit .	e quan sira noyt , lia aquel segon aquela narracio , e no cesses desliar aquel en le dia e exercitar am movement , e lia aquel en la noyt ; e fay aquo per alcus dias entro que sia streyt .	0.182456
+do the same with it if it is a ventral dislocation , binding it in that direction , and treat it as explained above until it is healed .	e fay semblant am aquo , si es dislocat al ventre de la ma , e lia aquel ad aquela partida e fay am aquo la tieua primiera operacio , entro que sia sanat .	0.86422
+do likewise with dislocations in other directions .	e semblantment fay am aquo quan es dislocat a las autres partidas .	0.893333
+		0.3

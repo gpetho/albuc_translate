@@ -1,0 +1,7 @@
+chapter five .	capitol . v .	0.995455
+on cauterization of pain in the ears .	de cauterisacio de las dolors de aurelhas .	0.586458
+when the ear gets a pain from the cold and is treated with laxatives and other medicine as mentioned in its section and the pain nevertheless persists , heat the cautery termed 'punctate' .	quan en la aurelha ve dolor per freg e es curat am causas lacsativas e am l’autra curacio la qual he dita en la divisio , e no es remauguda la dolor , lahoras igneys le cauteri , e es aquest le qual ha nom puncta , del qual aquesta es la forma :	0.659782
+then after it has been heated prick with it in a circle right round the ear , or around both if there is pain in both , after the place has been marked with ink ; the cauterizations being a little away from the ear .	e aprop puncta aprop la ignicio , e sia menat al enviro de tota la aurelha ayssi cum roda es revolguda , o en le circuit de quascuna essemps si la dolor es en quascuna .	0.704264
+let the cauterization be of ten punctures or thereabouts round each .	alonga te am le cauteri de la razit de la aurelha pauc a pauc pus que aias senhat le loc am tenta .	0.895698
+then dress the places till healed .	e si le cauteri de detz puntz en tota aurelha , e quays aquela , e aprop cura les locz entro que sian sanatz .	0.105
+		0.3

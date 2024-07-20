@@ -23,9 +23,9 @@ Here comes the first sentence to translate. Do not add any comments, like "here 
     print(f"{lines[0].strip()}\t{response['response'].splitlines()[0].strip()}", file=outfile)
 
     for line in tqdm.tqdm(lines[1:]):
-    		response = ollama.generate(model=model, prompt=line, options={"num_ctx": 8192}, context=response['context'])
+            response = ollama.generate(model=model, prompt=line, options={"num_ctx": 8192}, context=response['context'])
             if len(response['context']) > ctx:
-        		response['context'] = response['context'][2000:]
-    		print(f"{line.strip()}\t{response['response'].splitlines()[0].strip()}", file=outfile)
+                response['context'] = response['context'][2000:]
+            print(f"{line.strip()}\t{response['response'].splitlines()[0].strip()}", file=outfile)
 
     outfile.close()

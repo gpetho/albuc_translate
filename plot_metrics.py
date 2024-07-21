@@ -74,7 +74,7 @@ def main():
         elif subdir == 'gemma':
             all_scores['gemma_7b'] = extract_scores(scores_dir)
         elif subdir == 'gemma2':
-            all_scores['gemma_9b'] = extract_scores(scores_dir)
+            all_scores['gemma2_9b'] = extract_scores(scores_dir)
         elif subdir == 'llama3':
             all_scores['llama3_8b'] = extract_scores(scores_dir, '8b')
 #            all_scores['phi3_14b'] = extract_scores(scores_dir, '14b')
@@ -87,7 +87,6 @@ def main():
         # else:
         #     all_scores[subdir] = extract_scores(scores_dir)
 
-    print(len(all_scores))
     plot_scores(all_scores, model_order_by_size)
 
 

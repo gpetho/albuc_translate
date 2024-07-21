@@ -5,7 +5,7 @@ import os
 import json
 
 model_order_by_size = ['phi3_3.8b', 'gemma_7b', 'mistral_7b', 'qwen2_7b',
-                       'aya_8b', 'llama3_8b',  'gemma_9b', 'phi3_14b',
+                       'aya_8b', 'llama3_8b',  'gemma2_9b', 'phi3_14b',
                        'mixtral_8x7b', 'aya_35b',
                        'claude_sonnet_3.5', 'chatGPT_GPT4o']
 

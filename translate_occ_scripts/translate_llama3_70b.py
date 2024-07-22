@@ -4,7 +4,7 @@ import tqdm
 with open("all_text.txt") as f:
     lines = f.readlines()
 
-model = 'llama3:70b'
+model = 'llama3:70b-instruct-q2_K'
 
 first_prompt = '''The following text is a medieval medical treatise written in a language that is somwhat similar to Latin, Italian, Spanish and slightly to French as well.
 Try to guess what the text means and translate it line by line into English like this:
@@ -39,5 +39,6 @@ for fnum in range(0, 10):
             print(f"{line.strip()}\t", file=outfile)
         else:
             print(f"{line.strip()}\t{response['response'].splitlines()[0].strip()}", file=outfile)
+        print(response['response'])
 
     outfile.close()

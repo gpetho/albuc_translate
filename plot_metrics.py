@@ -4,53 +4,53 @@ from pathlib import Path
 import os
 import json
 
+metrics = ['BLEU', 'chrF2++', 'TER', 'NIST', 'METEOR',
+           'rouge1', 'rouge2', 'rougeL', 'BLEURT']
+
 model_order_by_size = ['phi3_3.8b', 'gemma_7b', 'mistral_7b', 'qwen2_7b',
                        'aya_8b', 'llama3_8b',  'gemma2_9b', 'phi3_14b',
-                       'mixtral_8x7b', 'aya_35b',
+                       'mixtral_8x7b', 'aya_35b', 'llama3_70b',
                        'claude_sonnet_3.5', 'chatGPT_GPT4o']
 
 
 def extract_scores(directory, filter=None):
     # filter for file names that contain the substring "filter"
-    scores = {'BLEU': [], 'chrF2++': [], 'TER': []}
+    scores = {metric_name: [] for metric_name in metrics}
     for filename in os.listdir(directory):
         if filename.endswith('.json') and (filter is None
                                            or filter in filename):
             with open(directory / filename, 'r') as file:
                 data = json.load(file)
                 for item in data:
-                    if item['name'] == 'BLEU':
-                        scores['BLEU'].append(item['score'])
-                    elif item['name'] == 'chrF2++':
-                        scores['chrF2++'].append(item['score'])
-                    elif item['name'] == 'TER':
-                        scores['TER'].append(item['score'])
+                    scores[item['name']].append(item['score'])
     return scores
 
 
 def plot_scores(all_scores, model_order_by_size):
-    metrics = ['BLEU', 'chrF2++', 'TER']
-    n_metrics = len(metrics)
-    fig, axes = plt.subplots(1, n_metrics, figsize=(15, 5))  # 1 row, n_metrics columns
+    fig, axes = plt.subplots(3, 3, figsize=(18, 18))  # 3 rows, 3 columns for a 3x3 grid
     
     bar_width = 0.35
     opacity = 0.8
     
     # Ensure the order of subdirs according to model_order_by_size
-    ordered_subdirs = [subdir for subdir in model_order_by_size if subdir in all_scores]
+    ordered_subdirs = [subdir for subdir in model_order_by_size
+                       if subdir in all_scores]
     
     for i, metric in enumerate(metrics):
-        means = [np.mean(all_scores[subdir][metric]) for subdir in ordered_subdirs]
-        variances = [np.var(all_scores[subdir][metric]) for subdir in ordered_subdirs]
+        row, col = divmod(i, 3)  # Determine the subplot's row and column
+        means = [np.mean(all_scores[subdir][metric])
+                 for subdir in ordered_subdirs]
+        variances = [np.var(all_scores[subdir][metric])
+                     for subdir in ordered_subdirs]
         index = np.arange(len(ordered_subdirs))
         
-        axes[i].bar(index, means, bar_width, alpha=opacity, label=metric, yerr=variances, capsize=5)
-        axes[i].set_xlabel('Subdirectory')
-        axes[i].set_ylabel('Scores')
-        axes[i].set_title(f'{metric} Scores by Subdirectory')
-        axes[i].set_xticks(index)
-        axes[i].set_xticklabels(ordered_subdirs, rotation=90, fontsize='small')
-        axes[i].legend()
+        axes[row, col].bar(index, means, bar_width, alpha=opacity, label=metric, yerr=variances, capsize=5)
+        axes[row, col].set_xlabel('Subdirectory')
+        axes[row, col].set_ylabel('Scores')
+        axes[row, col].set_title(f'{metric} Scores by Subdirectory')
+        axes[row, col].set_xticks(index)
+        axes[row, col].set_xticklabels(ordered_subdirs, rotation=90, fontsize='small')
+        axes[row, col].legend()
     
     plt.tight_layout()
     plt.savefig('plot_scores.png', dpi=300, bbox_inches='tight')
@@ -74,10 +74,10 @@ def main():
         elif subdir == 'gemma':
             all_scores['gemma_7b'] = extract_scores(scores_dir)
         elif subdir == 'gemma2':
-            all_scores['gemma2_9b'] = extract_scores(scores_dir)
+            all_scores['gemma2_9b'] = extract_scores(scores_dir, '9b')
         elif subdir == 'llama3':
             all_scores['llama3_8b'] = extract_scores(scores_dir, '8b')
-#            all_scores['phi3_14b'] = extract_scores(scores_dir, '14b')
+            all_scores['llama3_70b'] = extract_scores(scores_dir, '70b')
         elif subdir == 'mistral':
             all_scores['mistral_7b'] = extract_scores(scores_dir)
         elif subdir == 'mixtral':

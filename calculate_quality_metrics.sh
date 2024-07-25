@@ -17,8 +17,24 @@ done
 done
 
 cat aligned_sl_mt/chatgpt.mt.txt | sacrebleu aligned_sl_mt/spink_lewis.ref.txt -m bleu chrf ter --chrf-word-order 2 > sacrebleu_output/chatgpt.mt.txt.json
+cat aligned_sl_mt/chatgpt.mt.txt | python calculate_parallel_metrics.py aligned_sl_mt/spink_lewis.ref.txt sacrebleu_output/chatgpt.mt.txt.json
+cat aligned_sl_mt/chatgpt.mt.txt | python calculate_gpu_metrics.py aligned_sl_mt/spink_lewis.ref.txt sacrebleu_output/chatgpt.mt.txt.json
+
 cat aligned_sl_mt/claude.mt.txt | sacrebleu aligned_sl_mt/spink_lewis.ref.txt -m bleu chrf ter --chrf-word-order 2 > sacrebleu_output/claude.mt.txt.json
+cat aligned_sl_mt/claude.mt.txt | python calculate_parallel_metrics.py aligned_sl_mt/spink_lewis.ref.txt sacrebleu_output/claude.mt.txt.json
+cat aligned_sl_mt/claude.mt.txt | python calculate_gpu_metrics.py aligned_sl_mt/spink_lewis.ref.txt sacrebleu_output/claude.mt.txt.json
+
 
 find translations -name '*.txt' | parallel -j+0 --bar '
     cat aligned_sl_mt/{} | sacrebleu aligned_sl_mt/spink_lewis.ref.txt -m bleu chrf ter --chrf-word-order 2 > sacrebleu_output/{}.json
 '
+
+find translations -name '*.txt' | parallel -j+0 --bar '
+    cat aligned_sl_mt/{} | python calculate_parallel_metrics.py aligned_sl_mt/spink_lewis.ref.txt sacrebleu_output/{}.json
+'
+
+for subdir in `ls translations` ; do
+for mt_file in `ls translations/$subdir`; do
+    cat aligned_sl_mt/translations/$subdir/$mt_file | python calculate_gpu_metrics.py aligned_sl_mt/spink_lewis.ref.txt sacrebleu_output/translations/$subdir/$mt_file.json
+done
+done

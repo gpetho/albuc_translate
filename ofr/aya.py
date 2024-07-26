@@ -18,6 +18,8 @@ Car en l’ovraige de cest chapistre avient maintes fois evacuation de sanc a l�
 For in the work of this chapter, there is often the evacuation of blood when opening a vein, and incising an abscess, and in the treatment of wounds, and in the extraction of arrows, and in cutting into stones, and similar things; where there is doubt and fear, and many die.
 Quant li chiés de l’ajutoire est desaloiez par cause de moistor, et on le remet a leu, et il n’i puet demorer ains revient adés et desalue par petit movement qui avient, si com nos avons esproveit, adonques covient il que tu ramoinnes la dislocation premierement.
 When the head of the shoulder is dislocated due to moisture, and it is reset but cannot stay in place, repeatedly dislocating with slight movement as we have experienced, then you must first reset the dislocation.
+Dislocations est issue d’aucune jointe de son leu, por coi il ne se puet muevre, et est li membres mal figurez, et sent li malaides grant dolor et grant lesion.
+Dislocation occurs when a joint moves out of its place, which prevents it from moving, and the limb is misaligned, causing the patient great pain and injury.
 Here comes the first sentence to translate. Do not add any comments or contextual information about the text, like "Here is the translation", don't provide any comments about the text like, "Wow this is hard!", etc. Do not comment on whether the translation is accurate or not, it doesn't matter. Just translate the text line-by-line into English and that should be the only text produced in the final output file and nothing else:
 '''
 

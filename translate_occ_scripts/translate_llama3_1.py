@@ -3,13 +3,13 @@ import tqdm
 import os
 
 # Ensure the directory exists
-os.makedirs("llama3", exist_ok=True)
+os.makedirs("llama3_1", exist_ok=True)
 
-ctx = 4000
+ctx = 5000
 with open("all_text.txt") as f:
     lines = f.readlines()
 
-model = 'llama3:70b-instruct-q2_K'
+model = 'llama3.1:8b'
 
 initial_prompt = '''The following text is a medieval medical treatise written in Old French, around the 12th-13th centuries.
 Try to guess what the text means and translate it line by line into English like this:
@@ -24,14 +24,19 @@ Dislocation occurs when a joint moves out of its place, which prevents it from m
 Here comes the first sentence to translate. Do not add any comments or contextual information about the text, like "Here is the translation", don't provide any comments about the text like, "Wow this is hard!", etc. Do not comment on whether the translation is accurate or not, it doesn't matter. Just translate the text line-by-line into English and that should be the only text produced in the final output file and nothing else:
 '''
 
-for fnum in range(0, 10):
-    with open(f"llama3/llama3_70b_{fnum}.txt", "w") as outfile:
+for fnum in range(0, 5):
+    with open(f"llama3_1/llama3.1_8b_{fnum}.txt", "w") as outfile:
         response = ollama.generate(model=model, prompt=initial_prompt + lines[0], options={"num_ctx": ctx})
         print(f"{lines[0].strip()}\t{response['response'].splitlines()[0].strip()}", file=outfile)
+        print(response['response'])
+#        print(response['context'])
 
         for line in tqdm.tqdm(lines[1:]):
             if "\n" in response['response'] or len(response['context']) > ctx:
                 response = ollama.generate(model=model, prompt=initial_prompt + line, options={"num_ctx": ctx})
             else:
                 response = ollama.generate(model=model, prompt=line, options={"num_ctx": ctx}, context=response['context'])
+            print(response['response'])
+            print(len(response['context']))
+            response['context'] = response['context'][len(response['context']) // 2:]
             print(f"{line.strip()}\t{response['response'].splitlines()[0].strip()}", file=outfile)

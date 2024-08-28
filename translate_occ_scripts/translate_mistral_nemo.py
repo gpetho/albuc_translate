@@ -1,5 +1,6 @@
 import ollama
 import tqdm
+import sys
 
 with open("occ/all_text.txt") as f:
     lines = f.readlines()
@@ -31,5 +32,10 @@ for fnum in range(0, 5):
                 response = ollama.generate(model=model, prompt=first_prompt + line, options={"num_ctx": ctx})
             else:
                 response = ollama.generate(model=model, prompt=line, options={"num_ctx": ctx}, context=response['context'])
-            response['context'] = response['context'][len(response['context']) // 2:]
+            if 'context' not in response:
+                while 'context' not in response:
+                    print("Retrying...", file=sys.stderr)
+                    response = ollama.generate(model=model, prompt=first_prompt + line, options={"num_ctx": ctx})
+            else:            
+                response['context'] = response['context'][len(response['context']) // 2:]
             print(f"{line.strip()}\t{response['response'].splitlines()[0].strip()}", file=outfile)

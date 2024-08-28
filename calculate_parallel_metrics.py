@@ -21,7 +21,7 @@ import evaluate
 
 def main():
     if len(sys.argv) != 3:
-        print('Usage: calculate_nist.py <reference> <output.json>',
+        print('Usage: calculate_quality_metrics.py <reference> <output.json>',
               file=sys.stderr)
         sys.exit(1)
 

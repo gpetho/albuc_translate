@@ -6,12 +6,12 @@ cat chatgpt_occ/converted_all.txt | cut -f2 | python aligned_path_to_text.py  > 
 cat claude_occ/sonnet_converted.txt | cut -f2 | python aligned_path_to_text.py  > aligned_sl_mt/claude.mt.txt
 
 # for all other MT systems
-for subdir in `ls translations`; do mkdir aligned_sl_mt/translations/$subdir; done
+for subdir in `ls occ_translations`; do mkdir aligned_sl_mt/translations/$subdir; done
 mkdir sacrebleu_output/translations
-for subdir in `ls translations`; do mkdir sacrebleu_output/translations/$subdir; done
+for subdir in `ls occ_translations`; do mkdir sacrebleu_output/translations/$subdir; done
 
-for subdir in `ls translations`; do
-for mt_file in `ls translations/$subdir`; do
+for subdir in `ls occ_translations`; do
+for mt_file in `ls occ_translations/$subdir`; do
     cat translations/$subdir/$mt_file | cut -f2 | python aligned_path_to_text.py > aligned_sl_mt/translations/$subdir/$mt_file
 done
 done

@@ -1,14 +1,18 @@
-
 import ollama
 import tqdm
+import os
 import sys
+import logging
 from transformers import AutoTokenizer
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
 
 with open("lat/all_text.txt") as f:
     lines = f.readlines()
 
 MAX_CTX = 1000
-MAX_ATTEMPTS = 3    
+MAX_ATTEMPTS = 3
 
 model = 'mistral-nemo'
 hf_model = "mistralai/Mistral-Nemo-Instruct-2407"
@@ -21,49 +25,46 @@ first_prompt = ('This is from a medieval Latin translation '
 
 
 def print_context(response):
-    print("Context:", len(response['context']), file=sys.stderr)
-    print(tokenizer.decode(response['context']))
-    print()
+    logger.info(f"Context: {str(len(response['context']))}")
+    logger.info(tokenizer.decode(response['context']))
 
 
 def print_response(response, outfile):
     print(response['response'].strip('"'), file=outfile)
-    print()
     print_context(response)
 
+# Create output directory if it doesn't exist
+os.makedirs(model, exist_ok=True)
 
-for fnum in range(0, 5):
-    with open(f"mistral_nemo_{fnum}.txt", "w") as outfile:
+for fnum in range(0, 3):
+    with open(f"{model}/{model}_{fnum}.txt", "w") as outfile:
         context = []
         for line in tqdm.tqdm(lines):
             attempt = 0
             while True:
                 if context:
                     if len(context) < MAX_CTX:
-                        print("case a")
                         response = ollama.generate(model=model,
                                                    prompt=line,
                                                    context=context)
                     else:
-                        print("case b")
                         decoded_context = tokenizer.decode(response['context'])
                         ctx_splits = decoded_context.split('[INST]')
                         shortened_context = '[INST]' + ctx_splits[1] + '[INST]' + ctx_splits[-1]
-                        print(f'{shortened_context=}', file=sys.stderr)
+                        logger.info(f'{shortened_context=}')
                         context = tokenizer.encode(shortened_context)
-                        print(f"{context=}", file=sys.stderr)
+                        logger.info(f"{context=}")
                         response = ollama.generate(model=model,
                                                    prompt=line,
                                                    context=context)
                 else:
-                    print("case c")
                     response = ollama.generate(model=model,
                                                prompt=first_prompt + line)
                 if '\n' in response['response']:
                     if attempt < MAX_ATTEMPTS:
                         attempt += 1
-                        print_context(response)
-                        print(f"Retrying... {attempt}", file=sys.stderr)
+#                        print_context(response)
+                        logger.info(f"Retrying... {attempt}")
                 else:
                     break
 

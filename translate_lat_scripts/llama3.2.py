@@ -5,7 +5,7 @@ import logging
 from transformers import AutoTokenizer
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.ERROR)
 
 with open("lat/all_text.txt") as f:
     lines = f.readlines()
@@ -29,8 +29,8 @@ def print_context(response):
 
 
 def print_response(source, response, outfile):
-    print(source + '\t' + response['response'].strip('"'), file=outfile)
-    print_context(response)
+    print(source.strip() + '\t' + response['response'].strip('"'), file=outfile)
+#    print_context(response)
 
 # Create output directory if it doesn't exist
 os.makedirs(f"lat_translations/{model}", exist_ok=True)
@@ -41,25 +41,27 @@ for fnum in range(0, 3):
         for line in tqdm.tqdm(lines):
             attempt = 0
             while True:
-                if context:
-                    if len(context) < MAX_CTX:
+                if context and len(context) < MAX_CTX:
+                    # if len(context) < MAX_CTX:
                         response = ollama.generate(model=model,
                                                    prompt=line,
                                                    context=context)
-                    else:
-                        decoded_context = tokenizer.decode(response['context'])
-                        ctx_splits = decoded_context.split('<|eot_id|>')
-                        shortened_context = '<|eot_id|>'.join([ctx_splits[0],
-                                                               ctx_splits[1],
-                                                               ctx_splits[2],
-                                                               ctx_splits[-2],
-                                                               ctx_splits[-1]])
-                        logger.info(f'{shortened_context=}')
-                        context = tokenizer.encode(shortened_context)
-                        logger.info(f"{context=}")
-                        response = ollama.generate(model=model,
-                                                   prompt=line,
-                                                   context=context)
+                    # else:
+                    #     decoded_context = tokenizer.decode(response['context'])
+                    #     ctx_splits = decoded_context.split('<|eot_id|>')
+                    #     shortened_context = '<|eot_id|>'.join([ctx_splits[0],
+                    #                                            ctx_splits[1],
+                    #                                            ctx_splits[2],
+                    #                                            ctx_splits[-2],
+                    #                                            ctx_splits[-1]])
+                    #     shortened_context = shortened_context.replace('<|begin_of_text|>', '')
+                    #     shortened_context = shortened_context.replace('Cutting Knowledge Date: December 2023', '')
+                    #     logger.info(f'{shortened_context=}')
+                    #     context = tokenizer.encode(shortened_context)
+                    #     logger.info(f"{context=}")
+                    #     response = ollama.generate(model=model,
+                    #                                prompt=line,
+                    #                                context=context)
                 else:
                     response = ollama.generate(model=model,
                                                prompt=first_prompt + line)

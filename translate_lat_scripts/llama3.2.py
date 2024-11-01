@@ -5,7 +5,7 @@ import logging
 from transformers import AutoTokenizer
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.ERROR)
+logging.basicConfig(level=logging.INFO)
 
 with open("lat/all_text.txt") as f:
     lines = f.readlines()
@@ -13,8 +13,8 @@ with open("lat/all_text.txt") as f:
 MAX_CTX = 1000
 MAX_ATTEMPTS = 3
 
-model = 'mistral-nemo'
-hf_model = "mistralai/Mistral-Nemo-Instruct-2407"
+model = 'llama3.2'
+hf_model = "meta-llama/Llama-3.2-3B"
 tokenizer = AutoTokenizer.from_pretrained(hf_model)
 
 first_prompt = ('This is from a medieval Latin translation '
@@ -30,7 +30,7 @@ def print_context(response):
 
 def print_response(response, outfile):
     print(response['response'].strip('"'), file=outfile)
-#    print_context(response)
+    print_context(response)
 
 # Create output directory if it doesn't exist
 os.makedirs(model, exist_ok=True)

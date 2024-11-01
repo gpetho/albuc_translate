@@ -19,9 +19,14 @@ for p in soup.body.find_all('p'):
     text = re.sub(r'\. \. \. \.', '', text)
     # remove extra whitespace
     text = re.sub(r'\s+', ' ', text)
+    # remove periods surrounding drachm symbol and roman numerals
+    text = re.sub(r' \.ʒ\.([ivxlIVXL]+)\.', r' ʒ \1', text)
     # remove periods surrounding roman numerals if followed by a lower-case letter
-    text = re.sub(r' \.([ivxl]+)\. (?=[a-z])', r' \1 ', text)
-    text = re.sub(r' \.([ivxl]+)\.(?=[,;])', r' \1', text)
+    text = re.sub(r' \.([ivxlIVXL]+)\. (?=[a-z])', r' \1 ', text)
+    text = re.sub(r' \.([ivxlIVXL]+)\.(?=[,;])', r' \1', text)
+
+
+#    print(text, file=stderr)
     p_doc = nlp(text)
 
     # delete current content of p element

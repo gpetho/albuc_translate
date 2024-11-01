@@ -42,6 +42,10 @@ doc = re.sub(r'\s*<lb[^>]*>\s*', ' ', doc)
 
 doc = re.sub(r'\s*<pb[^>]*>\s*', ' ', doc)
 
+# replace <head> tags by paragraph tags
+doc = re.sub(r'<head>', '<p type="head">', doc)
+doc = re.sub(r'</head>', '</p>', doc)
+
 # remove "hi" opening and closing tags
 doc = re.sub(r'<hi [^>]*>', '', doc)
 doc = re.sub(r'</hi>', '', doc)

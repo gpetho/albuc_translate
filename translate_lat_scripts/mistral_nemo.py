@@ -28,15 +28,15 @@ def print_context(response):
     logger.info(tokenizer.decode(response['context']))
 
 
-def print_response(response, outfile):
-    print(response['response'].strip('"'), file=outfile)
+def print_response(source, response, outfile):
+    print(source + '\t' + response['response'].strip('"'), file=outfile)
 #    print_context(response)
 
 # Create output directory if it doesn't exist
-os.makedirs(model, exist_ok=True)
+os.makedirs(f"lat_translations/{model}", exist_ok=True)
 
 for fnum in range(0, 3):
-    with open(f"{model}/{model}_{fnum}.txt", "w") as outfile:
+    with open(f"lat_translations/{model}/{model}_{fnum}.txt", "w") as outfile:
         context = []
         for line in tqdm.tqdm(lines):
             attempt = 0
@@ -72,5 +72,5 @@ for fnum in range(0, 3):
                       file=outfile)
                 context = []
             else:
-                print_response(response, outfile)
+                print_response(line, response, outfile)
                 context = response.get('context', [])

@@ -15,7 +15,7 @@ MAX_ATTEMPTS = 3
 
 model = 'gemma2'
 hf_model = "google/gemma-2-9b-it"
-#tokenizer = AutoTokenizer.from_pretrained(hf_model)
+tokenizer = AutoTokenizer.from_pretrained(hf_model)
 
 first_prompt = ('This is from a medieval Latin translation '
                 'of the 10th century Arabic textbook on surgery by Albucasis. '
@@ -65,16 +65,18 @@ for fnum in range(0, 3):
                 else:
                     response = ollama.generate(model=model,
                                                prompt=first_prompt + line)
-                if '\n' in response['response']:
+                if '\n' in response['response'].strip():
                     if attempt < MAX_ATTEMPTS:
                         attempt += 1
 #                        print_context(response)
                         logger.info(f"Retrying... {attempt}")
+                    else:
+                        break
                 else:
                     break
 
             if '\n' in response['response']:
-                print(response['response'].split('\n')[0].strip('"'),
+                print(line.strip() + '\t' + response['response'].strip().split('\n')[0].strip('"'),
                       file=outfile)
                 context = []
             else:

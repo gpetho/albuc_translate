@@ -68,13 +68,15 @@ for fnum in range(0, 3):
                 if '\n' in response['response']:
                     if attempt < MAX_ATTEMPTS:
                         attempt += 1
-#                        print_context(response)
+                        context = []
                         logger.info(f"Retrying... {attempt}")
+                    else:
+                        break
                 else:
                     break
 
             if '\n' in response['response']:
-                print(response['response'].split('\n')[0].strip('"'),
+                print(line.strip() + '\t' + response['response'].split('\n')[0].strip('"'),
                       file=outfile)
                 context = []
             else:

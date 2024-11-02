@@ -35,7 +35,7 @@ def print_response(source, response, outfile):
 # Create output directory if it doesn't exist
 os.makedirs(f"lat_translations/{model}", exist_ok=True)
 
-for fnum in range(0, 3):
+for fnum in range(1, 3):
     with open(f"lat_translations/{model}/{model}_{fnum}.txt", "w") as outfile:
         context = []
         for line in tqdm.tqdm(lines):
@@ -70,11 +70,13 @@ for fnum in range(0, 3):
                         attempt += 1
 #                        print_context(response)
                         logger.info(f"Retrying... {attempt}")
+                    else:
+                        break
                 else:
                     break
 
             if '\n' in response['response']:
-                print(response['response'].split('\n')[0].strip('"'),
+                print(line.strip() + '\t' + response['response'].split('\n')[0].strip('"'),
                       file=outfile)
                 context = []
             else:

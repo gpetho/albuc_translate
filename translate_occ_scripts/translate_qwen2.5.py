@@ -13,8 +13,8 @@ with open("occ/all_text.txt") as f:
 MAX_CTX = 1000
 MAX_ATTEMPTS = 3
 
-model = 'qwen2.5:14b'
-hf_model = "Qwen/Qwen2.5-14B-Instruct"
+model = 'qwen2.5'
+hf_model = "Qwen/Qwen2.5-7B-Instruct"
 tokenizer = AutoTokenizer.from_pretrained(hf_model)
 
 first_prompt = '''The following text is a medieval medical treatise written in a language that is somewhat similar to Latin, Italian, Spanish and slightly to French as well.

@@ -1655,8 +1655,7 @@ Deinde liga locum signatum cum filo duplo.	###############################
 Postea liga inferius eo parumper ligamentum secundum.	###############################
 Deinde tene cum indice tuo, et pollice locum ligamenti inferioris retentione bona, et incide inter duo ligamenta.	###############################
 Deinde eleua cutem sursum uelociter, et extrahe caput uirgae.	###############################
-Deinde dimitte sanguinem currere paulatim (est enim melius) et pone puluerem desuper: et super puluerem pannum in quo expansus est uitellus oui decocti in aqua rosata, concussum cum oleo ros.	###############################
-Recenti bono: et dimitte eum super ipsum usque ad diem alium: et cura ipsum reliqua curatione, donec sanetur.	###############################
+Deinde dimitte sanguinem currere paulatim (est enim melius) et pone puluerem desuper: et super puluerem pannum in quo expansus est uitellus oui decocti in aqua rosata, concussum cum oleo ros. Recenti bono: et dimitte eum super ipsum usque ad diem alium: et cura ipsum reliqua curatione, donec sanetur.	############################### ###############################
 Forma autem forficis ad mundificationem haec est.	###############################
 Sint hebetes duae extremitates, et sint incidentes: ne egrediatur in eis ramus claui: et sit longitudo duarum acuitatum, sicut longitudo duorum manubriorum aequaliter.	###############################
 Error uero cadens in mundificatione est: quoniam fortasse effugit cutis intrinseca tota, aut pars eius apud incisionem.	###############################
@@ -1861,11 +1860,7 @@ Caput LXV.	###############################
 Euentus huius Ramicis est ex sectione, quae accidit in sifach extenso super uentrem in parte inguinum ex mirach uentris.	###############################
 Quare descendunt intestina ex illa Ruptura ad unum testiculorum.	###############################
 Et haec Ruptura est aut ex sifach, aut extensione eius.	###############################
-Et accidunt istae duae species ex caussis multis.	###############################
-Aut ex percussione.	###############################
-Aut saltu.	###############################
-Aut clamore.	###############################
-Aut eleuatione rei grauis, et similibus.	###############################
+Et accidunt istae duae species ex caussis multis. Aut ex percussione. Aut saltu. Aut clamore. Aut eleuatione rei grauis, et similibus.	############################### ############################### ############################### ############################### ###############################
 Et signum, quando est ex extensione sifach.	###############################
 Est quod accidit paulatim in tempore longo, et non accidit subito: et est apostema aequale uersus profundum: propterea, quod sifach comprimit intestinum.	###############################
 Et signum eius quando est ex sectione sifach, quia facit accidere ex principio sui dolorem uehementem subito: et est apostema diuersum, apparens sub cute propinque: et illud est propter exitum intestini, et cursus eius ad exteriora sifach.	###############################

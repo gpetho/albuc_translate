@@ -23,7 +23,7 @@ model:
     hf: meta-llama/Llama-3.1-70B-Instruct
   llama3.2:
     hf: meta-llama/Llama-3.2-3B-Instruct
-  llama3:70b:
+  llama3:70b-instruct-q2_K:
     hf: meta-llama/Meta-Llama-3-70B-Instruct
   mistral:
     hf: mistralai/Mistral-7B-Instruct-v0.3
@@ -49,7 +49,7 @@ model:
     hf: Qwen/Qwen2.5-14B-Instruct
   qwen2.5:72b:
     hf: Qwen/Qwen2.5-72B-Instruct
-  qwen2:72b:
+  qwen2:72b-instruct-q2_K:
     hf: Qwen/Qwen2-72B-Instruct
 prompt:
   lat: prompts/lat_prompt.txt

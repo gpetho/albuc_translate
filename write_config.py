@@ -1,0 +1,40 @@
+import yaml
+
+config ={
+    'model': {
+        'aya:35b': {'hf': 'CohereForAI/aya-23-35B'},
+        'aya': {'hf': 'CohereForAI/aya-23-8B'},
+        'aya-expanse': {'hf': 'CohereForAI/aya-expanse-8b'},
+        'gemma': {'hf': 'google/gemma-7b-it'},
+        'gemma2': {'hf': 'google/gemma-2-9b-it'},
+        'gemma2:27b': {'hf': 'google/gemma-2-27b-it'},
+        'granite3-dense': {'hf': 'ibm-granite/granite-3.0-2b-instruct'},
+        'granite3-dense:8b': {'hf': 'ibm-granite/granite-3.0-8b-instruct'},
+        'llama3': {'hf': 'meta-llama/Meta-Llama-3-8B-Instruct'},
+        'llama3:70b': {'hf': 'meta-llama/Meta-Llama-3-70B-Instruct'},
+        'llama3.1': {'hf': 'meta-llama/Llama-3.1-8B-Instruct'},
+        'llama3.1:70b': {'hf': 'meta-llama/Llama-3.1-70B-Instruct'},
+        'llama3.2': {'hf': 'meta-llama/Llama-3.2-3B-Instruct'},
+        'mistral': {'hf': 'mistralai/Mistral-7B-Instruct-v0.3'},
+        'mistral-nemo': {'hf': 'mistralai/Mistral-Nemo-Instruct-2407'},
+        'mistral-small': {'hf': 'mistralai/Mistral-Small-Instruct-2409'},
+        'mixtral': {'hf': 'mistralai/Mixtral-8x7B-Instruct-v0.1'},
+        'nemotron-mini': {'hf': 'nvidia/Nemotron-Mini-4B-Instruct'},
+        'phi3': {'hf': 'microsoft/Phi-3-mini-4k-instruct'},
+        'phi3:14b': {'hf': 'microsoft/Phi-3-medium-4k-instruct'},
+        'phi3.5': {'hf': 'microsoft/Phi-3.5-mini-instruct'},
+        'qwen2': {'hf': 'Qwen/Qwen2-7B-Instruct'},
+        'qwen2:72b': {'hf': 'Qwen/Qwen2-72B-Instruct'},
+        'qwen2.5': {'hf': 'Qwen/Qwen2.5-7B-Instruct'},
+        'qwen2.5:14b': {'hf': 'Qwen/Qwen2.5-14B-Instruct'},
+        'qwen2.5:72b': {'hf': 'Qwen/Qwen2.5-72B-Instruct'},
+    },
+    'prompt': {
+        'lat': 'prompts/lat_prompt.txt',
+        'occ': 'prompts/occ_prompt.txt',
+        'ofr': 'prompts/ofr_prompt.txt',
+    }
+}
+
+with open('translate_config.yaml', 'w') as f:
+    yaml.dump(config, f)

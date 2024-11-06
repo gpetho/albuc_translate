@@ -83,9 +83,6 @@ def segment_paragraph(para: BeautifulSoup, para_counter: int, s_counter: int) ->
             print()
             iteration += 1
 
-    # split the segmented_output into sentences using the Arabic period as the delimiter
-    sentences = split_arabic_sentences(segmented_output)
-
     # delete all content from para element
     para.clear()
     for sentence in sentences:
@@ -124,39 +121,28 @@ def main():
         # replace original paragraph with segmented paragraph
         para.replace_with(segmented_para)
 
-        # write segmented paragraph to file
-        print(soup, file=outfile)
-        print(f"{next_para=} {next_s=}")
-        sys.exit()
-
-    for sentence in preface.find_all('s'):
-        if args.print_s_tags:
-            # print sentence element in its entirety
-            print(sentence, file=outfile)
-        else:
-            print(sentence.text, file=outfile)
+        # write segmented output so far to file
+#        print(soup, file=outfile)
+#        sys.exit()
 
     for chapter_number in range(1, 4):
         chapter = soup.find('div', {'type': 'chapter', 'n': chapter_number})
         p_children = chapter.find_all('p', recursive=False)
 
         for p in p_children:
-            for sentence in p.find_all('s'):
-                if args.print_s_tags:
-                    print(sentence, file=outfile)
-                else:
-                    print(sentence.text, file=outfile)
+            segmented_para, next_para, next_s =\
+                segment_paragraph(p, next_para, next_s)
+        p.replace_with(segmented_para)
 
         subchapters = chapter.find_all('div', {'type': 'subchapter'})
 
         for subchapter in subchapters:
-            subchapter_number = subchapter['n']
+            p_children = subchapter.find_all('p', recursive=False)
 
-            for sentence in subchapter.find_all('s'):
-                if args.print_s_tags:
-                    print(sentence, file=outfile)
-                else:
-                    print(sentence.text, file=outfile)
+            for p in p_children:
+                segmented_para, next_para, next_s =\
+                    segment_paragraph(p, next_para, next_s)
+            p.replace_with(segmented_para)
 
     outfile.close()
 

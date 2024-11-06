@@ -27,6 +27,7 @@ config ={
         'qwen2:72b-instruct-q2_K': {'hf': 'Qwen/Qwen2-72B-Instruct'},
         'qwen2.5': {'hf': 'Qwen/Qwen2.5-7B-Instruct'},
         'qwen2.5:14b': {'hf': 'Qwen/Qwen2.5-14B-Instruct'},
+        'qwen2.5:32b': {'hf': 'Qwen/Qwen2.5-32B-Instruct'},
         'qwen2.5:72b': {'hf': 'Qwen/Qwen2.5-72B-Instruct'},
     },
     'prompt': {

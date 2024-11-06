@@ -69,7 +69,7 @@ def main():
             print(normalize(preface.text, lang=lang), file=all_text)
 
     for chapter_number in range(1, 4):
-        chapter = soup.find('div', {'type': f'chapter', 'n': chapter_number})
+        chapter = soup.find('div', {'type': 'chapter', 'n': chapter_number})
         p_children = chapter.find_all('p', recursive=False)
 
         fname = f"{lang}/chapter-{chapter_number}.txt"
@@ -90,7 +90,7 @@ def main():
                     print(normalize(p.text, lang=lang), file=f)
                     print(normalize(p.text, lang=lang), file=all_text)
 
-        subchapters = chapter.find_all('div', {'type': f'subchapter'})
+        subchapters = chapter.find_all('div', {'type': 'subchapter'})
 
         for subchapter in subchapters:
             subchapter_number = subchapter['n']

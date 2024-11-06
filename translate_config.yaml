@@ -53,6 +53,8 @@ model:
     hf: Qwen/Qwen2.5-72B-Instruct
   qwen2:72b-instruct-q2_K:
     hf: Qwen/Qwen2-72B-Instruct
+  qwen2.5:32b:
+    hf: Qwen/Qwen2.5-32B-Instruct
 prompt:
   lat: prompts/lat_prompt.txt
   occ: prompts/occ_prompt.txt

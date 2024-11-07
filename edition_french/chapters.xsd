@@ -1,0 +1,43 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    <!-- Root element -->
+    <xs:element name="standoffAnnotations">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="metadata" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sourceFile">
+                                <xs:complexType>
+                                    <xs:attribute name="path" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="dateCreated" type="xs:date"/>
+                            <xs:element name="createdBy" type="xs:string"/>
+                            <xs:element name="schemaVersion" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="chapter" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="subchapter" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:attribute name="n" type="xs:string" use="required"/>
+                                    <xs:attribute name="start_s" type="xs:string" use="required"/>
+                                    <xs:attribute name="end_s" type="xs:string" use="required"/>
+                                    <xs:attribute name="id" type="xs:ID" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="n" type="xs:string" use="required"/>
+                        <xs:attribute name="start_s" type="xs:string" use="required"/>
+                        <xs:attribute name="end_s" type="xs:string" use="required"/>
+                        <xs:attribute name="id" type="xs:ID" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>

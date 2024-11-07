@@ -1,0 +1,27 @@
+<!ELEMENT standoffAnnotations (metadata?, chapter+)>
+<!ATTLIST standoffAnnotations 
+    xmlns:xsi CDATA #REQUIRED
+    xsi:noNamespaceSchemaLocation CDATA #REQUIRED
+>
+<!ELEMENT metadata (sourceFile, dateCreated, createdBy, schemaVersion)>
+<!ELEMENT sourceFile EMPTY>
+<!ATTLIST sourceFile path CDATA #REQUIRED>
+<!ELEMENT dateCreated (#PCDATA)>
+<!ELEMENT createdBy (#PCDATA)>
+<!ELEMENT schemaVersion (#PCDATA)>
+
+<!ELEMENT chapter (subchapter*)>
+<!ATTLIST chapter 
+    n CDATA #REQUIRED
+    start_s CDATA #REQUIRED
+    end_s CDATA #REQUIRED
+    id ID #IMPLIED
+>
+
+<!ELEMENT subchapter EMPTY>
+<!ATTLIST subchapter
+    n CDATA #REQUIRED
+    start_s CDATA #REQUIRED
+    end_s CDATA #REQUIRED
+    id ID #IMPLIED
+>

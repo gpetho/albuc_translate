@@ -1,0 +1,9 @@
+The crucial element here is `chapters_standoff.xml`, which was written by me by manually comparing the which aligns the chapters as marked in the Trotter editions and as annotated in `ChirAlbT_text_bfm.xml`, with the Spink & Lewis chapter structure which appears in `edition_arabic`, `edition_english` and `edition_occ`. The point is to leave the structure and content of the Trotter XML untouched apart from corrections that are necessarily independently of this conversion.
+
+Specifically, lots of `<num>` element markings were missing around Roman numerals appearing in the Trotter XML. These tags were evidently inserted automatically around numerals that looked like `.iij.`, but when either of the periods were missing or not where they should have been, like `est. iij.`, then the markup was missing around them, causing problems for further processing. The punctuation was corrected and the missing `<num>` tags added manually to `ChirAlbT_text_bfm.xml` directly, so this is already a modified file compared with what we started out with. The punctuation mistakes were already there in the Trotter printed book, so they were not introduced during the conversion into XML format.
+
+To generate the `ofr` directory, the following steps are necessary.
+
+1. `python ChirAlb_divide_sentences.py`, which adds paragraph numbering and segments the paragraphs into sentences, but adds a few minor adjustments as well. This creates `ChirAlbT_text_bfm_mod.xml`.
+2. `python combine_standoff.py`: reads `ChirAlbT_text_bfm.xml` and `chapters_standoff.xml`, and generates, based on these, `chapters_combined.xml` (the name of which was chosen by GitHub Copilot).
+3. `python extract_text_by_subchapter_v2.py ofr edition_french/chapters_combined.xml -s` then populates the `ofr` directory.

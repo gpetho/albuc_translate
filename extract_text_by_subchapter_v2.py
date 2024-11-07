@@ -18,7 +18,9 @@ def normalize(text, lang):
     Insert spaces around punctuation marks.
     Lowercase the text.
     '''
-    return text
+    # Remove multiple spaces
+    text = re.sub(r'\s+', ' ', text)
+    return text.lstrip(" ").rstrip(" ")
     punctuation = "-—'.,;:?!()[]’"
     for p in punctuation:
         # text = text.replace(p, f' {p} ')
@@ -44,6 +46,11 @@ def main():
     # Delete all note elements from soup.
     # Necessary for Arabic XML.
     for note in soup.find_all('note'):
+        note.decompose()
+
+    # Delete all pc elements from soup.
+    # Useful for French XML.
+    for note in soup.find_all('pc'):
         note.decompose()
 
     # create lang directory if it doesn't exist

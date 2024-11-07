@@ -10,8 +10,7 @@ nlp = spacy.load("xx_ent_wiki_sm")
 nlp.add_pipe('sentencizer')
 
 sentence_id = 0
-abbrevs =  ['unc.', 'drac.']
-
+abbrevs = ['unc.', 'drac.']
 
 for p in soup.body.find_all('p'):
     text = p.get_text()

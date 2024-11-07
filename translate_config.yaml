@@ -53,6 +53,9 @@ model:
     hf: Qwen/Qwen2-72B-Instruct
   qwen2.5:32b:
     hf: Qwen/Qwen2.5-32B-Instruct
+  gemini:
+    model_id: gemini-1.5-flash
+
 prompt:
   lat: prompts/lat_prompt.txt
   occ: prompts/occ_prompt.txt

@@ -26,6 +26,8 @@ def main():
                         help='How many translations to generate')
     parser.add_argument('-s', '--start-number', type=int, default=0,
                         help='Starting number for output files')
+    parser.add_argument('-l', '--start-line', type=int, default=0,
+                        help='Starting line of first output file')
     parser.add_argument('-i', '--input', type=str,
                         help='File containing source text to translate')
     parser.add_argument('-o', '--output', type=str,
@@ -91,38 +93,44 @@ def main():
     os.makedirs(out_dir, exist_ok=True)
 
     for fnum in range(args.start_number, args.count):
-        with open(f"{out_dir}/{model_fn}_{fnum}.txt", "w") as outfile:
-            context = []
-            for line in tqdm.tqdm(lines):
-                attempt = 0
-                while True:
-                    if context and len(context) < args.max_ctx:
-                        response = ollama.generate(model=args.model,
-                                                   prompt=turn_prefix + line,
-                                                   context=context)
-                    else:
-                        response = ollama.generate(model=args.model,
-                                                   prompt=first_prompt + line)
-                    if '\n' in response['response']:
-                        if attempt < MAX_ATTEMPTS:
-                            attempt += 1
-                            logger.info(f"Retrying... {attempt}")
-                        else:
-                            break
+        if fnum == args.start_number and args.start_line:
+            outfile = open(f"{out_dir}/{model_fn}_{fnum}.txt", "a")
+        else:
+            outfile = open(f"{out_dir}/{model_fn}_{fnum}.txt", "w")
+        context = []
+        for line in tqdm.tqdm(lines):
+            if fnum == args.start_number and args.start_line and lines.index(line) < args.start_line:
+                continue
+            attempt = 0
+            while True:
+                if context and len(context) < args.max_ctx:
+                    response = ollama.generate(model=args.model,
+                                                prompt=turn_prefix + line,
+                                                context=context)
+                else:
+                    response = ollama.generate(model=args.model,
+                                                prompt=first_prompt + line)
+                if '\n' in response['response']:
+                    if attempt < MAX_ATTEMPTS:
+                        attempt += 1
+                        logger.info(f"Retrying... {attempt}")
                     else:
                         break
-
-                if args.verbose:
-                    print_context(response, logger=logger, tokenizer=tokenizer)
-
-                if '\n' in response['response']:
-                    print(line.strip() + '\t' + response['response'].split('\n')[0].strip('"'),
-                          file=outfile)
-                    context = []
                 else:
-                    print(line.strip() + '\t' + response['response'].strip('"'),
-                          file=outfile)
-                    context = response.get('context', [])
+                    break
+
+            if args.verbose:
+                print_context(response, logger=logger, tokenizer=tokenizer)
+
+            if '\n' in response['response']:
+                print(line.strip() + '\t' + response['response'].split('\n')[0].strip('"'),
+                        file=outfile)
+                context = []
+            else:
+                print(line.strip() + '\t' + response['response'].strip('"'),
+                        file=outfile)
+                context = response.get('context', [])
+        outfile.close()
 
 
 if __name__ == '__main__':

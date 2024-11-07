@@ -55,9 +55,10 @@ model:
     hf: Qwen/Qwen2-72B-Instruct
   qwen2.5:32b:
     hf: Qwen/Qwen2.5-32B-Instruct
-  gemini:
+  gemini1.5-flash:
     model_id: gemini-1.5-flash
-
+  gpt4:
+    model_id: gpt-4
 prompt:
   lat: prompts/lat_prompt.txt
   occ: prompts/occ_prompt.txt

@@ -1,4 +1,4 @@
-import google.generativeai as genai
+import openai
 import os
 import tqdm
 import logging
@@ -9,18 +9,18 @@ from transformers import AutoTokenizer
 MAX_ATTEMPTS = 3  # Maximum number of attempts to retry a failed generation
 
 def print_context(response, logger, tokenizer):
-    logger.info(f"Context: {str(len(response['context']))}")
-    logger.info(tokenizer.decode(response['context']))
+    logger.info(f"Context: {str(len(response['choices'][0]['text']))}")
+    logger.info(tokenizer.decode(response['choices'][0]['text'].encode()))
 
 def main():
-    genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"),)
     logger = logging.getLogger(__name__)
 
     parser = argparse.ArgumentParser(description='Generate translations for Latin text')
     parser.add_argument('language', type=str, choices=['ara', 'lat', 'occ', 'ofr'],
                         help='Language to translate from: ara, lat, occ, ofr')
     parser.add_argument('model_key', type=str,
-                        help='Key to the model in the YAML file, e.g., gemini')
+                        help='Key to the model in the YAML file, e.g., gpt-3.5-turbo')
     parser.add_argument('count', type=int, default=10,
                         help='How many translations to generate')
     parser.add_argument('-s', '--start-number', type=int, default=0,
@@ -93,11 +93,17 @@ def main():
                 while True:
                     try:
                         if context and len(context) < args.max_ctx:
-                            response = genai.GenerativeModel(model_id).generate_content(turn_prefix + line)
+                            response = client.chat.completions.create(
+                                messages = [{"role": "user", "content": turn_prefix + line}],
+                                model=model_id,
+                            )
                         else:
-                            response = genai.GenerativeModel(model_id).generate_content(first_prompt + line)
+                            response = client.chat.completions.create(
+                                messages = [{"role": "user", "content": first_prompt + line}],
+                                model=model_id,
+                            )
                     except Exception as e:
-                        logger.error(f"Gemini API error: {e}")
+                        logger.error(f"OpenAI API error: {e}")
                         if attempt < MAX_ATTEMPTS:
                             attempt += 1
                             logger.info(f"Retrying... {attempt}")
@@ -105,26 +111,21 @@ def main():
                         else:
                             break
 
-                    if response and hasattr(response, 'text') and '\n' in response.text:
+                    if response and 'choices' in response and response.choices[0].text.strip():
+                        break
+                    else:
                         if attempt < MAX_ATTEMPTS:
                             attempt += 1
                             logger.info(f"Retrying... {attempt}")
                         else:
                             break
-                    else:
-                        break
 
                 if args.verbose:
                     print_context(response, logger=logger, tokenizer=tokenizer)
 
-                if response and hasattr(response, 'text') and '\n' in response.text:
-                    print(line.strip() + '\t' + response.text.split('\n')[0].strip('"'),
-                          file=outfile)
+                if response and 'choices' in response and response.choices[0].text.strip():
+                    print(line.strip() + '\t' + response.choices[0].text.strip(), file=outfile)
                     context = []
-                elif response and hasattr(response, 'text'):
-                    print(line.strip() + '\t' + response.text.strip('"'),
-                          file=outfile)
-                    context = []  # Gemini API responses don't provide context directly
 
 if __name__ == '__main__':
     main()

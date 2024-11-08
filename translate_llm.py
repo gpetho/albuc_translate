@@ -126,8 +126,8 @@ def main():
             outfile = open(f"{out_dir}/{model_fn}_{fnum}.txt", "w")
         context = []
 
-        if args.language == 'ofr' and config['model'][model_fn].get('old_dir'):
-            model_cfg = config['model'][model_fn]
+        if args.language == 'ofr' and config['model'][args.model].get('old_dir'):
+            model_cfg = config['model'][args.model]
             oto = 'ofr_translations_old'
             try:
                 with open(f"{oto}/{model_cfg['old_dir']}/{model_cfg['old_fn']}_{fnum}.txt") as f:

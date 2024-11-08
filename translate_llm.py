@@ -14,6 +14,24 @@ def print_context(response, logger, tokenizer):
     logger.info(tokenizer.decode(response['context']))
 
 
+def load_ofr_translations():
+    with open('ofr_old/all_text_mod.txt') as f:
+        lines = f.readlines()
+
+    source_line_dict = {}
+    for i, line in enumerate(lines):
+        source_line_dict[line.strip()] = i
+
+    return source_line_dict
+
+
+def count_tokens(text, tokenizer):
+    try:
+        return len(tokenizer.encode(text))
+    except:
+        return 0
+
+
 def main():
     logger = logging.getLogger(__name__)
 
@@ -36,6 +54,8 @@ def main():
                         help='File containing follow-up prompt')
     parser.add_argument('-p', '--prompt', type=str,
                         help='File containing initial prompt')
+    parser.add_argument('-r', '--restrict-length', type=float, default=0,
+                        help='Restrict output to a multiple of input tokens')
     parser.add_argument('-v', '--verbose', action='store_true', 
                         help='Print contexts in terminal while translating')
     parser.add_argument('--max_ctx', type=int, default=1000,
@@ -54,9 +74,13 @@ def main():
     if args.model not in config['model']:
         raise ValueError(f"Model {args.model} not in config file")
 
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(config['model'][args.model]['hf'])
+    except:
+        tokenizer = None
+
     if args.verbose:
         logging.basicConfig(level=logging.INFO)
-        tokenizer = AutoTokenizer.from_pretrained(config['model'][args.model]['hf'])
     else:
         logging.basicConfig(level=logging.ERROR)
 
@@ -86,9 +110,12 @@ def main():
     model_fn = args.model.replace(':', '_')
 
     if args.output:
-        out_dir = args.output        
+        out_dir = args.output
     else:
         out_dir = f"{args.language}_translations/{model_fn}"
+
+    if args.language == 'ofr':
+        source_line_dict = load_ofr_translations()
 
     os.makedirs(out_dir, exist_ok=True)
 
@@ -98,18 +125,54 @@ def main():
         else:
             outfile = open(f"{out_dir}/{model_fn}_{fnum}.txt", "w")
         context = []
+
+        if args.language == 'ofr' and config['model'][model_fn].get('old_dir'):
+            model_cfg = config['model'][model_fn]
+            oto = 'ofr_translations_old'
+            try:
+                with open(f"{oto}/{model_cfg['old_dir']}/{model_cfg['old_fn']}_{fnum}.txt") as f:
+                    translated_lines = f.readlines()
+                print(f"Loaded {model_cfg['old_dir']}/{model_cfg['old_fn']}_{fnum}.txt")
+            except FileNotFoundError:
+                translated_lines = None
+                print(f"File {model_cfg['old_dir']}/{model_cfg['old_fn']}_{fnum}.txt not found")
+        else:
+            translated_lines = None
+                
+        skip_flag = False
+
         for line in tqdm.tqdm(lines):
             if fnum == args.start_number and args.start_line and lines.index(line) < args.start_line:
                 continue
             attempt = 0
             while True:
+
+                if args.language == 'ofr' and translated_lines and line.strip() in source_line_dict:
+                    stripped = line.strip()
+                    translated_line = translated_lines[source_line_dict[stripped]].strip()
+                    print(translated_line, file=outfile)
+                    if args.verbose:
+                        print("Known translation:")
+                        print(translated_line)
+                    skip_flag = True
+                    break
+
+                options = None
+
+                if args.restrict_length:
+                    max_tokens = int(count_tokens(line, tokenizer) * args.restrict_length)
+                    if max_tokens:
+                        options = {'num_predict': max_tokens}
+
                 if context and len(context) < args.max_ctx:
                     response = ollama.generate(model=args.model,
                                                 prompt=turn_prefix + line,
-                                                context=context)
+                                                context=context,
+                                                options=options)
                 else:
                     response = ollama.generate(model=args.model,
-                                                prompt=first_prompt + line)
+                                                prompt=first_prompt + line,
+                                                options=options)
                 if '\n' in response['response']:
                     if attempt < MAX_ATTEMPTS:
                         attempt += 1
@@ -118,6 +181,10 @@ def main():
                         break
                 else:
                     break
+
+            if skip_flag:
+                skip_flag = False
+                continue
 
             if args.verbose:
                 print_context(response, logger=logger, tokenizer=tokenizer)

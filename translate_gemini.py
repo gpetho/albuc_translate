@@ -131,7 +131,7 @@ def main():
         with open(f"{out_dir}/gemini_{fnum}.txt", open_mode) as outfile:
             turns = MessageDeque(max_length=5)
 
-            for i, line in tqdm.tqdm(enumerate(lines, total=len(lines))):
+            for i, line in tqdm.tqdm(enumerate(lines), total=len(lines)):
                 if fnum == args.start_number and args.start_line and i < args.start_line:
                     continue
                 attempt = 0

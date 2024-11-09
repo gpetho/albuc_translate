@@ -121,9 +121,11 @@ def main():
 
     for fnum in range(args.start_number, args.count):
         if fnum == args.start_number and args.start_line:
-            outfile = open(f"{out_dir}/{model_fn}_{fnum}.txt", "a")
+            open_mode = "a"
         else:
-            outfile = open(f"{out_dir}/{model_fn}_{fnum}.txt", "w")
+            open_mode = "w"
+        outfile = open(f"{out_dir}/{model_fn}_{fnum}.txt", open_mode)
+
         context = []
 
         if args.language == 'ofr' and config['model'][args.model].get('old_dir'):
@@ -141,8 +143,8 @@ def main():
                 
         skip_flag = False
 
-        for line in tqdm.tqdm(lines):
-            if fnum == args.start_number and args.start_line and lines.index(line) < args.start_line:
+        for i, line in tqdm.tqdm(enumerate(lines)):
+            if fnum == args.start_number and args.start_line and i < args.start_line:
                 continue
             attempt = 0
             while True:

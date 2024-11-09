@@ -59,6 +59,8 @@ def main():
                         help='How many translations to generate')
     parser.add_argument('-s', '--start-number', type=int, default=0,
                         help='Starting number for output files')
+    parser.add_argument('-l', '--start-line', type=int, default=0,
+                    help='Starting line of first output file')
     parser.add_argument('-i', '--input', type=str,
                         help='File containing source text to translate')
     parser.add_argument('-o', '--output', type=str,
@@ -121,10 +123,17 @@ def main():
     os.makedirs(out_dir, exist_ok=True)
 
     for fnum in range(args.start_number, args.count):
-        with open(f"{out_dir}/gemini_{fnum}.txt", "w") as outfile:
+        if fnum == args.start_number and args.start_line:
+            open_mode = "a"
+        else:
+            open_mode = "w"
+
+        with open(f"{out_dir}/gemini_{fnum}.txt", open_mode) as outfile:
             turns = MessageDeque(max_length=5)
 
-            for line in tqdm.tqdm(lines):
+            for i, line in tqdm.tqdm(enumerate(lines)):
+                if fnum == args.start_number and args.start_line and i < args.start_line:
+                    continue
                 attempt = 0
 
                 token_count = gemini.count_tokens(line.strip())

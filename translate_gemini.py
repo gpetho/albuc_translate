@@ -168,13 +168,13 @@ def main():
                         response.text
                     except ValueError:
                         logger.error(f"Response error: {response}")
-                        for rating_name, rating_value in response.candidates[0].safety_ratings.items():
-                            print(f"{rating_name}: {rating_value}")
                         if attempt < MAX_ATTEMPTS:
                             attempt += 1
                             logger.info(f"Retrying... {attempt}")
                             continue
                         else:
+                            response.text = '.'
+                            turns = MessageDeque()
                             break
 
                     if hasattr(response, 'text') and '\n' in response.text.rstrip("\n"):

@@ -166,13 +166,13 @@ def main():
 
                 if context and len(context) < args.max_ctx:
                     response = ollama.generate(model=args.model,
-                                                prompt=turn_prefix + line,
-                                                context=context,
-                                                options=options)
+                                               prompt=turn_prefix + line,
+                                               context=context,
+                                               options=options)
                 else:
                     response = ollama.generate(model=args.model,
-                                                prompt=first_prompt + line,
-                                                options=options)
+                                               prompt=first_prompt + line,
+                                               options=options)
                 if '\n' in response['response']:
                     if attempt < MAX_ATTEMPTS:
                         attempt += 1
@@ -189,13 +189,13 @@ def main():
             if args.verbose:
                 print_context(response, logger=logger, tokenizer=tokenizer)
 
-            if '\n' in response['response']:
+            if '\n' in response['response'].rstrip("\n"):
                 print(line.strip() + '\t' + response['response'].split('\n')[0].strip('"'),
-                        file=outfile)
+                      file=outfile)
                 context = []
             else:
-                print(line.strip() + '\t' + response['response'].strip('"'),
-                        file=outfile)
+                print(line.strip() + '\t' + response['response'].rstrip('\n').strip('"'),
+                      file=outfile)
                 context = response.get('context', [])
         outfile.close()
 

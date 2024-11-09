@@ -9,8 +9,8 @@ model:
     hf: CohereForAI/aya-23-35B
     old_dir: aya
     old_fn: aya_35b
-  gemini1.5-flash:
-    model_id: gemini-1.5-flash
+  command-r:
+    hf: CohereForAI/c4ai-command-r-v01
   gemma:
     hf: google/gemma-7b-it
     old_dir: gemma
@@ -21,8 +21,6 @@ model:
     old_fn: gemma2_9b
   gemma2:27b:
     hf: google/gemma-2-27b-it
-  gpt4:
-    model_id: gpt-4
   granite3-dense:
     hf: ibm-granite/granite-3.0-2b-instruct
   granite3-dense:8b:

@@ -8,7 +8,7 @@ import tqdm
 import more_itertools
 import google.generativeai as genai
 
-MAX_ATTEMPTS = 3  # Maximum number of attempts to retry a failed generation
+MAX_ATTEMPTS = 5  # Maximum number of attempts to retry a failed generation
 
 GEMINI_MODELS = {
     'gemini-1.5-flash-002',

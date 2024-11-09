@@ -1,22 +1,56 @@
-import google.generativeai as genai
+from collections import deque
 import os
-import tqdm
+import time
 import logging
 import argparse
 import yaml
-from transformers import AutoTokenizer
+import tqdm
+import more_itertools
+import google.generativeai as genai
 
 MAX_ATTEMPTS = 3  # Maximum number of attempts to retry a failed generation
 
-def print_context(response, logger, tokenizer):
-    logger.info(f"Context: {str(len(response['context']))}")
-    logger.info(tokenizer.decode(response['context']))
+GEMINI_MODELS = {
+    'gemini-1.5-flash-002',
+    'gemini-1.5-flash-8b',
+    'gemini-1.5-pro-002'
+}
+
+
+class Turn:
+    def __init__(self, message):
+        self.user = {"role": "user", "parts": message}
+        self.reply = None
+
+    def add_reply(self, message):
+        self.reply = {"role": "model", "parts": message}
+
+    def to_list(self):
+        if self.reply is None:
+            return [self.user]
+        else:
+            return [self.user, self.reply]
+
+
+class MessageDeque:
+    def __init__(self, max_length=5):
+        self.message_deque = deque([], max_length)
+
+    def add_turn(self, message):
+        self.message_deque.append(Turn(message))
+
+    def add_response(self, response):
+        self.message_deque[-1].add_reply(response.text)
+
+    def to_list(self):
+        return list(more_itertools.flatten([turn.to_list() for turn in self.message_deque]))
+
 
 def main():
     genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
     logger = logging.getLogger(__name__)
 
-    parser = argparse.ArgumentParser(description='Generate translations for Latin text')
+    parser = argparse.ArgumentParser(description='Generate English translations for text')
     parser.add_argument('language', type=str, choices=['ara', 'lat', 'occ', 'ofr'],
                         help='Language to translate from: ara, lat, occ, ofr')
     parser.add_argument('model_key', type=str,
@@ -33,6 +67,8 @@ def main():
                         help='File containing follow-up prompt')
     parser.add_argument('-p', '--prompt', type=str,
                         help='File containing initial prompt')
+    parser.add_argument('-r', '--restrict-length', type=float, default=0,
+                        help='Restrict output to a multiple of input tokens')
     parser.add_argument('-v', '--verbose', action='store_true', 
                         help='Print contexts in terminal while translating')
     parser.add_argument('--max_ctx', type=int, default=1000,
@@ -44,7 +80,6 @@ def main():
 
     if args.verbose:
         logging.basicConfig(level=logging.INFO)
-        tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
     else:
         logging.basicConfig(level=logging.ERROR)
 
@@ -52,21 +87,21 @@ def main():
     with open("translate_config.yaml") as f:
         config = yaml.safe_load(f)
 
-    if args.model_key not in config['model']:
-        raise ValueError(f"Model key '{args.model_key}' not found in the 'model' section of the config file.")
+    if args.model_key not in GEMINI_MODELS:
+        raise ValueError(f"'{args.model_key}' is not a Google Gemini model.")
 
-    model_id = config['model'][args.model_key]['model_id']
-
-    # Load prompts if provided
-    first_prompt = ''
     if args.prompt:
-        with open(args.prompt) as f:
-            first_prompt = f.read()
+        prompt_file = args.prompt
+    else:
+        prompt_file = config['prompt'][args.language]
+    with open(prompt_file) as f:
+        first_prompt = f.read()
 
-    turn_prefix = ''
     if args.follow_up:
         with open(args.follow_up) as f:
             turn_prefix = f.read()
+    else:
+        turn_prefix = ''
 
     # Load input lines if provided
     lines = []
@@ -77,25 +112,40 @@ def main():
         with open(f'{args.language}/all_text.txt') as f:
             lines = f.readlines()    
     print(f"Generating {args.count} translations starting at "
-          f"{args.start_number} for {args.language} using {model_id}")
+          f"{args.start_number} for {args.language} using {args.model_key}")
 
-    model_fn = model_id.replace(':', '_').replace('/', '_')
+    gemini = genai.GenerativeModel(args.model_key)
 
     # Set up output directory
-    out_dir = args.output if args.output else f"{args.language}_translations/{model_fn}"
+    out_dir = args.output if args.output else f"{args.language}_translations/{args.model_key}"
     os.makedirs(out_dir, exist_ok=True)
 
     for fnum in range(args.start_number, args.count):
-        with open(f"{out_dir}/{model_fn}_{fnum}.txt", "w") as outfile:
-            context = []
+        with open(f"{out_dir}/gemini_{fnum}.txt", "w") as outfile:
+            turns = MessageDeque(max_length=5)
+
             for line in tqdm.tqdm(lines):
                 attempt = 0
+
+                token_count = gemini.count_tokens(line.strip())
+                if args.restrict_length:
+                    generation_config = {
+                        "max_output_tokens": int(token_count
+                                                 * args.restrict_length)
+                    }
+                else:
+                    generation_config = None
+
+                turns.add_turn(turn_prefix + line.strip())
+                gemini = genai.GenerativeModel(
+                    args.model_key,
+                    generation_config=generation_config,
+                    system_instruction=first_prompt,
+                )
+
                 while True:
                     try:
-                        if context and len(context) < args.max_ctx:
-                            response = genai.GenerativeModel(model_id).generate_content(turn_prefix + line)
-                        else:
-                            response = genai.GenerativeModel(model_id).generate_content(first_prompt + line)
+                        response = gemini.generate_content(turns.to_list())
                     except Exception as e:
                         logger.error(f"Gemini API error: {e}")
                         if attempt < MAX_ATTEMPTS:
@@ -105,26 +155,30 @@ def main():
                         else:
                             break
 
-                    if response and hasattr(response, 'text') and '\n' in response.text:
+                    if hasattr(response, 'text') and '\n' in response.text.rstrip("\n"):
                         if attempt < MAX_ATTEMPTS:
                             attempt += 1
                             logger.info(f"Retrying... {attempt}")
+                            logger.info(f"'{response.text=}'")
                         else:
                             break
                     else:
                         break
 
                 if args.verbose:
-                    print_context(response, logger=logger, tokenizer=tokenizer)
+                    logger.info(turns.to_list())
+                    logger.info(response)
 
-                if response and hasattr(response, 'text') and '\n' in response.text:
+                if '\n' in response.text.rstrip("\n"):
                     print(line.strip() + '\t' + response.text.split('\n')[0].strip('"'),
                           file=outfile)
-                    context = []
-                elif response and hasattr(response, 'text'):
-                    print(line.strip() + '\t' + response.text.strip('"'),
+                    turns = MessageDeque()
+
+                else:
+                    print(line.strip() + '\t' + response.text.rstrip("\n").strip('"'),
                           file=outfile)
-                    context = []  # Gemini API responses don't provide context directly
+                    turns.add_response(response)
+
 
 if __name__ == '__main__':
     main()

@@ -1,6 +1,8 @@
+import sys
+
 current_chapter = ''
-with (open("combined_path.txt") as path_f,
-      open("unaligned.txt", "w") as unaligned_f):
+with (open(f"combined_path_{sys.argv[1]}.txt") as path_f,
+      open(f"unaligned{sys.argv[1]}.txt", "w") as unaligned_f):
     for line in path_f:
         if line.strip() == '':
             continue
@@ -8,10 +10,10 @@ with (open("combined_path.txt") as path_f,
             current_chapter = line.strip()
             print(current_chapter, file=unaligned_f)
         else:
-            chat_line, eng_line, score = line.strip().split(':')
+            eng_line, chat_line, score = line.strip().split(':')
             if float(score) > 0:
                 continue
-            with (open(f"sentalign_input/deu/{current_chapter}") as chat_f,
+            with (open(f"sentalign_input/{sys.argv[1]}/{current_chapter}") as chat_f,
                   open(f"sentalign_input/eng/{current_chapter}") as eng_f):
                 chat_text = chat_f.readlines()
                 eng_text = eng_f.readlines()

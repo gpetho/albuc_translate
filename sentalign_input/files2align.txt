@@ -19,6 +19,7 @@ chapter-1-subchapter-23.txt
 chapter-3-subchapter-8.txt
 chapter-1-subchapter-44.txt
 preface.txt
+chapter-1-subchapter-26.txt
 chapter-2-subchapter-74.txt
 chapter-1-subchapter-36.txt
 chapter-3-subchapter-4.txt
@@ -59,6 +60,7 @@ chapter-2-subchapter-97.txt
 chapter-1-subchapter-50.txt
 chapter-2-subchapter-63.txt
 chapter-2-subchapter-78.txt
+chapter-1-subchapter-27.txt
 chapter-2-subchapter-62.txt
 chapter-2-subchapter-86.txt
 chapter-1-subchapter-16.txt
@@ -124,6 +126,7 @@ chapter-3-subchapter-11.txt
 chapter-3-subchapter-35.txt
 chapter-2-subchapter-89.txt
 chapter-2-subchapter-80.txt
+chapter-1-subchapter-28.txt
 chapter-1.txt
 chapter-2-subchapter-14.txt
 chapter-3-subchapter-10.txt

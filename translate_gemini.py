@@ -7,6 +7,9 @@ import yaml
 import tqdm
 import more_itertools
 import google.generativeai as genai
+import google.api_core.exceptions
+from retrying import retry
+
 
 MAX_ATTEMPTS = 5  # Maximum number of attempts to retry a failed generation
 
@@ -44,6 +47,28 @@ class MessageDeque:
 
     def to_list(self):
         return list(more_itertools.flatten([turn.to_list() for turn in self.message_deque]))
+
+
+@retry(wait_exponential_multiplier=1000, wait_exponential_max=10000,
+       stop_max_attempt_number=5)
+def count_tokens(model, prompt):
+    try:
+        count = model.count_tokens(prompt=prompt)
+        return count
+    except google.api_core.exceptions.DeadlineExceeded as e:
+        print(f"Deadline exceeded: {e}")
+        raise
+
+
+@retry(wait_exponential_multiplier=1000, wait_exponential_max=10000,
+       stop_max_attempt_number=5)
+def generate_content(model, prompt):
+    try:
+        response = model.generate_content(prompt=prompt)
+        return response
+    except google.api_core.exceptions.DeadlineExceeded as e:
+        print(f"Deadline exceeded: {e}")
+        raise
 
 
 def main():
@@ -136,7 +161,7 @@ def main():
                     continue
                 attempt = 0
 
-                token_count = gemini.count_tokens(line.strip())
+                token_count = count_tokens(gemini, line.strip())
                 if args.restrict_length:
                     generation_config = {
                         "max_output_tokens": int(token_count
@@ -154,7 +179,7 @@ def main():
 
                 while True:
                     try:
-                        response = gemini.generate_content(turns.to_list())
+                        response = generate_content(gemini, turns.to_list())
                     except Exception as e:
                         logger.error(f"Gemini API error: {e}")
                         if attempt < MAX_ATTEMPTS:

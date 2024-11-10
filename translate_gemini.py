@@ -53,7 +53,7 @@ class MessageDeque:
        stop_max_attempt_number=5)
 def count_tokens(model, prompt):
     try:
-        count = model.count_tokens(prompt=prompt)
+        count = model.count_tokens(prompt)
         return count
     except google.api_core.exceptions.DeadlineExceeded as e:
         print(f"Deadline exceeded: {e}")

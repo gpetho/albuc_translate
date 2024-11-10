@@ -1,10 +1,10 @@
 File: chapter-2.txt
-File Elapsed Time: 0:00:01.045815
-Source file length: 15
-Target file length: 18
+File Elapsed Time: 0:00:00.813631
+Source file length: 18
+Target file length: 15
 Nodes: 340
-Gale-Church Elapsed Time: 2024-11-09 20:43:14.242731
-Align Elapsed Time: 0:02:24.315551
-Calc Anchors Elapsed Time: 2024-11-09 20:43:14.242731
-Greedy Algorithm Elapsed Time: 2024-11-09 20:43:14.242732
-Anchors: [[15, 18]]
+Gale-Church Elapsed Time: 2024-11-10 12:22:54.806694
+Align Elapsed Time: 0:03:11.638422
+Calc Anchors Elapsed Time: 2024-11-10 12:22:54.806695
+Greedy Algorithm Elapsed Time: 2024-11-10 12:22:54.806696
+Anchors: [[18, 15]]

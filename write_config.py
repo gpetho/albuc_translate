@@ -29,7 +29,7 @@ config = {
                          'old_dir': 'mistral_nemo', 'old_fn': 'mistral_nemo'},
         'mistral-small': {'hf': 'mistralai/Mistral-Small-Instruct-2409'},
         'mixtral': {'hf': 'mistralai/Mixtral-8x7B-Instruct-v0.1',
-                    'old_dir': 'mixtral', 'old_fn': 'mixtral'},
+                    'old_dir': 'mixtral', 'old_fn': 'mixtral_8x7b'},
         'nemotron-mini': {'hf': 'nvidia/Nemotron-Mini-4B-Instruct'},
         'phi3': {'hf': 'microsoft/Phi-3-mini-4k-instruct',
                  'old_dir': 'phi3', 'old_fn': 'phi3_3.8b'},

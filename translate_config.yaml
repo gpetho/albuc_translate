@@ -54,7 +54,7 @@ model:
   mixtral:
     hf: mistralai/Mixtral-8x7B-Instruct-v0.1
     old_dir: mixtral
-    old_fn: mixtral
+    old_fn: mixtral_8x7b
   nemotron-mini:
     hf: nvidia/Nemotron-Mini-4B-Instruct
   phi3:

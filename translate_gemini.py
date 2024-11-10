@@ -64,7 +64,7 @@ def count_tokens(model, prompt):
        stop_max_attempt_number=5)
 def generate_content(model, prompt):
     try:
-        response = model.generate_content(prompt=prompt)
+        response = model.generate_content(prompt)
         return response
     except google.api_core.exceptions.DeadlineExceeded as e:
         print(f"Deadline exceeded: {e}")

@@ -198,7 +198,7 @@ def main():
                             logger.info(f"Retrying... {attempt}")
                             continue
                         else:
-                            response.text = '.'
+                            print(line.strip() + '\t' + '.', file=outfile)
                             turns = MessageDeque()
                             break
 
@@ -211,6 +211,11 @@ def main():
                             break
                     else:
                         break
+                
+                try:
+                    response.text
+                except ValueError:
+                    continue                
 
                 if args.verbose:
                     logger.info(turns.to_list())

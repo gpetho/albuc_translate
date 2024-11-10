@@ -2,7 +2,7 @@ import sys
 
 current_chapter = ''
 with (open(f"combined_path_{sys.argv[1]}.txt") as path_f,
-      open(f"unaligned{sys.argv[1]}.txt", "w") as unaligned_f):
+      open(f"unaligned_{sys.argv[1]}.txt", "w") as unaligned_f):
     for line in path_f:
         if line.strip() == '':
             continue
@@ -10,7 +10,7 @@ with (open(f"combined_path_{sys.argv[1]}.txt") as path_f,
             current_chapter = line.strip()
             print(current_chapter, file=unaligned_f)
         else:
-            eng_line, chat_line, score = line.strip().split(':')
+            chat_line, eng_line, score = line.strip().split(':')
             if float(score) > 0:
                 continue
             with (open(f"sentalign_input/{sys.argv[1]}/{current_chapter}") as chat_f,

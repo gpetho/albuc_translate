@@ -1,0 +1,2190 @@
+preface.txt
+[2] []
+Since the practice of manual surgery has fallen in our region, and in our time has been almost entirely lost, until perhaps the knowledge of it perished, and its traces were cut off. Only small descriptions of it remain in the books of the ancients, altered by other hands, where errors and confusion have arisen, until its purposes became closed off and its efficacy weakened. It seemed to me fitting to bring it back to life with the organization of this Treatise, following the way of exposition, clarification, and abbreviation, and to include the forms of the cautery tools and other instruments of the practice, with explanations added and with the necessary urgency.
+
+[] [1]
+For the skilled practitioner of operative surgery is totally lacking in our land and time; so that the knowledge of it is on the point of being blotted out and its remains lost; and there is nothing left of it except a few traces in the books of the Ancients; where, however, it has been so corrupted by the hands of scribes, and subjected to error and confusion, that its meaning has become obscured and its value diminished.
+
+[] [2]
+Therefore I decided to revive this art by expounding, elucidating, and epitomizing it in this treatise; and to present the forms of the cauterizing irons and other operative instruments, since this is an adjunct to explanation and a vital necessity.
+
+[29] []
+On cauterization with fire, and cauterization with sharp medicines, arranged chapter by chapter, and organized from head to foot, with the forms of instruments and cautery tools, and everything necessary for practice. ¶
+
+[] [31]
+Concerning the actual cautery; and cauterization by caustics.
+
+[] [32]
+It is divided into chapters set in order from the head to the feet.
+
+[] [33]
+The shapes of the instruments are shown and the iron cauteries and all things necessary for operating.
+
+chapter-1.txt
+[0] []
+Glory to God alone.
+
+[1] []
+The Book of Surgery by Albucasis.
+
+[2] []
+Part I.
+
+[3] []
+¶ On the Benefit and Harm of Cautery, and for which temperaments it is suitable, and at what time: and whether with iron or with gold.
+
+[4] []
+Chapter I.
+
+[] [0]
+ BOOK ONE
+
+[] [1]
+ ON CAUTERIZATION
+
+[9] []
+But in the case of the hot and dry temperament with matter, there is disagreement.
+
+chapter-1-subchapter-1.txt
+[0] []
+On the method of cauterizing the head at the coronal suture.
+
+[] [1]
+On the single cauterization of the head.
+
+chapter-1-subchapter-2.txt
+[0] []
+On the method of cauterizing the head in cases of pain throughout the entire head.
+
+[2] []
+When chronic pain occurs in the whole head and persists in the patient, and he uses syrups, oils, head purgatives, and ointments.
+
+[3] []
+And especially if it has already been cauterized with the cautery we have described, and none of these treatments help him, then consider the following.
+
+[4] []
+For if the head of the patient is naturally strong and not weak, and he feels intense cold, then cauterize with another cautery slightly below that spot.
+
+[5] []
+Then cauterize on each side of his head with a cautery, until it passes through the skin and exposes the amount of bone we have mentioned.
+
+[6] []
+And cauterize him with one cautery on the back of his head, in the place called "vas," where the cup is applied; lift your hand in this, and do not expose the bone.
+
+[7] []
+For the patient will feel intense pain from this, unlike the pain from the other head cauteries.
+
+[] [1]
+On cauterization of the head (continued).
+
+[] [2]
+ When the whole head is affected by chronic headache which has for long vexed the patient, and electuaries, laxatives, errhines, oils, and plasters have been applied; and particularly if he has undergone the single cauterization which we have described, all with no effect, then look well, and if his head is naturally strong of structure and is not weak, and if he feels a vehement frigidity, cauterize him over again a little above the first cautery; then cauterize him on each frontal prominence with one cautery so as to remove the thickness of the skin and expose as much of the bone as we have mentioned above; and burn him with one stroke on the hinder part of the head in the place known as the occiput; but in this cauterization be gentle and do not lay bare the bone; for thus the patient would have intense pain, different from that of other head cauterizations.
+
+[9] []
+And this is its form.
+
+chapter-1-subchapter-3.txt
+[0] []
+On the method of cauterizing in hemicrania, both with burning medicine and with iron.
+
+[] [1]
+On the cauterization of non-chronic migraine.
+
+chapter-1-subchapter-4.txt
+[] [0]
+ CHAPTER FOUR.
+
+[1] []
+Chapter V.
+
+chapter-1-subchapter-5.txt
+[] [0]
+ CHAPTER FIVE.
+
+[1] []
+Chapter VI.
+
+chapter-1-subchapter-6.txt
+[0] []
+On the method of cauterizing in cases of Tortura.
+
+[] [1]
+Cauterization of the twisted mouth.
+
+chapter-1-subchapter-7.txt
+[] [0]
+ CHAPTER SEVEN.
+
+[1] []
+Chapter VIII.
+
+chapter-1-subchapter-8.txt
+[0] []
+On the method of cauterizing for cases of memory loss.
+
+[] [1]
+On cauterization for lethargy due to phlegm.
+
+chapter-1-subchapter-9.txt
+[0] []
+On the method of cauterizing in cases of paralysis and muscle relaxation.
+
+[] [1]
+On cauterization in palsy and flaccidity of the whole body.
+
+chapter-1-subchapter-10.txt
+[] [0]
+ CHAPTER TEN.
+
+[1] []
+Chapter XI.
+
+[] [6]
+The cautery should be olivary, the shape before described.
+
+chapter-1-subchapter-11.txt
+[] [0]
+ CHAPTER ELEVEN.
+
+[1] []
+Chapter XII.
+
+[5] []
+Next, prepare a liniment.
+
+[6] []
+This is best made from aged sheep’s butter.
+
+chapter-1-subchapter-12.txt
+[0] []
+On the method of cauterizing for water descending to the eye.
+
+[] [1]
+On cautery in cataract of the eye.
+
+chapter-1-subchapter-13.txt
+[] [0]
+ CHAPTER THIRTEEN.
+
+[1] []
+Chapter 14.
+
+chapter-1-subchapter-14.txt
+[] [0]
+ CHAPTER FOURTEEN.
+
+[1] []
+Chapter 15.
+
+chapter-1-subchapter-15.txt
+[] [0]
+ CHAPTER FIFTEEN.
+
+[1] []
+Chapter 16.
+
+[4] []
+And this is the form of the cautery according to this crescent-shaped cautery method.
+
+[] [5]
+The shape of the cautery.
+
+chapter-1-subchapter-16.txt
+[] [0]
+ CHAPTER SIXTEEN.
+
+[1] []
+Chapter 17.
+
+[15] []
+On the method of cauterizing with a burning medicine in the same case.
+
+[16] []
+Chapter 18.
+
+chapter-1-subchapter-17.txt
+[] [0]
+ CHAPTER SEVENTEEN.
+
+[1] []
+Chapter 19.
+
+chapter-1-subchapter-18.txt
+[] [0]
+ CHAPTER EIGHTEEN.
+
+[1] []
+Chapter 20.
+
+chapter-1-subchapter-19.txt
+[] [0]
+ CHAPTER NINETEEN.
+
+[1] []
+Chapter 21.
+
+chapter-1-subchapter-20.txt
+[] [0]
+ CHAPTER TWENTY.
+
+[1] []
+Chapter 22.
+
+chapter-1-subchapter-21.txt
+[] [0]
+ CHAPTER TWENTY-ONE.
+
+[1] []
+Chapter 23.
+
+chapter-1-subchapter-22.txt
+[] [0]
+ CHAPTER TWENTY-TWO.
+
+[1] []
+Chapter 24.
+
+[] [8]
+Cauterize at whichever end you prefer according to circumstances.
+
+[] [9]
+This is the figure of the tube].
+
+chapter-1-subchapter-23.txt
+[] [0]
+ CHAPTER TWENTY-THREE.
+
+[1] []
+Chapter 25.
+
+chapter-1-subchapter-24.txt
+[] [0]
+ CHAPTER TWENTY-FOUR.
+
+[1] []
+Chapter 26.
+
+[] [4]
+Then treat as before prescribed till healed.
+
+chapter-1-subchapter-25.txt
+[0] []
+On the method of cauterizing in the shoulder joint, in dislocation of the shoulder.
+
+[] [1]
+On cauterization of the axilla.
+
+chapter-1-subchapter-26.txt
+[] [0]
+ CHAPTER TWENTY-SIX.
+
+[1] []
+Chapter 28.
+
+[2] []
+When cold and excessive humors occur in the stomach, to the extent that they disrupt its temperament, and phlegm increases, and regular treatments are ineffective, then the patient should be placed on his back, with his legs and arms extended.
+
+[3] []
+Then cauterize with three cauteries: one under the breastbone the size of a single finger with a nail-shaped cautery, and two cauteries below on both sides of this cautery, until a triangular shape is formed by the cauteries.
+
+[4] []
+And leave space between each so that they do not merge when they form pus.
+
+[] [2]
+ When cold and many humidities get into the stomach, so that its constitution is disturbed and much fluxion has come to it, and a variety of treatment has been tried to no effect, the patient must be put on his back with legs and arms outstretched; then give him a threefold cauterization: one a finger's breadth below the hollow of the chest with the claviform cautery; and two below and to the sides of the first cauterization, so that it has a triangular appearance; but there should be some distance between each lest they run together when suppuration sets in.
+
+chapter-1-subchapter-27.txt
+[] [0]
+ CHAPTER TWENTY-SEVEN.
+
+[1] []
+Chapter 29.
+
+chapter-1-subchapter-28.txt
+[] [0]
+ CHAPTER TWENTY-EIGHT.
+
+[1] []
+Chapter 30.
+
+chapter-1-subchapter-29.txt
+[] [0]
+ CHAPTER TWENTY-NINE.
+
+[1] []
+Chapter 31.
+
+[2] []
+The ancients said to use cautery with roots of aristolochia for cold pleurisy in the following manner.
+
+[3] []
+Take a long, dry root of aristolochia, selecting the longest available, approximately the thickness of a finger.
+
+[4] []
+Then immerse it in oil and ignite it in fire.
+
+[5] []
+Then apply one cautery at the point where the furcula meets the neck, and two smaller cauteries slightly downward below the chin.
+
+[] [2]
+ The Ancients mentioned a cauterization for cold pleurisy by means of the roots of the long birthwort, in this fashion: you take the longest you can find of the roots of the long dry birthwort, and of the thickness of one finger; dip this in oil and light it at the fire; then burn the patient with one cauterization in the space between the junction of the neck with the clavicle; and two small cauterizations below the jugular veins, inclining slightly toward the region below the beard.
+
+chapter-1-subchapter-30.txt
+chapter-1-subchapter-31.txt
+[] [0]
+ CHAPTER THIRTY-ONE.
+
+[1] []
+Chapter 33.
+
+chapter-1-subchapter-32.txt
+[] [0]
+ CHAPTER THIRTY-TWO.
+
+[1] []
+Chapter 34.
+
+chapter-1-subchapter-33.txt
+[0] []
+On the Method of Cauterizing for Looseness of the Bowels
+
+[] [1]
+On cauterization for diarrhoea.
+
+chapter-1-subchapter-34.txt
+[0] []
+On the Method of Cauterizing Hemorrhoids
+
+[] [1]
+On cauterization for anal haemorrhoids.
+
+chapter-1-subchapter-35.txt
+[0] []
+On the Method of Cauterizing Althelul (Lesions or Ulcers) after Their Removal
+
+chapter-1-subchapter-36.txt
+[0] []
+On the Method of Cauterizing a Fistula in the Anus
+
+[] [1]
+On the cauterization of fistulae in the anal and peri-anal regions.
+
+chapter-1-subchapter-37.txt
+[] [0]
+ CHAPTER THIRTY-SEVEN.
+
+[1] []
+Chapter 39.
+
+[3] []
+You may also cauterize again on the lower back (almeidatu).
+
+[4] []
+Thus, three linear cauterizations will be done.
+
+[5] []
+This will provide the best therapeutic outcome.
+
+[] [3]
+I have often burnt him with a third cauterization on the flat of the back, making three cauterizations in a line, which is most effective.
+
+chapter-1-subchapter-38.txt
+[] [0]
+ CHAPTER THIRTY-EIGHT.
+
+[1] []
+Chapter 40.
+
+chapter-1-subchapter-39.txt
+[] [0]
+ CHAPTER THIRTY-NINE.
+
+[1] []
+Chapter 41.
+
+chapter-1-subchapter-40.txt
+[] [0]
+ CHAPTER FORTY.
+
+[1] []
+Chapter 42.
+
+[4] []
+Use the same cautery form as used for the stomach.
+
+chapter-1-subchapter-41.txt
+[] [0]
+ CHAPTER FORTY-ONE.
+
+[1] []
+Chapter 43
+
+[24] []
+This is the design of the cautery tool.
+
+[] [22]
+Here is the figure.
+
+[42] []
+This is the method of using hot water, as I have detailed in my treatise on refining medical treatments.
+
+[] [35]
+Now this is the description of the caustic; I have already put it in my treatise on the improvement of drugs: take of the salt of potash and quicklime, equal parts, and beat them both up well and put them into a new earthen pot, in the bottom of which you have made a small hole of a size to take a probe.
+
+[] [46]
+If he is not cured repeat the plaster in ten days' time and then he will be healed.
+
+[58] []
+Place this charcoal on the wool and let it burn out.
+
+[59] []
+Repeat this process.
+
+chapter-1-subchapter-42.txt
+[] [0]
+ CHAPTER FORTY-TWO.
+
+[1] []
+Chapter 44.
+
+chapter-1-subchapter-43.txt
+[] [0]
+ CHAPTER FORTY-THREE.
+
+[1] []
+Chapter 45.
+
+chapter-1-subchapter-44.txt
+[] [0]
+ CHAPTER FORTY-FOUR.
+
+[1] []
+Chapter 46.
+
+[5] []
+This is its form.
+
+chapter-1-subchapter-45.txt
+[] [0]
+ CHAPTER FORTY-FIVE.
+
+[1] []
+Chapter 47.
+
+[7] []
+Then return the intestine or fatty tissue to its cavity.
+
+[] [6]
+When it is white hot and emits sparks then return the intestine or omentum into his abdominal cavity, and have an assistant put his hand over the place to prevent the exit of the intestine.
+
+[] [12]
+Then dress the site of the cauterization till it heals.
+
+[] [13]
+After three days, treat the site of cauterization with butter until the eschar from the burn departs.
+
+chapter-1-subchapter-46.txt
+[0] []
+On the method of cauterizing for pains caused by a fall or blow.
+
+[] [1]
+On cauterization for contusion.
+
+chapter-1-subchapter-47.txt
+[] [0]
+ CHAPTER FORTY-SEVEN.
+
+[1] []
+Chapter 49.
+
+[6] []
+However, if leprosy has spread over the patient and is clearly visible, then apply the cauteries as we described on the head, one on the tip of the nose, two on each cheek, two on the vertebrae of the neck, six on the vertebrae of the back, a large one on the sacrum at the base of the spine, one just above it, two on the hips (one on each hip), two on the knees (one on each knee), two on the shoulders, two on the elbows, two on the softer parts of the chest; cauterize every joint, including the joints of the fingers of both hands and feet; also cauterize on every heel and the backs of the hands.
+
+[] [6]
+If the elephantiasis be widespread over the patient and appears obvious, you should give him, as well as the cauterizations described for the head: one at the end of the nose; two over the cheek bones; two over the cervical vertebrae; six over the dorsal vertebrae; a great one over the coccyx by the last vertebra of the tail; another above that on the flat of the back; two over the hip joints, one on either hip; two on the knees, one on either knee; two over the shoulders; two on the elbows; and two on the upper part of the breast; and burn him once on each joint of his fingers and toes, and on each ankle and on each forearm.
+
+chapter-1-subchapter-48.txt
+[] [0]
+ CHAPTER FORTY-EIGHT.
+
+[1] []
+Chapter 50.
+
+chapter-1-subchapter-49.txt
+[0] []
+On the method of cauterizing for vitiligo (white patches).
+
+[] [1]
+On cauterization for leprosy.
+
+chapter-1-subchapter-50.txt
+[] [0]
+ CHAPTER FIFTY.
+
+[1] []
+Chapter 52.
+
+chapter-1-subchapter-51.txt
+[] [0]
+ CHAPTER FIFTY-ONE.
+
+[1] []
+Chapter 53.
+
+chapter-1-subchapter-52.txt
+[0] []
+On the method of cauterizing a corroding sore or ulcer.
+
+[] [1]
+On cauterization of gangrene.
+
+chapter-1-subchapter-53.txt
+[0] []
+On the method of cauterizing corns and warts.
+
+[] [1]
+On the cauterization of corns, inverted and otherwise.
+
+chapter-1-subchapter-54.txt
+[] [0]
+ CHAPTER FIFTY-FOUR.
+
+[1] []
+Chapter 56.
+
+chapter-1-subchapter-55.txt
+[0] []
+On the method of cauterizing pustules or boils known as Albathir.
+
+[] [1]
+On the cauterization of pustules occurring on the body.
+
+chapter-1-subchapter-56.txt
+[] [0]
+ CHAPTER FIFTY-SIX.
+
+[1] []
+Chapter 58.
+
+[13] []
+Or by tightly tying it with a thread.
+
+[19] []
+End of the First Part.
+
+chapter-2.txt
+[0] []
+The Surgical Book of Albucasis, Part II.
+
+[] [0]
+ BOOK TWO
+
+[9] []
+And with sickness, there is a fear which signifies death.
+
+chapter-2-subchapter-1.txt
+[0] []
+On the treatment of Water that gathers in the heads of children.
+
+[] [1]
+On the cure of hydrocephalus.
+
+chapter-2-subchapter-2.txt
+[0] []
+On the incision of the Arteries which are behind the ears.
+
+[] [1]
+On the incision of the occipital arteries.
+
+[3] []
+Therefore, when you wish to incise them, the patient must shave his head.
+
+chapter-2-subchapter-3.txt
+[0] []
+On the extraction of the arteries that are in the temples.
+
+[] [1]
+On the extraction of the temporal arteries.
+
+[5] []
+If it is hidden, then the patient should bind their head with any cloth available, and then rub the area with a rough cloth.
+
+[6] []
+Or, steam the area with warm water until it becomes clearly visible.
+
+[7] []
+Then take the spatula that I have previously described.
+
+[8] []
+Then peel back the skin gently with it until you reach the artery.
+
+[9] []
+Next, insert a hook into it and pull it upwards, lifting it out of the skin, and free it from the membranes surrounding it on all sides.
+
+[] [4]
+But if it is not plain to you then let the patient bind his neck with the end of his garment; then do you rub the place with a piece of cloth or foment with hot water, till the artery is obvious to you; then take a scalpel shaped thus; then with it gently scrape away the skin till you come to the artery, then stick a hook in it and draw it upward till you extract it from the skin and free it all round from the membranes that are beneath it.
+
+[] [15]
+Bring it down, very hot, till it reaches the bone and the artery is cut in two places, so as to put some distance between the two ends, for it will certainly not unite after this cauterization.
+
+[] [16]
+This is the form of the cautery.
+
+[31] []
+For they do not heal completely with this cautery.
+
+[32] []
+And this is the shape of the cautery.
+
+chapter-2-subchapter-4.txt
+[] [0]
+ CHAPTER FOUR.
+
+[1] []
+Chapter IV.
+
+[3] []
+And it is, that you instruct the patient to shave the hairs that are on his forehead.
+
+[4] []
+Then cut three parallel incisions in the forehead along the length of the forehead: and let the length of each incision be about two fingers, and let one incision be aligned with the length of the nose in the middle of the forehead, and the second along the length slightly away from the movement of the muscles, and the third on the other side: and beware of cutting the arteries that are on both sides: and keep your hand away from the connection of the two jaws, and let the space of each incision be the width of three joined fingers: and have a piece of sponge prepared for yourself, or many dry cloths, with which you may dry the blood.
+
+[5] []
+Then insert the "spatumile" with two sharp ends, whose form follows immediately.
+
+[] [3]
+You bid the patient shave the hair of his forehead; then you make three parallel incisions across his forehead a little apart; and let the length of each incision be two fingers' breadths; the first incision continuing the line of the nose in the middle of the forehead; and the second at a little distance from the temporal muscle; and the third incision on the other side of the forehead.
+
+[] [5]
+Have ready by you some pieces of sponge or a number of linen towels to wipe away the blood.
+
+chapter-2-subchapter-5.txt
+[] [0]
+ CHAPTER FIVE.
+
+[1] []
+Chapter V.
+
+chapter-2-subchapter-6.txt
+[] [0]
+ CHAPTER six.
+
+[1] []
+Chapter VI.
+
+chapter-2-subchapter-7.txt
+[] [0]
+ CHAPTER SEVEN.
+
+[1] []
+Chapter VII.
+
+chapter-2-subchapter-8.txt
+[0] []
+¶ On the Treatment of Altheli of the Eyelids.
+
+[] [1]
+On the treatment of warts on the eyelids.
+
+chapter-2-subchapter-9.txt
+[0] []
+¶ On the Treatment of Hailstones of the Eyelids of the Eye.
+
+[] [1]
+On the treatment of stones occurring in the eyelids.
+
+chapter-2-subchapter-10.txt
+[0] []
+¶ On the Treatment of Axirnath of the Eyelids.
+
+[] [1]
+On the treatment of hydatid in the upper lid.
+
+chapter-2-subchapter-11.txt
+[0] []
+On the methods of treating Ataxmir of the eye, that is, when the eyelid of the eye becomes softened, causing it to wrinkle as it should not.
+
+[] [1]
+On the various methods of blepharoplasty.
+
+[3] []
+And indeed, Ataxmir of the eye is treated in four ways.
+
+[15] []
+For there are those who require a large portion to be cut from the eyelid, depending on the amount that is softened in the eyelid.
+
+[] [9]
+In some cases you should cut away a fair amount in proportion to the ptosis but in others a smaller incision is enough; all this in due proportion to the extent of the ptosis.
+
+chapter-2-subchapter-12.txt
+[] [0]
+ CHAPTER TWELVE.
+
+[1] []
+Chapter XII.
+
+chapter-2-subchapter-13.txt
+[0] []
+On the treatment of Alxatrati, which occurs in the upper eyelid.
+
+chapter-2-subchapter-14.txt
+[0] []
+On the treatment of Alxatrati occurring in the lower eyelid, which is a wrinkling or contraction upward to the right and left.
+
+[] [1]
+On the treatment of entropion of the lower lid.
+
+chapter-2-subchapter-15.txt
+[] [0]
+ CHAPTER FIFTEEN.
+
+[1] []
+Chapter XV.
+
+chapter-2-subchapter-16.txt
+[0] []
+On the incision of the ungula (growth) and the fleshy prominence near the tear duct.
+
+[] [1]
+On incision of ungula and excrescence of the canthus.
+
+chapter-2-subchapter-17.txt
+[0] []
+On the incision of Alguardenic and the flesh that has grown in the eye.
+
+[] [1]
+On cutting for chemosis and superfluous flesh in the eye.
+
+chapter-2-subchapter-18.txt
+[0] []
+On the removal of Sebel from the eye.
+
+[] [1]
+On gathering up pannus from the eye.
+
+[] [14]
+The principle in the operation is that the eye be opened with double or triple openers held by a skilful pupil, the patient's head being in that pupil's lap, while another wipes away the tears and carefully watches the internal and external angles of the eye.
+
+[] [15]
+You have the choice between beginning the removal from the top or from the bottom of the eye.
+
+[] [16]
+The best method is to fix two hooks in the upper side, one at the end of the iris and the other at the beginning of it.
+
+[] [17]
+Hold them between your middle and first fingers.
+
+[] [18]
+Then attach hooks below the points of the first two, and hold them between your third and fourth fingers.
+
+[] [19]
+Raise your hand slightly until you see that the whole pannus has been lifted.
+
+[] [20]
+Then cut from the lesser angle, with scissors or a fine scalpel, as you wish.
+
+[] [21]
+Introduce the scraping-needle and cut away the entire pannus until it is lifted over the conjunctiva.
+
+[] [22]
+Do not interrupt the wiping, for tears and blood will flow and hinder you.
+
+[] [23]
+Then cut with scissors what is left over the iris, from above and below, until nothing remains adhering except over the cornea.
+
+[] [24]
+If you can remove it from over the cornea, peel with the scraping-needle, for it is better, and in some cases is easily done.
+
+[] [25]
+When you cut it, its ... will come out for some days].
+
+chapter-2-subchapter-19.txt
+[0] []
+On the reduction of Arissati to the nose.
+
+[] [1]
+On turning a fistula into the nose.
+
+chapter-2-subchapter-20.txt
+[0] []
+On the reduction of the protrusion of the eye.
+
+[] [1]
+On the reduction of exophthalmos.
+
+chapter-2-subchapter-21.txt
+[0] []
+On the incision of the uveal layer.
+
+[] [1]
+On cutting for staphyloma.
+
+chapter-2-subchapter-22.txt
+[0] []
+On the treatment of Alcomnati.
+
+[] [1]
+On the treatment of hypopyon.
+
+chapter-2-subchapter-23.txt
+[0] []
+On the treatment of water that descends into the eye, or cataract.
+
+[] [1]
+On the couching of cataract.
+
+[32] []
+Forms of the almagda.
+
+chapter-2-subchapter-24.txt
+[] [0]
+ CHAPTER TWENTY-FOUR.
+
+[1] []
+Chapter 24.
+
+[20] []
+And this is the form of the instrument.
+
+chapter-2-subchapter-25.txt
+[0] []
+On the treatment of *thelul* (small nasal tumor) in the nose.
+
+chapter-2-subchapter-26.txt
+[] [0]
+ CHAPTER TWENTY-SIX.
+
+[1] []
+Chapter 26.
+
+chapter-2-subchapter-27.txt
+[] [0]
+ CHAPTER TWENTY-SEVEN.
+
+[1] []
+Chapter 27.
+
+chapter-2-subchapter-28.txt
+[] [0]
+ CHAPTER TWENTY-EIGHT.
+
+[1] []
+Chapter 28.
+
+chapter-2-subchapter-29.txt
+[] [0]
+ CHAPTER TWENTY-NINE.
+
+[1] []
+Chapter 29.
+
+[] [7]
+ .
+
+chapter-2-subchapter-30.txt
+[] [0]
+ CHAPTER THIRTY.
+
+[1] []
+Chapter 30.
+
+[] [18]
+And this is the shape of the large forceps.
+
+[] [19]
+As you see, they have thick handles so that when you apply pressure with them they do not give or bend; and short jaws.
+
+[] [20]
+They should be of Indian iron or of steel, strongly made, the jaws tempered and having teeth fitting into each other so that a sure and firm grip may be obtained.
+
+chapter-2-subchapter-31.txt
+[] [0]
+ CHAPTER THIRTY-ONE.
+
+[1] []
+Chapter 31.
+
+[10] []
+Another useful instrument has two branches and this shape.
+
+chapter-2-subchapter-32.txt
+[] [0]
+ CHAPTER THIRTY-TWO.
+
+[1] []
+Chapter 32.
+
+chapter-2-subchapter-33.txt
+[] [0]
+ CHAPTER THIRTY-THREE.
+
+[1] []
+Chapter 33.
+
+[] [13]
+Both illustrations are from H. There is no figure in M.
+
+chapter-2-subchapter-34.txt
+[0] []
+On Cutting the Lingual Frenulum that Limits Speech.
+
+[8] []
+If bleeding occurs, apply powdered *zegi* (a hemostatic agent) to the site.
+
+chapter-2-subchapter-35.txt
+[0] []
+On Removing a *Ranula* (Cyst) Beneath the Tongue.
+
+chapter-2-subchapter-36.txt
+[0] []
+On the treatment of abscess of the two tonsils.
+
+[] [1]
+On the treatment of swelling of the tonsils and other swellings in the throat.
+
+chapter-2-subchapter-37.txt
+[0] []
+On the incision of an abscess of the uvula.
+
+[] [1]
+On removal of the tumour of the uvula that is called 'uva'.
+
+chapter-2-subchapter-38.txt
+[0] []
+On the extraction of thorns and bones from the throat.
+
+[] [1]
+On the extraction of a fish-bone or anything else that sticks in the throat.
+
+[] [6]
+Do this a number of times; for often the sharp body or bone will stick to the sponge and will come out.
+
+chapter-2-subchapter-39.txt
+[0] []
+On the extraction of a leech.
+
+[] [1]
+On the removal of a leech sticking in the throat.
+
+[] [16]
+And another instrument with which to depress the tongue.
+
+[] [17]
+It is a wide ring of iron, of such a size as to go into the mouth above the tongue.
+
+[] [18]
+It is inserted into the mouth standing on its side, and the mouth stays open without the patient's volition; nor can he dislodge it at all until you turn it.
+
+[] [19]
+Inside the ring appear the words: 'The pattern of the instrument for opening the mouth; exactly of this size'
+
+chapter-2-subchapter-40.txt
+[0] []
+On the opening of abscesses, and their incision and treatment in general.
+
+[] [1]
+A general dissertation on the perforation and incision of tumours.
+
+[21] []
+Such as an inguinal abscess.
+
+[] [23]
+a tumour on the groin.
+
+chapter-2-subchapter-41.txt
+[] [0]
+ CHAPTER FORTY-ONE.
+
+[1] []
+Chapter 41.
+
+chapter-2-subchapter-42.txt
+[0] []
+On the incision of strophulas (small, often cystic or glandular swellings) in the neck.
+
+[] [1]
+On the incision of scrofulous glands in the neck.
+
+chapter-2-subchapter-43.txt
+[] [0]
+ CHAPTER FORTY-THREE.
+
+[1] []
+Chapter 43.
+
+chapter-2-subchapter-44.txt
+[0] []
+On the cutting of a throat hernia.
+
+[] [1]
+On cutting down upon the tumour which occurs on the outside of the throat, and is called 'Elephant of the throat'.
+
+[5] []
+The accidental type, however, has two forms: one of which is similar to fatty nodes.
+
+[6] []
+The other form is similar to an abscess that arises from the swelling of an artery.
+
+[7] []
+And in it there is danger, and one should not presume to treat it with a knife, unless it is small: and you should test it, and investigate it with a probe.
+
+[8] []
+If you find it similar to a fatty node, and it is not connected to any veins, then cut it as nodes are cut: and remove it with whatever it contains from a cyst, if it is in a cyst: and if not, then inspect it fully.
+
+[9] []
+Then treat the area with what is required for healing, until it is cured.
+
+[] [5]
+The acquired is of two kinds: one resembles a sebaceous cyst, the other resembles the tumour arising from an arterial aneurysm, and it is dangerous to incise it, so on no account must you apply a knife to the latter kind, except any that are small; if you try and explore them with a probe and you find they are like sebaceous cysts and not adherent to any blood-vessel, then immediately cut down upon them as you would a cyst and remove them with whatever capsule may surround them, if they are contained within a capsule; and if not, dissect away the whole accurately; then treat the place with suitable remedies.
+
+chapter-2-subchapter-45.txt
+[] [0]
+ CHAPTER FORTY-FIVE.
+
+[1] []
+Chapter 45.
+
+chapter-2-subchapter-46.txt
+[] [0]
+ CHAPTER FORTY-SIX.
+
+[1] []
+Chapter 46.
+
+[] [4]
+ This is the figure of the large explorer.
+
+[] [5]
+Figure of the medium explorer.
+
+[] [6]
+Figure of the small explorer.
+
+[] [10]
+ Figure of the large probe.
+
+[] [11]
+ Figure of the medium probe.
+
+[] [12]
+Figure of the small probe.
+
+[] [19]
+The large lead probe.
+
+[] [20]
+The medium lead probe.
+
+[] [21]
+The small lead probe.*
+
+[] [25]
+There are also the blind hooks, of which there are three kinds.
+
+[] [30]
+ The large, medium, and small simple hook.
+
+[] [31]
+ The large and medium blind hooks.
+
+[] [32]
+The small blind hook.
+
+[] [33]
+ The large, medium, and small, double-pronged hooks
+
+[] [34]
+ The large triple-pronged hook.
+
+[] [35]
+The medium, and small triplepronged hooks.
+
+[] [38]
+Figure of the large scarifying scalpel.
+
+[] [39]
+Figure of the medium scarifying scalpel.
+
+[] [40]
+Figure of the small scarifying scalpel.
+
+[19] []
+These are Magda, and they are of three types.
+
+[] [43]
+Here are the figures of the 'deceivers' of which also there are three kinds, large, medium, and small.
+
+chapter-2-subchapter-47.txt
+[] [0]
+ CHAPTER FORTY-SEVEN.
+
+[1] []
+Chapter 47.
+
+chapter-2-subchapter-48.txt
+[0] []
+On the perforation of abscesses occurring beneath the Titillicus.
+
+[] [1]
+On the opening of axillary tumours.
+
+chapter-2-subchapter-49.txt
+[] [0]
+ CHAPTER FORTY-NINE.
+
+[1] []
+Chapter 49.
+
+chapter-2-subchapter-50.txt
+[] [0]
+ CHAPTER FIFTY.
+
+[1] []
+Chapter 50.
+
+chapter-2-subchapter-51.txt
+[] [0]
+ CHAPTER FIFTY-ONE.
+
+[1] []
+Chapter 51.
+
+chapter-2-subchapter-52.txt
+[] [0]
+ CHAPTER FIFTY-TWO.
+
+[1] []
+Chapter 52
+
+[6] []
+If the cause is a fissure in the membrane with a protruding mass, the abscess’s color resembles that of the surrounding skin. It is soft, painless, and appears in different locations.
+
+[7] []
+If the cause is the protrusion of the intestine, it will display a more pronounced difference, as previously described.
+
+[8] []
+When you press it with your fingers, it recedes but then reappears and might make a sound. It becomes more pronounced in the bath or with intense activity.
+
+[] [3]
+If it be due to ruptured peritoneum and protruding omentum, the colour of the tumour will be the same as the rest of the body; it will be soft and painless and will seem to change its position; But if it be due to an escape of bowel the change of position, compared with what we have described, will be greater, and it will disappear on digital pressure, and then will recur; and often there will be crepitus with it, and it will increase in size on entering the bath or on violent exertion.
+
+[19] []
+Afterward, lift the center of the abscess upward with a large hook.
+
+[20] []
+Then secure it firmly in a circular manner with a strong thread or silk cord, tying a tight knot.
+
+chapter-2-subchapter-53.txt
+[] [0]
+ CHAPTER FIFTY-THREE.
+
+[1] []
+Chapter 53.
+
+chapter-2-subchapter-54.txt
+[] [0]
+ CHAPTER FIFTY-FOUR.
+
+chapter-2-subchapter-55.txt
+[0] []
+On the treatment of infants who are born with unperforated urinary passages.
+
+[9] []
+Those in whom the opening is in an improper place are harmed.
+
+chapter-2-subchapter-56.txt
+[0] []
+On Albather, which occurs in the foreskin and head of the penis, and on decay, discoloration, and adhesion.
+
+[] [1]
+On pustules occurring on the prepuce and on the glans; and blackness and necrosis and adhesions between glans and prepuce.
+
+chapter-2-subchapter-57.txt
+[] [0]
+ CHAPTER FIFTY-SEVEN.
+
+[1] []
+Chapter 57.
+
+[17] []
+Then tie the marked spot with double thread.
+
+chapter-2-subchapter-58.txt
+[] [0]
+ CHAPTER FIFTY-EIGHT.
+
+[1] []
+Chapter 58.
+
+chapter-2-subchapter-59.txt
+[0] []
+On the nature of the irrigation of the bladder with the clepsydra.
+
+[] [1]
+On the manner of irrigating the bladder with a syringe, and the forms of the instruments that serve for that.
+
+chapter-2-subchapter-60.txt
+[] [0]
+ CHAPTER SIXTY.
+
+[1] []
+Chapter 60.
+
+[] [6]
+I shall now give a short description of this with a clear explanation and summary.
+
+[16] []
+Then introduce the cutting Spatumile, which has this shape.
+
+chapter-2-subchapter-61.txt
+[] [0]
+ CHAPTER SIXTY-ONE.
+
+[1] []
+Chapter 61.
+
+chapter-2-subchapter-62.txt
+[] [0]
+ CHAPTER SIXTY-TWO.
+
+[1] []
+Chapter 62.
+
+chapter-2-subchapter-63.txt
+[] [0]
+ CHAPTER SIXTY-THREE.
+
+[1] []
+Chapter 63.
+
+chapter-2-subchapter-64.txt
+[] [0]
+ CHAPTER SIXTY-FOUR.
+
+[1] []
+Chapter 64.
+
+chapter-2-subchapter-65.txt
+[] [0]
+ CHAPTER SIXTY-FIVE.
+
+[1] []
+Chapter 65.
+
+[20] []
+Then take a needle, in which there is a thick thread, made of linen from ten threads: and insert it at the base of the membrane, that is, the tunic which is under the skin of the testicles that follows the incision: then cut the ends that extend from the thread, until there are four threads.
+
+[21] []
+Then arrange some of them over others in a shape like a cross: and tie the membrane, of which we spoke, that is under the skin of the testicles with a strong ligature, so that none of the vessels that nourish them can send anything to them, so that a warm swelling does not occur from there.
+
+[22] []
+And again place a second ligature outside the first ligature, two fingers away from it.
+
+[23] []
+And after these two ligatures, leave a portion of the membrane under the skin of the testicles, the size of a finger’s breadth, and cut the rest completely around, and remove the egg from it.
+
+[] [17]
+Then take a needle with a stout tenfold thread and enter it near the end of the membrane which lies beneath the skin of the testicles alongside the rupture; then cut the end of the loop of thread to make four sutures and arrange one over the other in the form of a cross; and with these ligate the membrane of which we have spoken with a strong ligature on each side; then twist the ends of the thread and tie them with a strong knot to prevent anything from reaching the nutrient vessels of the testicles, lest an abscess occur thereby; and make also another ligature outside the first one, rather less than two fingers' breadth from it; and after making these two ligatures leave a finger's breadth of the membrane that is beneath the skin of the testicles and cut the rest away round, and with it remove the testis.
+
+chapter-2-subchapter-66.txt
+[] [0]
+ CHAPTER SIXTY-SIX.
+
+[1] []
+Chapter 66.
+
+chapter-2-subchapter-67.txt
+[] [0]
+ CHAPTER SIXTY-SEVEN.
+
+[1] []
+Chapter 67.
+
+[12] []
+Then treat it with wound care.
+
+chapter-2-subchapter-68.txt
+[] [0]
+ CHAPTER SIXTY-EIGHT.
+
+[1] []
+Chapter 68.
+
+chapter-2-subchapter-69.txt
+[] [0]
+ CHAPTER SIXTY-NINE.
+
+[1] []
+Chapter 69.
+
+chapter-2-subchapter-70.txt
+[] [0]
+ CHAPTER SEVENTY.
+
+[1] []
+Chapter 70.
+
+chapter-2-subchapter-71.txt
+[] [0]
+ CHAPTER SEVENTY-ONE.
+
+[1] []
+Chapter 71.
+
+chapter-2-subchapter-72.txt
+[0] []
+On the treatment of Alratica, the condition of an imperforate vulva in women.
+
+[] [1]
+On the treatment of unperforated female pudenda.
+
+chapter-2-subchapter-73.txt
+[] [0]
+ CHAPTER SEVENTY-THREE.
+
+[1] []
+Chapter 73.
+
+chapter-2-subchapter-74.txt
+[] [0]
+ CHAPTER SEVENTY-FOUR.
+
+[1] []
+Chapter 74.
+
+[8] []
+The form of this instrument is shown in the following illustrations.
+
+chapter-2-subchapter-75.txt
+[] [0]
+ CHAPTER SEVENTY-FIVE.
+
+[1] []
+Chapter 75.
+
+[17] []
+_When the fetus emerges feet-first_
+
+[29] []
+_When the fetus emerges on its knees and hands_
+
+[30] []
+When the fetus emerges in this way, she must carefully insert her hands gradually.
+
+[31] []
+Then the woman should be laid back on her neck, with her legs hanging down, lying on the bed with her hands folded.
+
+[32] []
+Then gently press on her abdomen.
+
+[33] []
+Then remove what is beneath her feet from the cushions, so that she is prepared at the lower part.
+
+[34] []
+If the fetus does not emerge, take its feet and shake them with firm motion.
+
+[35] []
+Next, press gradually above the lower abdomen until the fetus moves upward.
+
+[36] []
+Then insert her hands, gradually aligning the fetus, and instruct the woman to bear down until the fetus emerges.
+
+[37] []
+_When the fetus is hanging laterally by its arms_
+
+[] [25]
+ Presentation of the foetus by knees and hands : when it comes out after this manner you should seek to introduce the hands slowly; then let the woman lie back on her shoulders with her feet hanging down, reclining on a couch with her hands clasped together; then very gently put pressure upon the abdomen; then take away the pillows from under her feet until her lower parts are vertical ; and if the foetus does not come out then, take both her feet and shake them violently ; then press upon her costal margin until the foetus ascends ; then let the midwife insert her hand and put the foetus in the right position, very gently, and bid the woman bear down, until the infant is born.
+
+[50] []
+_When the fetus is positioned sideways_
+
+chapter-2-subchapter-76.txt
+[] [0]
+ CHAPTER SEVENTY-SIX.
+
+[1] []
+Chapter 76.
+
+[12] []
+And it is necessary that, in between these actions, the extension is softened.
+
+[] [34]
+So I investigated the place and got out many bones belonging to the head of the foetus.
+
+chapter-2-subchapter-77.txt
+[] [0]
+ CHAPTER SEVENTY-SEVEN.
+
+[1] []
+Chapter 77.
+
+[] [2]
+ Speculum for opening the entrance of the womb.
+
+[6] []
+The form of the pivot with which the womb is opened.
+
+[16] []
+The form of the Almisdac with which a small head is crushed.
+
+[] [15]
+Figure of another thruster.
+
+[] [17]
+This is a hook which should be rather thick so as not to break when extracting the foetus.
+
+[19] []
+The form of forceps with serrated teeth, with which the head of the fetus is crushed.
+
+chapter-2-subchapter-78.txt
+[] [0]
+ CHAPTER SEVENTY-EIGHT.
+
+[1] []
+Chapter 78.
+
+chapter-2-subchapter-79.txt
+[] [0]
+ CHAPTER SEVENTY-NINE.
+
+[1] []
+Chapter 79.
+
+chapter-2-subchapter-80.txt
+[] [0]
+ CHAPTER EIGHTY.
+
+[1] []
+Chapter 80.
+
+[] [26]
+Then treat with healing salve until healed.
+
+chapter-2-subchapter-81.txt
+[] [0]
+ CHAPTER EIGHTY-ONE.
+
+[1] []
+Chapter 81.
+
+[5] []
+And they are outside the anus, and on its edges.
+
+chapter-2-subchapter-82.txt
+[0] []
+On the treatment of inward and outward Almirmar, and of dry Athelil, and of Formica.
+
+[] [1]
+On the treatment of corns, inverted and otherwise, and dry warts and pimples.
+
+chapter-2-subchapter-83.txt
+[] [0]
+ CHAPTER EIGHTY-THREE.
+
+[1] []
+Chapter 83.
+
+[6] []
+Small enema.
+
+chapter-2-subchapter-84.txt
+[0] []
+On the treatment of head wounds without fracture of the bone.
+
+[] [1]
+On the cure of wounds.
+
+[32] []
+Chapter 85.
+
+[48] []
+Chapter 86.
+
+chapter-2-subchapter-85.txt
+[] [0]
+ CHAPTER EIGHTY-FIVE.
+
+[1] []
+Chapter 87.
+
+[98] []
+Then return it to the rupture.
+
+chapter-2-subchapter-86.txt
+[] [0]
+ CHAPTER EIGHTY-SIX.
+
+[1] []
+Chapter 88.
+
+[8] []
+One of these causes is either the body's lack of blood, or its malignancy; or because there is hard flesh between it and above its edges, preventing the growth of flesh; or because there is much filth and foulness; or because the ulcer itself is putrid, and the substance discharged into it is of poor quality; or because the medicine is unsuitable for its healing; or because a type of pestilence has fallen upon the area; or due to a regional property, as occurs in Zaragoza, where the digestion of ailments is difficult, and the healing of swellings is delayed by nature; or because there is a bone or several bones in it.
+
+[] [6]
+One is lack, or poorness, of blood in the body; or it may be because the hardness of the tissues, internally and at the edges of the opening, prevents the growth of sound tissue; or it may be because of the abundance of foul and evil matter; or it may be because the ulcer is necrotic in itself and the matter that it discharges is of bad quality; as also it may be because the remedy used in treating it is not suitable; or again it may be because of corruption arising at that locality, of the nature of pestilence; or it may be due to something special and peculiar in the locality—as happens in the city of Saragossa, where diseases tend to linger and tumours are naturally slow to heal; or it may be due to one or more bones in it.
+
+[81] []
+Form of the saw.
+
+[] [67]
+ Saw.
+
+[83] []
+Form of yet another saw.
+
+[84] []
+Form of yet another saw.
+
+[85] []
+This form of the saw is depicted, let it be made properly.
+
+[86] []
+Let its upper arc be made, with sharpness from iron; its handle from boxwood, and let it be shaped like a pyramid, made properly.
+
+[] [69]
+ A small saw.
+
+[] [70]
+ A large saw.
+
+[91] []
+Form of a medium scraper.
+
+[] [75]
+Firm (bow) saw.
+
+[] [76]
+The upper bow and the blade are made of iron, the handle of box-wood, turned and firmly fixed.
+
+[97] []
+Form of the scraper with which bones are incised.
+
+[98] []
+Form of a large scraper as well.
+
+[] [82]
+Osteotome.
+
+[] [83]
+ Another osteotome, small.
+
+[] [84]
+Another scraper.
+
+chapter-2-subchapter-87.txt
+[] [0]
+ CHAPTER EIGHTY-SEVEN.
+
+[1] []
+Chapter 89.
+
+chapter-2-subchapter-88.txt
+[] [0]
+ CHAPTER EIGHTY-EIGHT.
+
+[1] []
+Chapter 90.
+
+[2] []
+When an abscess occurs in certain fleshy members, and the duration of the abscess extends until it collects pus: then it bursts or is pierced, and what is inside it comes out as pus, and a hollow space remains as if it were a vessel: and the skin that is over it is like a cloth that has already been thinned, and it does not reach the deepest corruption, nor does it press on bone, nerve, or ligament: it deserves to be called a sinus and is not called a fistula: however, if its space extends until the corruption reaches one of these parts, then it is called a fistula or zuken.
+
+[] [2]
+ When an abscess occurs in any of the fleshy parts and becomes chronic and eventually collects pus, and then it breaks open or is perforated, and all the contained matter comes out and the site is left hollow, like a vessel, and the overlying skin thinned like a rag, but the suppuration has not gone so far as to involve bone or tendon or ligament—and hence it merits the name of 'sinus' and is not called a fistula.
+
+[] [3]
+But if it goes on until the disease involves any of these parts it is then called a fistula or defluxion.
+
+[21] []
+Then cut a hole with scissors directly at the opening of the sinus, slightly larger than the sinus opening.
+
+[22] []
+Then spread mild ointments over another cloth, according to the size of the hole, and place it over the area, keeping it slightly away from the sinus opening, to ease the exit of pus from it; and do not remove the large cloth except once after a few days.
+
+[31] []
+And similar to this procedure, when dyafinicon ointment is not available, is honey, when you boil it until it thickens, and use it.
+
+[] [30]
+The same sort of thing may be done with honey if you have no
+
+chapter-2-subchapter-89.txt
+[] [0]
+ CHAPTER EIGHTY-NINE.
+
+[1] []
+Chapter 91.
+
+chapter-2-subchapter-90.txt
+[] [0]
+ CHAPTER NINETY.
+
+[1] []
+Chapter 92.
+
+[] [19]
+Then pull it and draw it out until it emerges from the second incision.
+
+chapter-2-subchapter-91.txt
+[] [0]
+ CHAPTER NINETY-ONE.
+
+[1] []
+Chapter 93.
+
+chapter-2-subchapter-92.txt
+[] [0]
+ CHAPTER NINETY-TWO.
+
+[1] []
+Chapter 94.
+
+[6] []
+It is feared for its malignancy.
+
+chapter-2-subchapter-93.txt
+[] [0]
+ CHAPTER NINETY-THREE.
+
+[1] []
+Chapter 95.
+
+chapter-2-subchapter-94.txt
+[] [0]
+ CHAPTER NINETY-FOUR.
+
+[1] []
+Chapter 96.
+
+[6] []
+And among them are those with stars.
+
+[7] []
+Those that lodge in certain parts of the body fall into two categories.
+
+[8] []
+Either they are in the principal hollow organs, such as the brain, heart, liver, lungs, kidneys, intestines, bladder, and similar parts.
+
+[9] []
+Therefore, when it lodges in any of these parts, and signs of death appear to you, which I will tell you later, you must avoid extracting that arrow from them, for death follows in most cases.
+
+[10] []
+And when these evil signs do not appear to you, and the arrow is not hidden in the depth of the part, then extract it and treat the wound.
+
+[] [4]
+The difference due to the part transfixed by the arrow is twofold: for there are either the chief hollow organs such as the brain, the heart, the liver, the lungs, the kidneys, intestine, bladder, and so forth—when one of these arrows transfixes an organ of this kind, and you observe the signs of death which I shall describe to you later, then you must avoid the extraction of the arrow in that case, for death will generally follow; but when you do not see these fatal signs and the arrow is not quite buried in the depths of the organ, then extract it and dress the wound.
+
+[15] []
+And something similar to the watery discharge of flesh exits from it.
+
+[] [10]
+ If the arrow hits the liver, there ensues violent pain, and blood flows from the wound, resembling the liver in its redness.
+
+[68] []
+If, however, the arrow is fixed in the bone of the head and has already entered one of the brain’s ventricles, and some of the symptoms I mentioned appear in the patient, then refrain from pulling the arrow and leave it, until the condition stabilizes after some days.
+
+[69] []
+For if the arrow reaches the membrane (sifach), then death is not delayed for him.
+
+[70] []
+But if the arrow is only fixed in the bone itself, and does not penetrate to the membrane, and the patient remains stable for some days without any of those symptoms occurring, then proceed with ingenuity in pulling and extracting the arrow.
+
+[71] []
+If it is firmly fixed and does not yield to traction, then use drills around the arrow as I told you, and then treat the area until it heals.
+
+[99] []
+And the shape of the blunt pusher.
+
+[] [67]
+The solid thruster.
+
+[101] []
+The tip of this hollow pusher is hollow like a bird's feather, so that the entry of the arrow into it is eased, as is its pushing.
+
+chapter-2-subchapter-95.txt
+[] [0]
+ CHAPTER NINETY-FIVE.
+
+[1] []
+Chapter 97.
+
+[4] []
+And two "Guidegi" veins in the neck.
+
+[5] []
+And two veins on the upper lip of the mouth.
+
+[6] []
+And two veins on the lower lip.
+
+[7] []
+And these are the veins called "Algecherich."
+
+[8] []
+And two veins under the tongue.
+
+[10] []
+One of them is the Cephalic, located on the outer side; the common people call it the "head vein."
+
+[11] []
+And the Dark vein.
+
+[12] []
+And there is the Middle vein, formed from a branch of the Basilic and a branch of the Cephalic; the common people call it the "body vein."
+
+[13] []
+And the Basilic, positioned on the inner side, also called "Titillicaris."
+
+[14] []
+And the common people call it the "belly vein."
+
+[15] []
+And the Cord of the arm, positioned above the elbow joint; this is the one bloodlet, visible above the thumb with clear appearance.
+
+[] [5]
+One is the cephalic, which is on the outer side; popularly they call it the 'headvein'; then there is the 'blue-black', that is, the median vein, which is made up of a branch from the basilic and a branch from the cephalic; popularly they call that the 'body-vein'; then the basilic vein; this is the one situated on the inner side and is termed also the axillary vein, but popularly it is called the 'belly-vein'; and then the cord of the arm; this is situated over the radius and is the one that is contiguous to it; this is the one that is clearly visible on the thumb.
+
+[28] []
+Therefore, locate them with your finger, and where you feel their pulse under your finger, mark the spot with ink.
+
+[29] []
+Then take the lancet knife, called the "Incisor."
+
+[35] []
+On the bloodletting of the two arteries in the temples.
+
+[45] []
+On the bloodletting of the frontal vein after the bloodletting of the Cephalic.
+
+[50] []
+Whose shape is as follows.
+
+[56] []
+On the bloodletting of the veins in the two tear ducts.
+
+[64] []
+On the bloodletting of the nasal veins.
+
+[72] []
+On the bloodletting of the Guidegi veins.
+
+[94] []
+On the three veins in the elbow.
+
+[98] []
+And this is its shape.
+
+[99] []
+Thus, the Alnesil is suitable for incisions.
+
+[100] []
+And among them are types that are broad and fine, according to the width of the veins and their narrowness. The shape of the myrtle-shaped lancet should be broad, as you see.
+
+[] [44]
+The broad myrtle-leaf scalpel.
+
+[] [46]
+The olivary scalpel.
+
+[104] []
+On the bloodletting of the Basilica vein.
+
+[] [49]
+The lancet.
+
+[] [50]
+This is the lancet for making a slit.
+
+[] [51]
+There are broad and narrow varieties of it according to the breadth or narrowness of the vein.
+
+[] [52]
+This one indicates what the others are like; it is well known to surgeons.
+
+[122] []
+Then if the blood stops, it is good.
+
+[124] []
+On the bloodletting of the Fusca vein.
+
+[] [64]
+So get to know it.
+
+[148] []
+Nor should a person sick with dropsy.
+
+chapter-2-subchapter-96.txt
+[] [0]
+ CHAPTER NINETY-SIX.
+
+[1] []
+Chapter 98.
+
+[8] []
+And there are fourteen places on the body where cupping is applied with scarification and blood extraction.
+
+[9] []
+One of these is the cupping of Alnocrati, which is at the back of the head; and Alkehel, which is at the middle of the neck; and the cupping of Alhagdahim, which is on the two sides of the neck at the two blades; and the cupping of the chin, which is below the jaw at the lower part of the mouth; and the cupping of the two shoulder blades; and the cupping of Alachosos above the end of the tail; and the cupping of the two elbows, which is the middle of the two arms; and the cupping of the two thighs; and the cupping of the two ankles.
+
+[] [5]
+ The points at which cupping with scarification and extraction of blood is performed are fourteen places in the body: the occiput, which is the back of the head; the interscapular region, which is the middle of the back of the neck; the two sides of the neck, equally on both sides; the chin, that is, beneath the lower jaw; the two shoulders; the coccyx, at the base of the tail; the antibrachium, the middle of the forearms; the two legs; and the two heel-veins.
+
+[16] []
+And some of them scratch the place of their cupping.
+
+[] [65]
+Then it is applied to the place, full, and held there, then removed; and the process repeated as often as is necessary.
+
+chapter-2-subchapter-97.txt
+[] [0]
+ CHAPTER NINETY-SEVEN.
+
+[1] []
+Chapter 99.
+
+[19] []
+End of the Second Part.
+
+chapter-3.txt
+[0] []
+Book of Surgery by Albucasis, Part III.
+
+[1] []
+Universal treatise on restoration, dislocation, treatment of twisting, and similar matters.
+
+[2] []
+Chapter 1.
+
+[] [0]
+ BOOK THREE
+
+[] [1]
+ ON BONE-SETTING
+
+[] [8]
+And there is no power save in God the High, the Great.
+
+chapter-3-subchapter-1.txt
+[0] []
+Summaries and collections on the nature of bone fractures, among those whose knowledge is necessary before we begin the discussion of fractured and various members, if of each one.
+
+[] [1]
+In which is given the necessary compendious preliminary information on fractures.
+
+[] [42]
+Figure of a splint.
+
+chapter-3-subchapter-2.txt
+[] [0]
+ CHAPTER TWO.
+
+[1] []
+Chapter III.
+
+chapter-3-subchapter-3.txt
+[] [0]
+ CHAPTER THREE.
+
+[1] []
+Chapter IV.
+
+chapter-3-subchapter-4.txt
+[] [0]
+ CHAPTER FOUR.
+
+[1] []
+Chapter V.
+
+chapter-3-subchapter-5.txt
+[] [0]
+ CHAPTER FIVE.
+
+[1] []
+Chapter VI.
+
+[20] []
+If the bone needs setting without a wound and without an incision, place over the bone a plaster made of millstone flour with egg white.
+
+[21] []
+And place soft tow over it.
+
+[22] []
+Then place a ball under the armpit if you need it.
+
+[23] []
+Then take a himematem, that is, a wheel held by the Saracens, which is very long and about the width of a palm or close to it.
+
+[24] []
+Then place a folded pad over the tow and plaster.
+
+[25] []
+Then take a splint made from a thin board, about three fingers wide and of similar length.
+
+[26] []
+Then wrap it in cloth.
+
+[27] []
+Then wrap that cloth and splint in place with the himematem over the fracture site and location.
+
+[28] []
+Then place the himematem over the fracture as it wraps around, and wind it over the patient’s neck, under the healthy armpit, and under the injured armpit; adjust it around so that the binding holds the fracture in a fitting way. This is what will ensure the splint is not removed from above the fractured bone.
+
+[] [19]
+As to bandaging the bone when it is without wound or incision, it is thus: apply over the bone the plaster composed of mill-dust with egg-white and put over it soft tow; then put a pad in his axilla if necessary; then take a very long sling about a span broad; then place a doubled pad over the tow and plaster; then take a splint made of thin board; its width should be three fingers and its length the same; then wrap it in a rag; then wrap the rag together with the splint in that part of the sling that is over the site of the fracture; then tie the sling round the fracture and wind it round his neck and under his sound axilla and under his injured axilla and carry it several times in every direction as you judge best that the bandaging will hold the fracture firmly, for it will be apparent to you.
+
+[34] []
+Then renew the dressing if you see his face inclined toward it.
+
+[35] []
+And add to the compression, and leave it until it heals and hardens.
+
+[] [24]
+Then renew the plaster if you think it necessary, and bandage again and leave until the fracture of the collar-bone is set and knits.
+
+chapter-3-subchapter-6.txt
+[] [0]
+ CHAPTER six.
+
+[1] []
+Chapter VII.
+
+chapter-3-subchapter-7.txt
+[] [0]
+ CHAPTER SEVEN.
+
+[1] []
+Chapter VIII.
+
+chapter-3-subchapter-8.txt
+[] [0]
+ CHAPTER EIGHT.
+
+[1] []
+Chapter IX.
+
+chapter-3-subchapter-9.txt
+[] [0]
+ CHAPTER NINE.
+
+[1] []
+Chapter X.
+
+chapter-3-subchapter-10.txt
+[0] []
+¶ On the restoration of the hip.
+
+[] [1]
+On setting a fractured hip.
+
+chapter-3-subchapter-11.txt
+[] [0]
+ CHAPTER ELEVEN.
+
+[1] []
+Chapter XII.
+
+chapter-3-subchapter-12.txt
+[] [0]
+ CHAPTER TWELVE.
+
+[1] []
+Chapter XIII.
+
+[] [10]
+If both bones break he must employ very strong traction.
+
+chapter-3-subchapter-13.txt
+[] [0]
+ CHAPTER THIRTEEN.
+
+[1] []
+Chapter 14.
+
+chapter-3-subchapter-14.txt
+[] [0]
+ CHAPTER FOURTEEN.
+
+[1] []
+Chapter 15.
+
+[11] []
+The binding should be done as follows.
+
+chapter-3-subchapter-15.txt
+[] [0]
+ CHAPTER FIFTEEN.
+
+[1] []
+Chapter XVI.
+
+chapter-3-subchapter-16.txt
+[] [0]
+ CHAPTER SIXTEEN.
+
+[1] []
+Chapter XVII.
+
+[] [10]
+of the arm).
+
+[] [18]
+The bone of the leg mends in thirty days or so.
+
+chapter-3-subchapter-17.txt
+[] [0]
+ CHAPTER SEVENTEEN.
+
+[1] []
+Chapter XVIII.
+
+chapter-3-subchapter-18.txt
+[] [0]
+ CHAPTER EIGHTEEN.
+
+[1] []
+Chapter XIX.
+
+chapter-3-subchapter-19.txt
+[] [0]
+ CHAPTER NINETEEN.
+
+[1] []
+Chapter 20.
+
+[] [11]
+It is called in Greek bayram, meaning a small lever.
+
+[34] []
+And it is advisable to loosen the bandage.
+
+chapter-3-subchapter-20.txt
+[] [0]
+ CHAPTER TWENTY.
+
+[1] []
+Chapter 21.
+
+chapter-3-subchapter-21.txt
+[] [0]
+ CHAPTER TWENTY-ONE.
+
+[1] []
+Chapter 22.
+
+chapter-3-subchapter-22.txt
+[] [0]
+ CHAPTER TWENTY-TWO.
+
+[1] []
+Chapter 23.
+
+[] [10]
+Then treat the wound with the means previously described until it heals.
+
+chapter-3-subchapter-23.txt
+[] [0]
+ CHAPTER TWENTY-THREE.
+
+[1] []
+Chapter 24.
+
+chapter-3-subchapter-24.txt
+[] [0]
+ CHAPTER TWENTY-FOUR.
+
+[1] []
+Chapter 25.
+
+[9] []
+The other fingers should be placed outside to steady the movement.
+
+chapter-3-subchapter-25.txt
+[] [0]
+ CHAPTER TWENTY-FIVE.
+
+[1] []
+Chapter 26.
+
+chapter-3-subchapter-26.txt
+[] [0]
+ CHAPTER TWENTY-SIX.
+
+[1] []
+Chapter 27.
+
+[23] []
+And another assistant holds the patient’s head so that it does not move downward, for it returns immediately.
+
+chapter-3-subchapter-27.txt
+[] [0]
+ CHAPTER TWENTY-SEVEN.
+
+[1] []
+Chapter 28.
+
+[25] []
+Then apply the fat to it again, once, twice, and a third time with each bath entry until it is softened.
+
+chapter-3-subchapter-28.txt
+[] [0]
+ CHAPTER TWENTY-EIGHT.
+
+[1] []
+Chapter 29.
+
+[3] []
+And the reduction of its dislocation is easy.
+
+chapter-3-subchapter-29.txt
+[] [0]
+ CHAPTER TWENTY-NINE.
+
+[1] []
+Chapter 30.
+
+[] [2]
+ The fingers may be dislocated in any direction.
+
+chapter-3-subchapter-30.txt
+[] [0]
+ CHAPTER THIRTY.
+
+[1] []
+Chapter 31.
+
+[25] []
+And press firmly until the vertebra is compressed and returns to its place.
+
+chapter-3-subchapter-31.txt
+[] [0]
+ CHAPTER THIRTY-ONE.
+
+[1] []
+Chapter 32.
+
+chapter-3-subchapter-32.txt
+[] [0]
+ CHAPTER THIRTY-TWO.
+
+[1] []
+Chapter 33.
+
+chapter-3-subchapter-33.txt
+[] [0]
+ CHAPTER THIRTY-THREE.
+
+[1] []
+Chapter 34.
+
+chapter-3-subchapter-34.txt
+[] [0]
+ CHAPTER THIRTY-FOUR.
+
+[1] []
+Chapter 35.
+
+chapter-3-subchapter-35.txt
+[] [0]
+ CHAPTER THIRTY-FIVE.
+
+[1] []
+Chapter 36.
+

@@ -1,4 +1,6 @@
-line_offsets = {'eng': {}, 'occ': {}}
+import sys
+
+line_offsets = {'eng': {}, sys.argv[1]: {}}
 chapters = []
 
 with open("hunalign_batch.txt") as f:
@@ -6,7 +8,7 @@ with open("hunalign_batch.txt") as f:
         chapters.append(line.strip().split()[0].removeprefix("eng/"))
 
 
-for lang in ["eng", "occ"]:
+for lang in ["eng", sys.argv[1]]:
     with open(f"{lang}/all_text.txt") as all_f:
         target_lines = len(all_f.readlines())
 #        print(f"Target {lang}: {target_lines}")
@@ -18,8 +20,8 @@ for lang in ["eng", "occ"]:
             total_lines += len(f_lines)
     assert total_lines == target_lines, f"Total lines mismatch for {lang}: {total_lines} vs {target_lines}"
 
-with (open("combined_path_manual.txt") as path_f,
-      open("combined_path_all_text.txt", "w") as out_f):
+with (open(f"combined_path_{sys.argv[1]}_manual.txt") as path_f,
+      open(f"combined_path_{sys.argv[1]}_all_text.txt", "w") as out_f):
     for line in path_f:
 #        print(line)
         if not line[0] == '[':
@@ -34,7 +36,7 @@ with (open("combined_path_manual.txt") as path_f,
             eng_lines = []
         score = float(score)
 #        print(eng_lines)
-        occ_lines = [line_offsets["occ"][current_chapter] + int(ol)
+        occ_lines = [line_offsets[sys.argv[1]][current_chapter] + int(ol)
                      for ol in occ_lines]
         eng_lines = [line_offsets["eng"][current_chapter] + int(el)
                      for el in eng_lines]

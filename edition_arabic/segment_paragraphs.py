@@ -24,7 +24,8 @@ SYS_PROMPT = ("The following is a paragraph from a medieval Arabic medical treat
               "Translate the paragraph into English, breaking it up into full sentences. "
               "Repeat the Arabic sentence, followed by its English translation. "
               "Repeat the part of the original text precisely, even if it contains misspellings. "
-              "Do not add or remove anything. "
+              "Do not add or remove anything. The paragraph might be as short as a title or an "
+              "image caption. This is not a mistake, just translate it. "
               "Format the output as a JSON list, each element containing an Arabic "
               "sentence and its English translation, called 'ara' and 'eng' respectively.\n")
 
@@ -85,7 +86,10 @@ def main():
 
 #    args = parse_args()
     with open(sys.argv[1], encoding='utf-8') as xml_file:
-        soup = BeautifulSoup(xml_file, "xml")
+        xml_doc = xml_file.read()
+        xml_doc = re.sub(r':\n<note.*?</note>\n', ':\n</p><p source="note">',
+                         xml_doc)
+        soup = BeautifulSoup(xml_doc, "xml")
 
     try:
         with open("Albucasis_Chirurgia_translation.txt", encoding='utf-8') as trans_file:
@@ -168,8 +172,19 @@ def main():
                 trans_data = json.loads(response.text.replace("```json", "").replace("```", ""))
             except json.decoder.JSONDecodeError:
                 logger.error(f"Model failed to return JSON: {response.text}")
-                attempt += 1
+                if attempt < MAX_ATTEMPTS:
+                    attempt += 1
+                else:
+                    if model == GEMINI_MODELS[0]:
+                        model = GEMINI_MODELS[1]
+                        attempt = 0
+                    elif model == GEMINI_MODELS[1]:
+                        model = GEMINI_MODELS[2]
+                        attempt = 0
+                    else:
+                        sys.exit(f"Failed to get response from Gemini API on paragraph {para_counter}")
                 continue
+
             arabic_lines = []
             english_lines = []
 

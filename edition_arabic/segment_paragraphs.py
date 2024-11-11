@@ -1,4 +1,3 @@
-import argparse
 import logging
 import re
 from bs4 import BeautifulSoup
@@ -10,13 +9,13 @@ import google.generativeai as genai
 import google.api_core.exceptions
 from retrying import retry
 
-GEMINI_MODELS = {
+GEMINI_MODELS = [
+    'gemini-1.5-pro-002',
     'gemini-1.5-flash-002',
     'gemini-1.5-flash-8b',
-    'gemini-1.5-pro-002'
-}
+]
 
-MAX_ATTEMPTS = 10  # Maximum number of attempts to retry a failed generation
+MAX_ATTEMPTS = 5  # Maximum number of attempts to retry a failed generation
 
 LOG_LEVEL = logging.INFO
 # LOG_LEVEL = logging.ERROR
@@ -85,10 +84,14 @@ def main():
     logging.basicConfig(filename='segment_paragraphs.log', level=LOG_LEVEL)
 
 #    args = parse_args()
-    with open("Albucasis_Chirurgia_ar_sentences.xml", encoding='utf-8') as xml_file:
+    with open(sys.argv[1], encoding='utf-8') as xml_file:
         soup = BeautifulSoup(xml_file, "xml")
 
-    out_trans = open("Albucasis_Chirurgia_translation.txt", "w", encoding='utf-8')
+    try:
+        with open("Albucasis_Chirurgia_translation.txt", encoding='utf-8') as trans_file:
+            all_translations = trans_file.read().splitlines()
+    except FileNotFoundError:
+        all_translations = []
 
     # Delete all note, lb and pb elements from soup.
     for note in soup.find_all('note'):
@@ -109,12 +112,18 @@ def main():
     for para in soup.body.find_all('p'):
         if para.get('id') is not None:
             para_counter += 1
+            last_s = para.find_all('s')[-1]
+            s_counter = int(last_s['id'][1:]) + 1
             continue
+
+        print(f"Processing paragraph {para_counter}, sentence {s_counter}")
+
+        assert s_counter == len(all_translations) + 1
+
+        model = GEMINI_MODELS[0]
 
         # add id attribute to para element of format p001 etc.
         para['id'] = f'p{para_counter:03}'
-
-        print(f"Processing paragraph {para_counter}")
 
         para_text = para.text
         para_text = re.sub(r'\s+', ' ', para_text)
@@ -124,13 +133,13 @@ def main():
         logger.info(f"para: {para}, para_counter: {para_counter}, s_counter: {s_counter}")
 #        print("para_text:", para_text)
 
-        gemini = genai.GenerativeModel(
-                "gemini-1.5-pro-002",
+        attempt = 0
+        while True:
+            gemini = genai.GenerativeModel(
+                model,
                 system_instruction=SYS_PROMPT,
             )
 
-        attempt = 0
-        while True:
             try:
                 response = generate_content(gemini, para_text)
             except Exception as e:
@@ -155,7 +164,12 @@ def main():
                     logger.error(f"Failed to get response from Gemini API: {response}")
                     sys.exit(f"Failed to get response from Gemini API on paragraph {para_counter}")
 
-            trans_data = json.loads(response.text.replace("```json", "").replace("```", ""))
+            try:
+                trans_data = json.loads(response.text.replace("```json", "").replace("```", ""))
+            except json.decoder.JSONDecodeError:
+                logger.error(f"Model failed to return JSON: {response.text}")
+                attempt += 1
+                continue
             arabic_lines = []
             english_lines = []
 
@@ -187,12 +201,21 @@ def main():
                 attempt += 1
             
             if attempt == MAX_ATTEMPTS:
-                sys.exit(f"Failed to get response from Gemini API on paragraph {para_counter}")
+                if model == GEMINI_MODELS[0]:
+                    model = GEMINI_MODELS[1]
+                    attempt = 0
+                elif model == GEMINI_MODELS[1]:
+                    model = GEMINI_MODELS[2]
+                    attempt = 0
+                else:
+                    sys.exit(f"Failed to get response from Gemini API on paragraph {para_counter}")
 
         # delete all content from para element
         para.clear()
         for ara, eng in zip(arabic_lines, english_lines):
-            print(f"{ara}\t{eng}", file=out_trans)
+            all_translations.append(f"{ara}\t{eng}")
+            with open("Albucasis_Chirurgia_translation.txt", "w", encoding='utf-8') as out:
+                print("\n".join(all_translations), file=out)
             # create s element using BeautifulSoup with id attribute of format s001 etc.
             s = BeautifulSoup(f'<s id="s{s_counter:04}">{ara}</s>', 'xml')
             # insert a line break after each sentence element
@@ -205,16 +228,6 @@ def main():
         # write segmented output so far to file
         with open("Albucasis_Chirurgia_ar_sentences.xml", "w", encoding='utf-8') as outfile:
             print(soup, file=outfile)
-
-
-def parse_args():
-    parser = argparse.ArgumentParser(description='Segment paragraphs into sentences')
-    parser.add_argument('input_file', type=str,
-                        help='Path to input xml file')
-    parser.add_argument('-t', '--print_s_tags', action='store_true',
-                        help='Print the s tags')
-
-    return parser.parse_args()
 
 
 if __name__ == '__main__':

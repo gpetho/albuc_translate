@@ -18,9 +18,19 @@ for i, (ref, hyp) in enumerate(zip(refs, hyps), start=1):
     print(f"Prompt {i}")
     print(prompt)
 
-    response = ollama.generate(model="llama3.2",
-                               prompt=prompt)
-    print(response['response'])
+    good = False
+    while not good:
+        response = ollama.generate(model="mistral-nemo",
+                                prompt=prompt)
+        try:
+            fluency, accuracy = response['response'].strip().split(" ")
+            assert int(fluency) in list(range(1, 6))
+            assert int(accuracy) in list(range(1, 6))
+            print(response['response'])
+            print()
+            good = True
+        except:
+            continue
 
     if i == 5:
         break

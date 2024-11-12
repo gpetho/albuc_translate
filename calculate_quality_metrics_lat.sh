@@ -1,18 +1,22 @@
+mkdir aligned_sl_lat
+
 # Extract aligned reference sentences from Spink & Lewis
-cat eng/all_text.txt | python aligned_path_to_text.py 1 > aligned_sl_lat/spink_lewis.ref.txt
+cat eng/all_text.txt | python aligned_path_to_text.py 1 lat > aligned_sl_lat/spink_lewis.ref.txt
 
 # Extract corresponding MT sentences from ChatGPT and Claude
-cat chatgpt_lat/combined.txt | cut -f2 | python aligned_path_to_text.py  > aligned_sl_lat/chatgpt.mt.txt
-cat claude_lat/sonnet_converted.txt | cut -f2 | python aligned_path_to_text.py  > aligned_sl_lat/claude.mt.txt
+cat chatgpt_lat/combined.txt | cut -f2 | python aligned_path_to_text.py 0 lat  > aligned_sl_lat/chatgpt.mt.txt
+cat claude_lat/sonnet_converted.txt | cut -f2 | python aligned_path_to_text.py 0 lat > aligned_sl_lat/claude.mt.txt
 
+mkdir aligned_sl_lat/translations
 # for all other MT systems
 for subdir in `ls lat_translations`; do mkdir aligned_sl_lat/translations/$subdir; done
+mkdir sacrebleu_output_lat
 mkdir sacrebleu_output_lat/translations
 for subdir in `ls lat_translations`; do mkdir sacrebleu_output_lat/translations/$subdir; done
 
 for subdir in `ls lat_translations`; do
 for mt_file in `ls lat_translations/$subdir`; do
-    cat lat_translations/$subdir/$mt_file | cut -f2 | python aligned_path_to_text.py > aligned_sl_lat/translations/$subdir/$mt_file
+    cat lat_translations/$subdir/$mt_file | cut -f2 | python aligned_path_to_text.py 0 lat > aligned_sl_lat/translations/$subdir/$mt_file
 done
 done
 

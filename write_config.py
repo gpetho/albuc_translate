@@ -45,6 +45,7 @@ config = {
         'qwen2.5:72b': {'hf': 'Qwen/Qwen2.5-72B-Instruct'},
     },
     'prompt': {
+        'ara': 'prompts/ara_prompt.txt',
         'lat': 'prompts/lat_prompt.txt',
         'occ': 'prompts/occ_prompt.txt',
         'ofr': 'prompts/ofr_prompt.txt',

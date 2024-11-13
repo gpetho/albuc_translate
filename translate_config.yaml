@@ -82,6 +82,7 @@ model:
   qwen2:72b-instruct-q2_K:
     hf: Qwen/Qwen2-72B-Instruct
 prompt:
+  ara: prompts/ara_prompt.txt
   lat: prompts/lat_prompt.txt
   occ: prompts/occ_prompt.txt
   ofr: prompts/ofr_prompt.txt

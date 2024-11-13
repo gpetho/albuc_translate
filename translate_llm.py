@@ -167,14 +167,22 @@ def main():
                         options = {'num_predict': max_tokens}
 
                 if context and len(context) < args.max_ctx:
-                    response = ollama.generate(model=args.model,
-                                               prompt=turn_prefix + line,
-                                               context=context,
-                                               options=options)
+                    try:
+                        response = ollama.generate(model=args.model,
+                                                prompt=turn_prefix + line,
+                                                context=context,
+                                                options=options)
+                    except:
+                        print("response error on line", i)
+                        continue
                 else:
-                    response = ollama.generate(model=args.model,
-                                               prompt=first_prompt + line,
-                                               options=options)
+                    try:
+                        response = ollama.generate(model=args.model,
+                                                prompt=first_prompt + line,
+                                                options=options)
+                    except:
+                        print("response error on line", i)
+                        continue
                 if '\n' in response['response']:
                     if attempt < MAX_ATTEMPTS:
                         attempt += 1

@@ -1,69 +1,191 @@
 des voinnes dou cors communes
-Des voinnes dont on se saine sont XXXI, de coi il a ou chef XVI, c’est a savoir: II batans qui sont aprés les oreilles, qui sont apelees les dous «herbech»; et les II arteres qui sont en II temples apparans; et II voines que sont en II larmiers des II eulz, que sont apelees «aspires»; et li voine que est emmi le front; et li voinne que est au chief dou neis; et les II guindeges qui sont ou col; et les II voinnes que sont en levres desus de la bouche, et ce sont les voines que sont apelees «augeherich»; et II voinnes que sont desoz la lengue.
-Les voinnes dont on saine communement sont V en chescun bras: l’une est li cephalique, et est dou senestre costeit, et l’apelent li laie gens «voinne dou chief»; et li moiene est apelee «faste», et est composte de la cephalique et de la basilique, et l’apelent li laie gens «voinne dou cuer»; et li basilique si est ou destre costeit, et l’apelent li laie gent «voinne dou ventre», et est sus le foscile, et est celle dont on saine, qui apert manifestement sus le pouchet.
-Et li salvatelle est li voine qui est entre l’auriculaire et l’anulaire, et si a II rains; et en la jambe et ou piet sont III voinnes: l’une si est desoz la corbeure dou pochet dou senestre costeit, et li seconde sophene qui est a la cheville dou destre costeit; et li voine qui est apelee «nesse», que est en la cheville de l’autre costei; et en l’autre jambe sont III voinnes desoz celles.
-Li sainie des voinnes que sont aprés les oreilles si aide as catharres anciens, et a emigraine; et li qualiteis dou sainier, si com je te dis, et est que tu reises lou chief dou malaide, et frote lou leu ou les voinnes sont d’un drap aspre; puis estrigne li malaides son col a une vis, tant que les II voinnes aperent derrier les oreilles en II leus dependens dou chief: quier les donques a ton doi, et ou tu sens lou poulz desoz ton doi, si seigne d’enche; puis pren la lancette, et la boute par desoz la voine jusc’a l’os, puis lieve ta main a tout la voinne amont, et cope et lou cuir et la voinne bien II dois dou traver, et fai issir dou sanc tant que tu vues; puis l’estrain et lie, tant qu’ele soit sanee; et j’ai ja dit l’incision et le cautere ou premier livre.
-Li sainie des II arteres que sont en II temples, si vaut a emigrainne anciene, et sode, et obtalmie acostumee, et au cors des larmes agues as eulz; et li qualitez dou sainier si est si com je dis: et est que li malaides estraigne son col, tant que les II voinnes aperent apertement; et sent lou polz desoz ton doi, et puis seigne d’enche; puis lieve lou keur sus la voinne en haut a ton doi indice, et boute la lancette desoz, et lieve la voine en haut, et la cope, si com tu as fait en II autres voinnes, et fai corre dou sanc selonc ta necessiteit; puis deslie lou malaide, et met ton doi sus la voine une houre, puis met sus coton; et puis la lie forment, et la laisse tant qu’elle soit sanee; et nos en avons jai parleit et de lor copement et de lor estraction, ou comencement dou livre.
-Li sainie de la voine dou front si vaut autant com li sainie de la cephalique as maladies de la faice ancienes, et a emigraine, et a roujor; et li qualitez si est que li malaides estraigne son col en tordant, tant que li voine apere; puis pren l’estrument qui est apelez «fosseur», dont ci est li forme:
-Et met la pointe sus la voinne, et fier sus de ta main, ou d’autre chose, et laisse dou sanc issir selonc la quantiteit que tu vues; puis delie au malaide le col, et lie la voine tant qu’elle soit saneel et aucune fois l’uevre on d’un flaime large.
-Toutevoie, il ne covient mie que li flaimes soit trop agus; et le saine de travers, car li os est pres, et par aventure brise li flaimes quant il est subtilz.
-Li sainie des II voines que sont en II larmiers si aide as eulz, et a la tigne, et a la roujor, et a l’oriuel en l’oil, et as maladies de la faice; et li qualitez de lor sainie si est que li malaides estraigne son col en tordant d’aucun liien, si com devant; puis le saine, et soit li sainie dou traver, un poc dou lonc dou flaime un poc large, car il n’i a point de char.
-Et se li flaimes est subtilz, par aventure si brise; puis fai corre dou sanc, tant com tu en as mestier, et puis lie sus couton, et le lie bien.
-Li sainie de la voine dou neis si vaut a ague, et a sode forsenee, et a maladies de faice, si com emigraine et roujor que vient en la faice, et meimement quant elle est anciene; et li qualitez de la sainie si est que li malaides estrigne son col, puis estrain son neis a ta main senestre, et pren lou flaime subtil lonc, et le fiche emmi la levre en l’espaice qui est entre les II narines, car li voinne n’apert mie bien enqui, et li sans comencera maintenant a corre; et n’aler mie trop em parfont, et fai corre dou sanc selonc ta necessiteit, puis la lie une nuit, car elle est mout tost restoree; et c’est li forme dou flaime:
-Li sainie des II guindeges si aide a l’estrecement de l’alainne, et a l’encomencement de meselerie, et a mout de maladies, et a empetigine, et a corrodens, et a herpes, et estiomenes; et li qualitez de la sainie si est que li malaides estraigne son col desoz l’une et l’autre, si com nos avons dit; et soit li maistres estans sus lou chief dou malaide, et li malaides siece sus I siege, puis saine la voine dou lonc un poc largement, puis trai dou sanc tempreement, ou tant com mestier est; puis refai autreteil en l’autre voinne, puis deslie lou liien, et estraint andous les voines moienement, que li malaides n’estrangle; et le laisse jusc’au matin, que li plaie soit sanee.
+Des voinnes dont on se saine sont XXXI, de coi il a ou chef XVI, c’est a savoir:
+II batans qui sont aprés les oreilles, qui sont apelees les dous «herbech»;
+et les II arteres qui sont en II temples apparans;
+et II voines que sont en II larmiers des II eulz, que sont apelees «aspires»;
+et li voine que est emmi le front;
+et li voinne que est au chief dou neis;
+et les II guindeges qui sont ou col;
+et les II voinnes que sont en levres desus de la bouche, et ce sont les voines que sont apelees «augeherich»;
+et II voinnes que sont desoz la lengue.
+Les voinnes dont on saine communement sont V en chescun bras:
+l’une est li cephalique, et est dou senestre costeit, et l’apelent li laie gens «voinne dou chief»;
+et li moiene est apelee «faste», et est composte de la cephalique et de la basilique, et l’apelent li laie gens «voinne dou cuer»;
+et li basilique si est ou destre costeit, et l’apelent li laie gent «voinne dou ventre», et est sus le foscile, et est celle dont on saine, qui apert manifestement sus le pouchet.
+Et li salvatelle est li voine qui est entre l’auriculaire et l’anulaire, et si a II rains;
+et en la jambe et ou piet sont III voinnes:
+l’une si est desoz la corbeure dou pochet dou senestre costeit, et li seconde sophene qui est a la cheville dou destre costeit;
+et li voine qui est apelee «nesse», que est en la cheville de l’autre costei;
+et en l’autre jambe sont III voinnes desoz celles.
+Li sainie des voinnes que sont aprés les oreilles si aide as catharres anciens, et a emigraine;
+et li qualiteis dou sainier, si com je te dis, et est que tu reises lou chief dou malaide, et frote lou leu ou les voinnes sont d’un drap aspre;
+puis estrigne li malaides son col a une vis, tant que les II voinnes aperent derrier les oreilles en II leus dependens dou chief:
+quier les donques a ton doi, et ou tu sens lou poulz desoz ton doi, si seigne d’enche;
+puis pren la lancette, et la boute par desoz la voine jusc’a l’os, puis lieve ta main a tout la voinne amont, et cope et lou cuir et la voinne bien II dois dou traver, et fai issir dou sanc tant que tu vues;
+puis l’estrain et lie, tant qu’ele soit sanee;
+et j’ai ja dit l’incision et le cautere ou premier livre.
+Li sainie des II arteres que sont en II temples, si vaut a emigrainne anciene, et sode, et obtalmie acostumee, et au cors des larmes agues as eulz;
+et li qualitez dou sainier si est si com je dis:
+et est que li malaides estraigne son col, tant que les II voinnes aperent apertement;
+et sent lou polz desoz ton doi, et puis seigne d’enche;
+puis lieve lou keur sus la voinne en haut a ton doi indice, et boute la lancette desoz, et lieve la voine en haut, et la cope, si com tu as fait en II autres voinnes, et fai corre dou sanc selonc ta necessiteit;
+puis deslie lou malaide, et met ton doi sus la voine une houre, puis met sus coton;
+et puis la lie forment, et la laisse tant qu’elle soit sanee;
+et nos en avons jai parleit et de lor copement et de lor estraction, ou comencement dou livre.
+Li sainie de la voine dou front si vaut autant com li sainie de la cephalique as maladies de la faice ancienes, et a emigraine, et a roujor;
+et li qualitez si est que li malaides estraigne son col en tordant, tant que li voine apere;
+puis pren l’estrument qui est apelez «fosseur», dont ci est li forme:
+Et met la pointe sus la voinne, et fier sus de ta main, ou d’autre chose, et laisse dou sanc issir selonc la quantiteit que tu vues;
+puis delie au malaide le col, et lie la voine tant qu’elle soit saneel et aucune fois l’uevre on d’un flaime large.
+Toutevoie, il ne covient mie que li flaimes soit trop agus;
+et le saine de travers, car li os est pres, et par aventure brise li flaimes quant il est subtilz.
+Li sainie des II voines que sont en II larmiers si aide as eulz, et a la tigne, et a la roujor, et a l’oriuel en l’oil, et as maladies de la faice;
+et li qualitez de lor sainie si est que li malaides estraigne son col en tordant d’aucun liien, si com devant;
+puis le saine, et soit li sainie dou traver, un poc dou lonc dou flaime un poc large, car il n’i a point de char.
+Et se li flaimes est subtilz, par aventure si brise;
+puis fai corre dou sanc, tant com tu en as mestier, et puis lie sus couton, et le lie bien.
+Li sainie de la voine dou neis si vaut a ague, et a sode forsenee, et a maladies de faice, si com emigraine et roujor que vient en la faice, et meimement quant elle est anciene;
+et li qualitez de la sainie si est que li malaides estrigne son col, puis estrain son neis a ta main senestre, et pren lou flaime subtil lonc, et le fiche emmi la levre en l’espaice qui est entre les II narines, car li voinne n’apert mie bien enqui, et li sans comencera maintenant a corre;
+et n’aler mie trop em parfont, et fai corre dou sanc selonc ta necessiteit, puis la lie une nuit, car elle est mout tost restoree;
+et c’est li forme dou flaime:
+Li sainie des II guindeges si aide a l’estrecement de l’alainne, et a l’encomencement de meselerie, et a mout de maladies, et a empetigine, et a corrodens, et a herpes, et estiomenes;
+et li qualitez de la sainie si est que li malaides estraigne son col desoz l’une et l’autre, si com nos avons dit;
+et soit li maistres estans sus lou chief dou malaide, et li malaides siece sus I siege, puis saine la voine dou lonc un poc largement, puis trai dou sanc tempreement, ou tant com mestier est;
+puis refai autreteil en l’autre voinne, puis deslie lou liien, et estraint andous les voines moienement, que li malaides n’estrangle;
+et le laisse jusc’au matin, que li plaie soit sanee.
 de la sainie des leivres
 Li sainie des voinnes des levres desus si aident a cole en la bouche, et a corruption de gencives, et fendures de levres, et dou neis et entor.
-Et li qualitez de la sainie si est de faire seoir lou malaide devant toi, et estraint son col si com j’ai dit; puis torne la levre, et regarde as II voinnes, dont l’une est a la destre levre et li autre a la senestre, et les conoist on par ceu qu’elles sont noires, et par ceu que entor elles a voines menues noires: cope donques l’une et l’autre, et se tu ne les conois, et tu en es en doutance, si cope la plus grosse de chescune part, et tout ausi fai des II voinnes que sont desus et desoz, car c’est une meisme maniere.
+Et li qualitez de la sainie si est de faire seoir lou malaide devant toi, et estraint son col si com j’ai dit;
+puis torne la levre, et regarde as II voinnes, dont l’une est a la destre levre et li autre a la senestre, et les conoist on par ceu qu’elles sont noires, et par ceu que entor elles a voines menues noires:
+cope donques l’une et l’autre, et se tu ne les conois, et tu en es en doutance, si cope la plus grosse de chescune part, et tout ausi fai des II voinnes que sont desus et desoz, car c’est une meisme maniere.
 de la sainie desoz la lengue
-Li sainie des voinnes que sont desoz la lengue si aide aprés la sainie de la cephalique, et c’est a l’estrecement de la gorge, et as maladies de l’uve, et as maladies de la bouche; et li qualitez dou sainier si est que li malaides siece entre tes mains devant lou soleil, et li lieve la lengue, et regarde desoz en chescun costeit une voinne noire: saine donques l’une et l’autre, et n’aler mie trop em parfont, car desoz sont les arteres.
-Les voinnes dou coute dont on saine communement sont sainies selonc II manieres: ou em poignant a tout I flaime mirtin large, ou olivaire subtil si com coutez trenchans, et est apelez «anesil»; et sont large et subtil selonc la largesce et l’estrecement des voinnes.
+Li sainie des voinnes que sont desoz la lengue si aide aprés la sainie de la cephalique, et c’est a l’estrecement de la gorge, et as maladies de l’uve, et as maladies de la bouche;
+et li qualitez dou sainier si est que li malaides siece entre tes mains devant lou soleil, et li lieve la lengue, et regarde desoz en chescun costeit une voinne noire:
+saine donques l’une et l’autre, et n’aler mie trop em parfont, car desoz sont les arteres.
+Les voinnes dou coute dont on saine communement sont sainies selonc II manieres:
+ou em poignant a tout I flaime mirtin large, ou olivaire subtil si com coutez trenchans, et est apelez «anesil»;
+et sont large et subtil selonc la largesce et l’estrecement des voinnes.
 Li forme dou flaime mirtin si est mout renommee, et est large si com tu vois:
-Et ait mestier por ovrir les voinnes chevees plaines de gros sanc apparent, et que contienent gros sanc et trouble; et c’est li forme dou flaime olivaire:
+Et ait mestier por ovrir les voinnes chevees plaines de gros sanc apparent, et que contienent gros sanc et trouble;
+et c’est li forme dou flaime olivaire:
 et est plus subtilz apointé, et est por sainier les voinnes subtilz, ou il a subtil sanc citrin.
-Li sainie de la basilique, qui est une de ces voinnes, si aide as maladies que sont desoz la gorge, et ou col, et ou peis, et ou ventre; et covient au sainor qu’il saine saigement, et qu’il se warse de l’artere qui est desoz.
-Et s’il cope l’arterre, et decorremens de sanc vient, si le covient estainchier, si com j’ai dit; et ne doit mie estre poignans li flaime, mais taillans si com anesil.
-Et se li basilique n’apert manifestement, si covient que tu l’estrainges, et chainge une autre; ou tu quieres aucun rain de li, ou tu saine en leu de li la voinne emmi le bras: elle apert manifestement; et la cope au flaime anesil, si com nos avons dit.
-Et se tu vues conoistre le leu de la sainie, si covient ainsois que tu estraignes lou bras, que tu touches le leu tant que tu conoisses le poulz; puis signe le leu d’enche, et puis lie lou bras, et cope la voine dou flaime anesil; et warde que tu ne ferir en l’artere quant tu vois le leu enfleit, car c’est de l’artere: eschui la donques.
-Et se tu vois saillir en haut ausi com l’urine d’un enfant, et li sans est rouges et subtilz, saiches que c’est sans de l’artere: haste toi donques, et met ton doi sus longement, puis oste ton doi se li sans estainche, que maintes fois avient; se lie lou bras, et laisse ensi, et ne lou mueve li malaides; et soit sus paour, et ne lou mueve tant qu’il soit sanez.
-Et se li sans n’est estainchiez, et il te vaint, et li medicine ne t’est presens, si cope l’artere s’elle apert, car li chief de li retraient; et estainche li sans.
-Et pren une escorce de fistice, et la fent, et pren l’une des moitiez et lie sus bien jusc’a l’autre jor; se li sans estainche, c’est bien; se ce non, si le cure, si com nos avons dit, des poudres qui estainchent sanc; et li estainchemens n’est mie griés em plusors dispositions por le petit leu de la plaie, et la possance dou liien dou bras.
-Li sainie de la voinne em mileu si aide qu’elle trait sanc dou chief desus, et dou cors desoz, por ceu qu’elle est composte de la basilique et de la cephalique, si com nos avons dit; et covient au sainor qu’il se warse por lou nerf qui est desoz, et s’il point trop em parfont, et il trueve lou nerf, et il enfle et li santez soit griés, et par aventure ne puet saner; et cist nerf apert mult de fois, et s’il n’apert en aucuns homes por sa subtiliteit, si covient que tu lou saines de l’estrument anesil; et eschui lou nerf a ton pooir.
+Li sainie de la basilique, qui est une de ces voinnes, si aide as maladies que sont desoz la gorge, et ou col, et ou peis, et ou ventre;
+et covient au sainor qu’il saine saigement, et qu’il se warse de l’artere qui est desoz.
+Et s’il cope l’arterre, et decorremens de sanc vient, si le covient estainchier, si com j’ai dit;
+et ne doit mie estre poignans li flaime, mais taillans si com anesil.
+Et se li basilique n’apert manifestement, si covient que tu l’estrainges, et chainge une autre;
+ou tu quieres aucun rain de li, ou tu saine en leu de li la voinne emmi le bras:
+elle apert manifestement;
+et la cope au flaime anesil, si com nos avons dit.
+Et se tu vues conoistre le leu de la sainie, si covient ainsois que tu estraignes lou bras, que tu touches le leu tant que tu conoisses le poulz;
+puis signe le leu d’enche, et puis lie lou bras, et cope la voine dou flaime anesil;
+et warde que tu ne ferir en l’artere quant tu vois le leu enfleit, car c’est de l’artere:
+eschui la donques.
+Et se tu vois saillir en haut ausi com l’urine d’un enfant, et li sans est rouges et subtilz, saiches que c’est sans de l’artere:
+haste toi donques, et met ton doi sus longement, puis oste ton doi se li sans estainche, que maintes fois avient;
+se lie lou bras, et laisse ensi, et ne lou mueve li malaides;
+et soit sus paour, et ne lou mueve tant qu’il soit sanez.
+Et se li sans n’est estainchiez, et il te vaint, et li medicine ne t’est presens, si cope l’artere s’elle apert, car li chief de li retraient;
+et estainche li sans.
+Et pren une escorce de fistice, et la fent, et pren l’une des moitiez et lie sus bien jusc’a l’autre jor;
+se li sans estainche, c’est bien;
+se ce non, si le cure, si com nos avons dit, des poudres qui estainchent sanc;
+et li estainchemens n’est mie griés em plusors dispositions por le petit leu de la plaie, et la possance dou liien dou bras.
+Li sainie de la voinne em mileu si aide qu’elle trait sanc dou chief desus, et dou cors desoz, por ceu qu’elle est composte de la basilique et de la cephalique, si com nos avons dit;
+et covient au sainor qu’il se warse por lou nerf qui est desoz, et s’il point trop em parfont, et il trueve lou nerf, et il enfle et li santez soit griés, et par aventure ne puet saner;
+et cist nerf apert mult de fois, et s’il n’apert en aucuns homes por sa subtiliteit, si covient que tu lou saines de l’estrument anesil;
+et eschui lou nerf a ton pooir.
 Et se il a voinne entre les II ners, si la fent dou lonc.
-Li sainie de la cephalique si aide, qu’ele atrait sanc dou chief, et aide as eulz; et covient sainier em poignant au flaime olivaire ou au flaime mirtin, car c’est li plus sauve de toutes les voinnes, car il n’a desoz li ne nerf ne artere.
-Toutevoie, covient querir lou plus legier leu, et ne grieve rien s’on faut la premiere fois, et on rencomence; et par aventure enfle li leus a aucuns homes, cant on faut la premiere fois, mais il ne grieve rien.
+Li sainie de la cephalique si aide, qu’ele atrait sanc dou chief, et aide as eulz;
+et covient sainier em poignant au flaime olivaire ou au flaime mirtin, car c’est li plus sauve de toutes les voinnes, car il n’a desoz li ne nerf ne artere.
+Toutevoie, covient querir lou plus legier leu, et ne grieve rien s’on faut la premiere fois, et on rencomence;
+et par aventure enfle li leus a aucuns homes, cant on faut la premiere fois, mais il ne grieve rien.
 La qualitez de la sainie si est selonc ta pensee.
-Li premiere chose que tu dois savoir de sainier, si est que sainie n’est amenistree fuer que por garder santeit, et por eschuir les maladies a venir; et soit li sainie faite en l’une des III voinnes que sont ou coute: c’est a savoir, cephalique, faste, et basilique; et se doit on sainier en l’encomencement de prientens a geun, et en autompne et en yver aprés mengier, quant li signe de repletion aperent; et se doit on sainier le premier jor ou le tier, aprés II houres ou III dou jor.
-Li sainie qui est aministree as maladies n’a point d’oure determinee, mais que quant besoing est de jor ou de nut, en toutes houres et en toz tens; et ne covient mie sainier les enfans jusc’a XIIII ans, ne femme portant fuer que des lou quart mois jusc’a septime.
+Li premiere chose que tu dois savoir de sainier, si est que sainie n’est amenistree fuer que por garder santeit, et por eschuir les maladies a venir;
+et soit li sainie faite en l’une des III voinnes que sont ou coute:
+c’est a savoir, cephalique, faste, et basilique;
+et se doit on sainier en l’encomencement de prientens a geun, et en autompne et en yver aprés mengier, quant li signe de repletion aperent;
+et se doit on sainier le premier jor ou le tier, aprés II houres ou III dou jor.
+Li sainie qui est aministree as maladies n’a point d’oure determinee, mais que quant besoing est de jor ou de nut, en toutes houres et en toz tens;
+et ne covient mie sainier les enfans jusc’a XIIII ans, ne femme portant fuer que des lou quart mois jusc’a septime.
 Ne ne se doient mie sainier li viel qui ont passez LX ans.
-Et quant aucuns se vuet sainier, en quel maniere que ce soit, si covient k’il mondefie les intestines d’un clistere legier, s’il a mout de fiens retenut, si que les voines n’atraient des intestines les superfluitez porries nuisans as membres principelz; ne ne se saine mie cil qui est trop saolez de viandes, ne qui est yvres, tant k’il en soit fuer, ne ydropiques; et se warse on de sainier aprés colique passion, et vomissement, et decorrement de ventre, et multipliement d’abiter a femme, et de traval, de veiller et de juner, et ceu que tot la vertu, ou par chose de l’arme ou dou cors; puis subtilie les humors, se li sans est gros, par viandes et par bevraiges et par medicines, se tu en as lou poir; puis entre ou bain, s’aucune chose ne lou deffent, por subtiliier lou sanc, et te saine de la voinne dou pis entor la tierce, si com nos avons dit; et te garde celui jor de travail, et de poinne, et de luxure, et de semblans choses; et soies liez et joians, et soit li sainieres plus haut que cil cui on saine, et li frote lou bras II fois ou III, puis estraigne lou liien desus moienement, car quant il est trop estrois ou poc, si ne puet corre li sans; et puis le frote le leu as mains, tant que les voines enflent, et les sente on; puis moille li sainieres le flaime d’un poc d’oile viel, puis mette son doit de sa main senestre sus celle voinne desoz lou leu un poc ou il vuet sainier, que li voinne ne fue et faille au ferir.
-Car il i a voinnes que fuient ausi com cordes au sainier, et si a de telz que sont plainnes de ventositeit, si que quant on met sus le flaime, si retrait a flaime, et ne puet ovrir li voinne, et ensi est on de ceus; et s’il aoevre la voinne, si est li plaie trop estroite, por ceu si covient que li sainieres soit avisez en ces choses.
-Et se li voine oevre la premiere fois, c’est boin; se ceu non, si rencomence ancor un poc desoz celui leu ou sus hastanment, se li leus n’est enflez.
-Et se li leus est enflez, et li malaides s’espoante, se li laisse I jor ou II, et ne liier mie le bras: par aventure i venra apostemes chaus; ne n’entre ou bain, puis rencomence la sainie s’elle li plait; et se li pertuis est petis, ou li sans cort subtilment et tu doutes qu’il n’isse mie tant de sanc com tu vues, si fier en celui pertuis meisme a tout le flaime droitement; et l’uevre un poc hastanment, ainsois que li leus soit enflez; car ceu avient maintes fois, quant li plaie est petite.
-Se tu vois le leu enfleit, si ne rencomencier mie la sainie, et met sus un poc de lie d’oile, car elle alige lou cors dou sanc, et est muedre en cest leu li lie que li oile; et ensi aministre la lie de oile en chescune sainie que tu saines les voines, por estanchier lou cours dou sanc; et ceu meisme fait triaicle et bowe d’eus, quant on le met sus le leu; si subtilie li sans et s’espart quant il est trop gros.
-Et s’il i vient uns apostemes gros, qui avient maintes fois, meismement quant il n’est sainiez fuer que a celi fois ou li overture de la voinne est petite, si te haste, et met sus le leu esponge moillie en aigue et en seil un poc chaut, et l’estraint une houre; et covient que tu faices ceu aprés l’issue dou sanc de la voinne, et s’il demoure au leu aprés aucuns jors aucune noiror ou verdor, si ne li nuist mie; et se tu vues, met sus aucune chose de aloes ou de mirre remise en jus de calament, monstastre, ou semblant.
-Et maintes fois avient aposteme et aparance a la sainie de la basilique: met donques ta main sus, et se tu trueves le leu mol a la compression de la main, si est celle aparance male.
-Eschui donques que tu ne mettes sus aucune chose de ceu que nos avons dit, car par aventure en cort sans de l’artere; mais li fai I emplaustre sec por endurcir le leu, puis le cure d’autre cure, tant qu’il soit sanez.
+Et quant aucuns se vuet sainier, en quel maniere que ce soit, si covient k’il mondefie les intestines d’un clistere legier, s’il a mout de fiens retenut, si que les voines n’atraient des intestines les superfluitez porries nuisans as membres principelz;
+ne ne se saine mie cil qui est trop saolez de viandes, ne qui est yvres, tant k’il en soit fuer, ne ydropiques;
+et se warse on de sainier aprés colique passion, et vomissement, et decorrement de ventre, et multipliement d’abiter a femme, et de traval, de veiller et de juner, et ceu que tot la vertu, ou par chose de l’arme ou dou cors;
+puis subtilie les humors, se li sans est gros, par viandes et par bevraiges et par medicines, se tu en as lou poir;
+puis entre ou bain, s’aucune chose ne lou deffent, por subtiliier lou sanc, et te saine de la voinne dou pis entor la tierce, si com nos avons dit;
+et te garde celui jor de travail, et de poinne, et de luxure, et de semblans choses;
+et soies liez et joians, et soit li sainieres plus haut que cil cui on saine, et li frote lou bras II fois ou III, puis estraigne lou liien desus moienement, car quant il est trop estrois ou poc, si ne puet corre li sans;
+et puis le frote le leu as mains, tant que les voines enflent, et les sente on;
+puis moille li sainieres le flaime d’un poc d’oile viel, puis mette son doit de sa main senestre sus celle voinne desoz lou leu un poc ou il vuet sainier, que li voinne ne fue et faille au ferir.
+Car il i a voinnes que fuient ausi com cordes au sainier, et si a de telz que sont plainnes de ventositeit, si que quant on met sus le flaime, si retrait a flaime, et ne puet ovrir li voinne, et ensi est on de ceus;
+et s’il aoevre la voinne, si est li plaie trop estroite, por ceu si covient que li sainieres soit avisez en ces choses.
+Et se li voine oevre la premiere fois, c’est boin;
+se ceu non, si rencomence ancor un poc desoz celui leu ou sus hastanment, se li leus n’est enflez.
+Et se li leus est enflez, et li malaides s’espoante, se li laisse I jor ou II, et ne liier mie le bras:
+par aventure i venra apostemes chaus;
+ne n’entre ou bain, puis rencomence la sainie s’elle li plait;
+et se li pertuis est petis, ou li sans cort subtilment et tu doutes qu’il n’isse mie tant de sanc com tu vues, si fier en celui pertuis meisme a tout le flaime droitement;
+et l’uevre un poc hastanment, ainsois que li leus soit enflez;
+car ceu avient maintes fois, quant li plaie est petite.
+Se tu vois le leu enfleit, si ne rencomencier mie la sainie, et met sus un poc de lie d’oile, car elle alige lou cors dou sanc, et est muedre en cest leu li lie que li oile;
+et ensi aministre la lie de oile en chescune sainie que tu saines les voines, por estanchier lou cours dou sanc;
+et ceu meisme fait triaicle et bowe d’eus, quant on le met sus le leu;
+si subtilie li sans et s’espart quant il est trop gros.
+Et s’il i vient uns apostemes gros, qui avient maintes fois, meismement quant il n’est sainiez fuer que a celi fois ou li overture de la voinne est petite, si te haste, et met sus le leu esponge moillie en aigue et en seil un poc chaut, et l’estraint une houre;
+et covient que tu faices ceu aprés l’issue dou sanc de la voinne, et s’il demoure au leu aprés aucuns jors aucune noiror ou verdor, si ne li nuist mie;
+et se tu vues, met sus aucune chose de aloes ou de mirre remise en jus de calament, monstastre, ou semblant.
+Et maintes fois avient aposteme et aparance a la sainie de la basilique:
+met donques ta main sus, et se tu trueves le leu mol a la compression de la main, si est celle aparance male.
+Eschui donques que tu ne mettes sus aucune chose de ceu que nos avons dit, car par aventure en cort sans de l’artere;
+mais li fai I emplaustre sec por endurcir le leu, puis le cure d’autre cure, tant qu’il soit sanez.
 Et trai a chescun dou sanc selonc la quantiteit de sa vertu, et de la color dou sanc.
-Car se li sans est noir, si en laisse issir tant qu’il soit rouges; et se tu lou vois gros, si lou laisse tant qu’il soit subtiliiez; et s’il est trop chaus, si le laisse refroidier.
-Et covient a celui qui est plains et fors, et ait mestier d’estraction de sanc, c’on li faice plus large plaie, et soit li flaimes larges; et a celui qui est foibles, fai le contraire, et le covient sainier poc et sovent, et le doit on sainier en taillant de travers, ne mie en poignant; et ceste maniere de sainie est sauve de decorrement de sanc et de copement de nerf, et vaut mues que li sainie dou lonc ne dou large.
-Et a celui cui li cors faut a la sainie, covient doner pain moilliet en jus de pomes grenates; s’il est eschaufez, si trai dou sanc III fois ou IIII Et s’il est de froide complexion, si menjuce devant la sainie pain moilliet en sirop muzé, ou en sirop de miel aromatique avec espices, si com poivre, canelle, gingibre, et chiches, et sirop bien odorant.
+Car se li sans est noir, si en laisse issir tant qu’il soit rouges;
+et se tu lou vois gros, si lou laisse tant qu’il soit subtiliiez;
+et s’il est trop chaus, si le laisse refroidier.
+Et covient a celui qui est plains et fors, et ait mestier d’estraction de sanc, c’on li faice plus large plaie, et soit li flaimes larges;
+et a celui qui est foibles, fai le contraire, et le covient sainier poc et sovent, et le doit on sainier en taillant de travers, ne mie en poignant;
+et ceste maniere de sainie est sauve de decorrement de sanc et de copement de nerf, et vaut mues que li sainie dou lonc ne dou large.
+Et a celui cui li cors faut a la sainie, covient doner pain moilliet en jus de pomes grenates;
+s’il est eschaufez, si trai dou sanc III fois ou IIII Et s’il est de froide complexion, si menjuce devant la sainie pain moilliet en sirop muzé, ou en sirop de miel aromatique avec espices, si com poivre, canelle, gingibre, et chiches, et sirop bien odorant.
 Et s’il paume a la sainie, aprés l’issue de mout de sanc, si covient qu’il hume brouet de char, et sirop odorant subtil, et use des autres choses que nos avons dit en la division ou chapistre de sincope, por l’evacuation de voinne.
 Et s’il vuet esventer som bras, et sainier autre fois, si covient, quant il est afoiblis par grant sainie, k’il se saine poc et poc, selonc la quantiteit de sa vertu continueement.
 Et qui vuet esventer som bras aprés la premiere sainie, et il a cors fort, si se saine VII houres aprés la premiere sainie, ou aprés la nuevime houre.
 Et qui se vuet sainier d’autre part, si se doit sainier lou secont jor ou le tier.
-Car il a mout de sanc dedens le cors qui est ja eschaufez, et fait venir fievre; si en covient traire grant quantiteit, et eslargir le pertus tant qu’il chiece em pameson; puis que tu rewardes toutes les conditions de sainie, et met ta main sus som poulz quant il saine, que li mors ne viegne en leu de pameson, et ceu avient maintes fois, quant li sainieres est negligens; et ne covient mie quant tu vues desliier lou bras, et faire issir sanc la seconde fois, et li pertus est clos, que tu presses forment sus; ne s’il est corbes, qu’il estende lou bras hastanment, car ce seroit malz; mais le laisse tant qu’il saine la seconde fois; ou tu i point a la pointe dou flaime, tant que li sans qui est congelez a pertus de la voinne isse fuer, et met sus I poc de seil remis en aigue, et presse sus legierement.
+Car il a mout de sanc dedens le cors qui est ja eschaufez, et fait venir fievre;
+si en covient traire grant quantiteit, et eslargir le pertus tant qu’il chiece em pameson;
+puis que tu rewardes toutes les conditions de sainie, et met ta main sus som poulz quant il saine, que li mors ne viegne en leu de pameson, et ceu avient maintes fois, quant li sainieres est negligens;
+et ne covient mie quant tu vues desliier lou bras, et faire issir sanc la seconde fois, et li pertus est clos, que tu presses forment sus;
+ne s’il est corbes, qu’il estende lou bras hastanment, car ce seroit malz;
+mais le laisse tant qu’il saine la seconde fois;
+ou tu i point a la pointe dou flaime, tant que li sans qui est congelez a pertus de la voinne isse fuer, et met sus I poc de seil remis en aigue, et presse sus legierement.
 Et se li voine est enflee, si la laisse et ne l’estreindre mie, tant que li aposteme soit apaisiez.
 Et se necessitez est dou traire dou sanc la seconde fois, si le saine en celui leu meisme, ou en un autre voinne, ou en l’autre bras.
 Li voinne emmi le bras est sainie en leu de la voine dou chief por ceu qu’elle est composte.
-Et li maniere de la sainie si est que li malaides boute sa main en aigue chaude, tant que li foscile soit rouges; puis soit liiéz moienement, si que li voinne apere bien, puis le saine maintenant dou travers, ne mie dou large ne dou lonc; et soit li pertus larges, et soit sainiez bien pres de la jointe de la main, et se sans n’en puet issir, si remet la main en aigue chaude, et laisse corre lou sanc en l’aigue, tant que tu en aies assez; et se c’est en esteit, si ne rebouter mie la main en aigue chaude, car on l’i met plus en yver que en esteit; et li sainie de ceste voine est plus sauve de toutes autres voinnes, qu’il n’i a ne artere ne nerf.
-Li sainie de la salvatele de la main destre si vaut a toutes les maladies dou foie, et c’est li maniere: estrain la main, et boute en aigue chaude, tant que li voinne soit enflee, si c’on la voie; et se la saine de travers, et se tu la copes dou tout en tout, si ne grieve rien; et n’aler mie trop em parfont, car li nerf sont desoz toz desnuez de char, et puis remet la main en aigue chaude, se li sans est congelez en la plaie, et n’en puet issir.
+Et li maniere de la sainie si est que li malaides boute sa main en aigue chaude, tant que li foscile soit rouges;
+puis soit liiéz moienement, si que li voinne apere bien, puis le saine maintenant dou travers, ne mie dou large ne dou lonc;
+et soit li pertus larges, et soit sainiez bien pres de la jointe de la main, et se sans n’en puet issir, si remet la main en aigue chaude, et laisse corre lou sanc en l’aigue, tant que tu en aies assez;
+et se c’est en esteit, si ne rebouter mie la main en aigue chaude, car on l’i met plus en yver que en esteit;
+et li sainie de ceste voine est plus sauve de toutes autres voinnes, qu’il n’i a ne artere ne nerf.
+Li sainie de la salvatele de la main destre si vaut a toutes les maladies dou foie, et c’est li maniere:
+estrain la main, et boute en aigue chaude, tant que li voinne soit enflee, si c’on la voie;
+et se la saine de travers, et se tu la copes dou tout en tout, si ne grieve rien;
+et n’aler mie trop em parfont, car li nerf sont desoz toz desnuez de char, et puis remet la main en aigue chaude, se li sans est congelez en la plaie, et n’en puet issir.
 Et quant tu avras trait dou sanc tant com mestier t’est, si met sus la voinne oile et seil por souder hastanment, et ensi fai de chescun rain.
 Li sainie de li en la main senestre si vaut a la maladie de la mice, et fai tout ausi com je t’ai dit devers destre.
 Li sainie de la sophene si vaut a toutes les maladies que sont desoz le cors, si com maladies de la marris, et retenement de flors, et maladie des rains, et des cuixes et des jambes ancienes, et semblans maladies.
-Et li qualitez de sa sainie si est que li malaides boute som piet en aigue chaude, et frote sus la voinne tant qu’elle pere, et lie desus la jointure dou piet; et li voinne si est a la cheville, et par desus lou piet en vont mout de rains; saine la donques ou plus large rain, ou a la cheville, que mues vaut.
-Et se tu la saines sus lou piet, si te warde des ners qui sont desoz, et la saine de traver ausi com en copant; et soit li flaimes anesil.
+Et li qualitez de sa sainie si est que li malaides boute som piet en aigue chaude, et frote sus la voinne tant qu’elle pere, et lie desus la jointure dou piet;
+et li voinne si est a la cheville, et par desus lou piet en vont mout de rains;
+saine la donques ou plus large rain, ou a la cheville, que mues vaut.
+Et se tu la saines sus lou piet, si te warde des ners qui sont desoz, et la saine de traver ausi com en copant;
+et soit li flaimes anesil.
 Et se li sans n’en puet issir, si remet lou piet en l’aigue, et laisse bien vuidier la voine.
-Et se li sainieres faut la premiere fois, si rencomence la seconde au desus un poc, car li leus est salz; ne ne douter de nerf, si com nos avons dit, et ensi fai de la sophene de l’autre piet igalment.
+Et se li sainieres faut la premiere fois, si rencomence la seconde au desus un poc, car li leus est salz;
+ne ne douter de nerf, si com nos avons dit, et ensi fai de la sophene de l’autre piet igalment.
 Li leus de la voinne sciatique est a la cheville de fuer, et sa sainie vaut a la dolor de la hainche, quant c’est por sanc chaut.
-Et li qualitez de sa sainie si est que li malaides entre ou bain, et estraigne desus la cheville IIII dois en tordant, car autrement n’apert li voinne; et s’elle apert, si le saine en toutes les manieres que tu pues, et en traversant; et vaut mues que tu la copes, car li leus est saus, et elle est mout reponue a mains homes.
-Et se tu ne la trueves, si saine aucun rain de li qui apert ou dos dou piet, et vers lou petit doi, et te warde des ners; et fai tant corre dou sanc que tu vues, et puis deslie lou lien, et met sus coton et l’estraint; ele est maintenant sanee.
+Et li qualitez de sa sainie si est que li malaides entre ou bain, et estraigne desus la cheville IIII dois en tordant, car autrement n’apert li voinne;
+et s’elle apert, si le saine en toutes les manieres que tu pues, et en traversant;
+et vaut mues que tu la copes, car li leus est saus, et elle est mout reponue a mains homes.
+Et se tu ne la trueves, si saine aucun rain de li qui apert ou dos dou piet, et vers lou petit doi, et te warde des ners;
+et fai tant corre dou sanc que tu vues, et puis deslie lou lien, et met sus coton et l’estraint;
+ele est maintenant sanee.

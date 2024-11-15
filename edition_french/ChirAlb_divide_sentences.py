@@ -55,7 +55,13 @@ def add_numbering(xml_text):
         p_doc = nlp(p_content)
         for sent in p_doc.sents:
             # Inelegant solution, but does what is necessary:
-            if '55ra' in sent.text:    # This would be an <s> element that just contains a <pb> element, no text
+            if ('"55ra"' in sent.text    # This would be an <s> element that just contains a <pb> element, no text
+                or '"4va"' in sent.text
+                or '"11vb"' in sent.text
+                or '"15ra"' in sent.text
+                or '"15rb"' in sent.text
+                or '"15rb"' in sent.text
+                or '"27ra"' in sent.text):
                 continue
 
             new_content += f'<s id="s{scount.count:04d}">{sent.text}</s>\n'

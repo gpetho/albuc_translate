@@ -4,10 +4,10 @@ def next_s(s_id):
     s_number = int(s_id[1:])
     return f"s{s_number + 1:04d}"
 
-with open('chapters_standoff.xml') as f:
+with open('updated_standoff_renumbered.xml') as f:
     standoff = BeautifulSoup(f, 'xml')
 
-with open('ChirAlbT_text_bfm_mod.xml') as f:
+with open('ChirAlbT_text_bfm_mod_subsents.xml') as f:
     text = BeautifulSoup(f, 'xml')
 
 new_soup = BeautifulSoup('<body></body>', 'xml')
@@ -70,5 +70,5 @@ for chapter in standoff.find_all('chapter'):
 
     body.append(new_chapter)
 
-with open('chapters_combined.xml', 'w') as f:
+with open('chapters_combined_updated.xml', 'w') as f:
     f.write(str(new_soup))

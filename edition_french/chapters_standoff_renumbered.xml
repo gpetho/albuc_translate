@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE standoffAnnotations SYSTEM "chapters.dtd">
+<standoffAnnotations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="chapters.xsd">
+<metadata>
+<sourceFile path="ChirAlbT_text_bfm_mod.xml"/>
+<dateCreated>2024-11-06</dateCreated>
+<createdBy>Gergely Pethő @ALMA</createdBy>
+<schemaVersion>1.0</schemaVersion>
+</metadata>
+
+<chapter n="Prologue" id="prologue" start_s="s0001" end_s="s0041">
+</chapter>
+
+<chapter n="1" id="ch1" start_s="s0042" end_s="s0088">
+<subchapter n="1" id="subch1.1" start_s="s0089" end_s="s0107" />
+<subchapter n="2" id="subch1.2" start_s="s0108" end_s="s0117" />
+<subchapter n="3" id="subch1.3" start_s="s0118" end_s="s0135" />
+<subchapter n="4" id="subch1.4" start_s="s0136" end_s="s0142" />
+<subchapter n="5" id="subch1.5" start_s="s0143" end_s="s0151" />
+<subchapter n="6" id="subch1.6" start_s="s0152" end_s="s0158" />
+<subchapter n="7" id="subch1.7" start_s="s0164" end_s="s0165" />
+<subchapter n="8" id="subch1.8" start_s="s0166" end_s="s0170" />
+<subchapter n="9" id="subch1.9" start_s="s0171" end_s="s0179" />
+<subchapter n="10" id="subch1.10" start_s="s0180" end_s="s0187" />
+<subchapter n="11" id="subch1.11" start_s="s0188" end_s="s0200" />
+<subchapter n="12" id="subch1.12" start_s="s0201" end_s="s0205" />
+<subchapter n="13" id="subch1.13" start_s="s0206" end_s="s0210" />
+<subchapter n="14" id="subch1.14" start_s="s0211" end_s="s0216" />
+<subchapter n="15" id="subch1.15" start_s="s0217" end_s="s0222" />
+<subchapter n="16" id="subch1.16" start_s="s0223" end_s="s0251" />
+<subchapter n="17" id="subch1.17" start_s="s0252" end_s="s0280" />
+<subchapter n="18" id="subch1.18" start_s="s0281" end_s="s0284" />
+<subchapter n="19" id="subch1.19" start_s="s0285" end_s="s0287" />
+<subchapter n="20" id="subch1.20" start_s="s0288" end_s="s0296" />
+<subchapter n="21" id="subch1.21" start_s="s0297" end_s="s0311" />
+<subchapter n="22" id="subch1.22" start_s="s0312" end_s="s0316" />
+<subchapter n="23" id="subch1.23" start_s="s0317" end_s="s0322" />
+<subchapter n="24" id="subch1.24" start_s="s0323" end_s="s0332" />
+<subchapter n="25" id="subch1.25" start_s="s0333" end_s="s0345" />
+<subchapter n="26" id="subch1.26" start_s="s0346" end_s="s0350" />
+<subchapter n="27" id="subch1.27" start_s="s0351" end_s="s0354" />
+<subchapter n="28" id="subch1.28" start_s="s0355" end_s="s0369" />
+<subchapter n="29" id="subch1.29" start_s="s0370" end_s="s0380" />
+<subchapter n="30" id="subch1.30" start_s="s0381" end_s="s0389" />
+<subchapter n="31" id="subch1.31" start_s="s0390" end_s="s0394" />
+<subchapter n="32" id="subch1.32" start_s="s0395" end_s="s0401" />
+<subchapter n="33" id="subch1.33" start_s="s0402" end_s="s0408" />
+<subchapter n="34" id="subch1.34" start_s="s0409" end_s="s0413" />
+<subchapter n="35" id="subch1.35" start_s="s0414" end_s="s0418" />
+<subchapter n="36" id="subch1.36" start_s="s0419" end_s="s0427" />
+<subchapter n="37" id="subch1.37" start_s="s0428" end_s="s0430" />
+<subchapter n="38" id="subch1.38" start_s="s0431" end_s="s0435" />
+<subchapter n="39" id="subch1.39" start_s="s0436" end_s="s0438" />
+<subchapter n="40" id="subch1.40" start_s="s0439" end_s="s0446" />
+<subchapter n="41" id="subch1.41" start_s="s0447" end_s="s0501" />
+<subchapter n="42" id="subch1.42" start_s="s0502" end_s="s0505" />
+<subchapter n="43" id="subch1.43" start_s="s0506" end_s="s0515" />
+<subchapter n="44" id="subch1.44" start_s="s0517" end_s="s0524" />
+<subchapter n="45" id="subch1.45" start_s="s0525" end_s="s0553" />
+<subchapter n="46" id="subch1.46" start_s="s0554" end_s="s0558" />
+<subchapter n="47" id="subch1.47" start_s="s0559" end_s="s0570" />
+<subchapter n="48" id="subch1.48" start_s="s0571" end_s="s0577" />
+<subchapter n="49" id="subch1.49" start_s="s0578" end_s="s0579" />
+<subchapter n="50" id="subch1.50" start_s="s0580" end_s="s0585" />
+<subchapter n="51" id="subch1.51" start_s="s0586" end_s="s0598" />
+<subchapter n="52" id="subch1.52" start_s="s0599" end_s="s0606" />
+<subchapter n="53" id="subch1.53" start_s="s0607" end_s="s0617" />
+<subchapter n="54" id="subch1.54" start_s="s0618" end_s="s0622" />
+<subchapter n="55" id="subch1.55" start_s="s0623" end_s="s0633" />
+<subchapter n="56" id="subch1.56" start_s="s0634" end_s="s0645" />
+</chapter>
+
+<chapter n="2" id="ch2" start_s="s0767" end_s="s0780">
+<subchapter n="1" id="subch2.1" start_s="s0781" end_s="s0801" />
+<subchapter n="2" id="subch2.2" start_s="s0802" end_s="s0814" />
+<subchapter n="3" id="subch2.3" start_s="s0815" end_s="s0836" />
+<subchapter n="4" id="subch2.4" start_s="s0837" end_s="s0854" />
+<subchapter n="5" id="subch2.5" start_s="s0855" end_s="s0863" />
+<subchapter n="6" id="subch2.6" start_s="s0864" end_s="s0914" />
+<subchapter n="7" id="subch2.7" start_s="s0915" end_s="s0935" />
+<subchapter n="8" id="subch2.8" start_s="s0936" end_s="s0941" />
+<subchapter n="9" id="subch2.9" start_s="s0942" end_s="s0948" />
+<subchapter n="10" id="subch2.10" start_s="s0949" end_s="s0971" />
+<subchapter n="11" id="subch2.11" start_s="s0972" end_s="s0994" />
+<subchapter n="12" id="subch2.12" start_s="s0995" end_s="s1002" />
+<subchapter n="13" id="subch2.13" start_s="s1003" end_s="s1023" />
+<subchapter n="14" id="subch2.14" start_s="s1024" end_s="s1032" />
+<subchapter n="15" id="subch2.15" start_s="s1033" end_s="s1036" />
+<subchapter n="16" id="subch2.16" start_s="s1037" end_s="s1065" />
+<subchapter n="17" id="subch2.17" start_s="s1066" end_s="s1070" />
+<subchapter n="18" id="subch2.18" start_s="s1071" end_s="s1085" />
+<subchapter n="19" id="subch2.19" start_s="s1086" end_s="s1097" />
+<subchapter n="20" id="subch2.20" start_s="s1098" end_s="s1101" />
+<subchapter n="21" id="subch2.21" start_s="s1102" end_s="s1108" />
+<subchapter n="22" id="subch2.22" start_s="s1109" end_s="s1123" />
+<subchapter n="23" id="subch2.23" start_s="s1124" end_s="s1155" />
+<subchapter n="24" id="subch2.24" start_s="s1156" end_s="s1168" />
+<subchapter n="25" id="subch2.25" start_s="s1169" end_s="s1177" />
+<subchapter n="26" id="subch2.26" start_s="s1178" end_s="s1190" />
+<subchapter n="27" id="subch2.27" start_s="s1191" end_s="s1192" />
+<subchapter n="28" id="subch2.28" start_s="s1193" end_s="s1199" />
+<subchapter n="29" id="subch2.29" start_s="s1200" end_s="s1204" />
+<subchapter n="30" id="subch2.30" start_s="s1205" end_s="s1232" />
+<subchapter n="31" id="subch2.31" start_s="s1233" end_s="s1248" />
+<subchapter n="32" id="subch2.32" start_s="s1249" end_s="s1253" />
+<subchapter n="33" id="subch2.33" start_s="s1254" end_s="s1262" />
+<subchapter n="34" id="subch2.34" start_s="s1263" end_s="s1272" />
+<subchapter n="35" id="subch2.35" start_s="s1273" end_s="s1274" />
+<subchapter n="36" id="subch2.36" start_s="s1275" end_s="s1301" />
+<subchapter n="37" id="subch2.37" start_s="s1302" end_s="s1332" />
+<subchapter n="38" id="subch2.38" start_s="s1333" end_s="s1339" />
+<subchapter n="39" id="subch2.39" start_s="s1340" end_s="s1364" />
+<subchapter n="40" id="subch2.40" start_s="s1365" end_s="s1408" />
+<subchapter n="41" id="subch2.41" start_s="s1409" end_s="s1432" />
+<subchapter n="42" id="subch2.42" start_s="s1433" end_s="s1452" />
+<subchapter n="43" id="subch2.43" start_s="s1453" end_s="s1475" />
+<subchapter n="44" id="subch2.44" start_s="s1476" end_s="s1481" />
+<subchapter n="45" id="subch2.45" start_s="s1482" end_s="s1501" />
+<subchapter n="46" id="subch2.46" start_s="s1502" end_s="s1510" />
+<subchapter n="47" id="subch2.47" start_s="s1511" end_s="s1519" />
+<subchapter n="48" id="subch2.48" start_s="s1520" end_s="s1540" />
+<subchapter n="49" id="subch2.49" start_s="s1541" end_s="s1543" />
+<subchapter n="50" id="subch2.50" start_s="s1544" end_s="s1551" />
+<subchapter n="51" id="subch2.51" start_s="s1552" end_s="s1571" />
+<subchapter n="52" id="subch2.52" start_s="s1572" end_s="s1586" />
+<subchapter n="53" id="subch2.53" start_s="s1587" end_s="s1591" />
+<subchapter n="54" id="subch2.54" start_s="s1592" end_s="s1621" />
+<subchapter n="55" id="subch2.55" start_s="s1622" end_s="s1643" />
+<subchapter n="56" id="subch2.56" start_s="s1644" end_s="s1656" />
+<subchapter n="57" id="subch2.57" start_s="s1657" end_s="s1677" />
+<subchapter n="58" id="subch2.58" start_s="s1678" end_s="s1691" />
+<subchapter n="59" id="subch2.59" start_s="s1692" end_s="s1703" />
+<subchapter n="60" id="subch2.60" start_s="s1704" end_s="s1769" />
+<subchapter n="61" id="subch2.61" start_s="s1770" end_s="s1784" />
+<subchapter n="62" id="subch2.62" start_s="s1785" end_s="s1823" />
+<subchapter n="63" id="subch2.63" start_s="s1824" end_s="s1852" />
+<subchapter n="64" id="subch2.64" start_s="s1853" end_s="s1858" />
+<subchapter n="65" id="subch2.65" start_s="s1859" end_s="s1877" />
+<subchapter n="66" id="subch2.66" start_s="s1878" end_s="s1896" />
+<subchapter n="67" id="subch2.67" start_s="s1897" end_s="s1901" />
+<subchapter n="68" id="subch2.68" start_s="s1902" end_s="s1905" />
+<subchapter n="69" id="subch2.69" start_s="s1906" end_s="s1923" />
+<subchapter n="70" id="subch2.70" start_s="s1924" end_s="s1932" />
+<subchapter n="71" id="subch2.71" start_s="s1933" end_s="s1941" />
+<subchapter n="72" id="subch2.72" start_s="s1942" end_s="s1957" />
+<subchapter n="73" id="subch2.73" start_s="s1958" end_s="s1973" />
+<subchapter n="74" id="subch2.74" start_s="s1974" end_s="s1984" />
+<subchapter n="75" id="subch2.75" start_s="s1985" end_s="s2057" />
+<subchapter n="76" id="subch2.76" start_s="s2058" end_s="s2102" />
+<subchapter n="77" id="subch2.77" start_s="s2103" end_s="s2110" />
+<subchapter n="78" id="subch2.78" start_s="s2111" end_s="s2130" />
+<subchapter n="79" id="subch2.79" start_s="s2131" end_s="s2142" />
+<subchapter n="80" id="subch2.80" start_s="s2143" end_s="s2202" />
+<subchapter n="81" id="subch2.81" start_s="s2203" end_s="s2212" />
+<subchapter n="82" id="subch2.82" start_s="s2213" end_s="s2234" />
+<subchapter n="83" id="subch2.83" start_s="s2235" end_s="s2245" />
+<subchapter n="84" id="subch2.84" start_s="s2246" end_s="s2298" />
+<subchapter n="85" id="subch2.85" start_s="s2299" end_s="s2374" />
+<subchapter n="86" id="subch2.86" start_s="s2375" end_s="s2436" />
+<subchapter n="87" id="subch2.87" start_s="s2437" end_s="s2450" />
+<subchapter n="88" id="subch2.88" start_s="s2451" end_s="s2477" />
+<subchapter n="89" id="subch2.89" start_s="s2478" end_s="s2550" />
+<subchapter n="90" id="subch2.90" start_s="s2551" end_s="s2563" />
+<subchapter n="91" id="subch2.91" start_s="s2564" end_s="s2575" />
+<subchapter n="92" id="subch2.92" start_s="s2576" end_s="s2592" />
+<subchapter n="93" id="subch2.93" start_s="s2593" end_s="s2605" />
+<subchapter n="94" id="subch2.94" start_s="s2606" end_s="s2707" />
+<subchapter n="95" id="subch2.95" start_s="s2708" end_s="s2898" />
+<subchapter n="96" id="subch2.96" start_s="s2899" end_s="s2970" />
+<subchapter n="97" id="subch2.97" start_s="s2971" end_s="s2977" />
+</chapter>
+<chapter n="3" id="ch3" start_s="s3037" end_s="s3039">
+<subchapter n="1" id="subch3.1" start_s="s3040" end_s="s3124" />
+<subchapter n="2" id="subch3.2" start_s="s3125" end_s="s3182" />
+<subchapter n="3" id="subch3.3" start_s="s3183" end_s="s3205" />
+<subchapter n="4" id="subch3.4" start_s="s3206" end_s="s3223" />
+<subchapter n="5" id="subch3.5" start_s="s3224" end_s="s3238" />
+<subchapter n="6" id="subch3.6" start_s="s3239" end_s="s3243" />
+<subchapter n="7" id="subch3.7" start_s="s3244" end_s="s3252" />
+<subchapter n="8" id="subch3.8" start_s="s3253" end_s="s3285" />
+<subchapter n="9" id="subch3.9" start_s="s3286" end_s="s3299" />
+<subchapter n="10" id="subch3.10" start_s="s3300" end_s="s3309" />
+<subchapter n="11" id="subch3.11" start_s="s3310" end_s="s3335" />
+<subchapter n="12" id="subch3.12" start_s="s3336" end_s="s3368" />
+<subchapter n="13" id="subch3.13" start_s="s3369" end_s="s3381" />
+<subchapter n="14" id="subch3.14" start_s="s3382" end_s="s3397" />
+<subchapter n="15" id="subch3.15" start_s="s3398" end_s="s3407" />
+<subchapter n="16" id="subch3.16" start_s="s3408" end_s="s3424" />
+<subchapter n="17" id="subch3.17" start_s="s3425" end_s="s3432" />
+<subchapter n="18" id="subch3.18" start_s="s3433" end_s="s3445" />
+<subchapter n="19" id="subch3.19" start_s="s3446" end_s="s3481" />
+<subchapter n="20" id="subch3.20" start_s="s3482" end_s="s3485" />
+<subchapter n="21" id="subch3.21" start_s="s3486" end_s="s3493" />
+<subchapter n="22" id="subch3.22" start_s="s3494" end_s="s3500" />
+<subchapter n="23" id="subch3.23" start_s="s3501" end_s="s3518" />
+<subchapter n="24" id="subch3.24" start_s="s3519" end_s="s3536" />
+<subchapter n="25" id="subch3.25" start_s="s3537" end_s="s3543" />
+<subchapter n="26" id="subch3.26" start_s="s3544" end_s="s3585" />
+<subchapter n="27" id="subch3.27" start_s="s3586" end_s="s3615" />
+<subchapter n="28" id="subch3.28" start_s="s3616" end_s="s3628" />
+<subchapter n="29" id="subch3.29" start_s="s3629" end_s="s3636" />
+<subchapter n="30" id="subch3.30" start_s="s3637" end_s="s3650" />
+<subchapter n="31" id="subch3.31" start_s="s3651" end_s="s3696" />
+<subchapter n="32" id="subch3.32" start_s="s3697" end_s="s3702" />
+<subchapter n="33" id="subch3.33" start_s="s3703" end_s="s3716" />
+<subchapter n="34" id="subch3.34" start_s="s3717" end_s="s3723" />
+<subchapter n="35" id="subch3.35" start_s="s3724" end_s="s3733" />
+</chapter>
+</standoffAnnotations>

@@ -129,7 +129,7 @@ def main():
 
         context = []
 
-        if args.language == 'ofr' # and config['model'][args.model].get('old_dir'):
+        if args.language == 'ofr':   # and config['model'][args.model].get('old_dir'):
             model_cfg = config['model'][args.model]
             
             # these will work for ofr_translations_old

@@ -1,10 +1,10 @@
 File: preface.txt
-File Elapsed Time: 0:00:02.489789
-Source file length: 16
+File Elapsed Time: 0:00:02.260137
+Source file length: 43
 Target file length: 40
-Nodes: 756
-Gale-Church Elapsed Time: 2024-11-15 00:26:33.317213
-Align Elapsed Time: 0:03:07.905726
-Calc Anchors Elapsed Time: 2024-11-15 00:26:33.317213
-Greedy Algorithm Elapsed Time: 2024-11-15 00:26:33.317214
-Anchors: [[16, 40]]
+Nodes: 1890
+Gale-Church Elapsed Time: 2024-11-16 00:05:05.999782
+Align Elapsed Time: 0:02:32.122085
+Calc Anchors Elapsed Time: 2024-11-16 00:05:05.999782
+Greedy Algorithm Elapsed Time: 2024-11-16 00:05:05.999783
+Anchors: [[43, 40]]

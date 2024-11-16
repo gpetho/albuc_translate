@@ -1,10 +1,10 @@
 File: chapter-2-subchapter-16.txt
-File Elapsed Time: 0:00:01.501102
-Source file length: 24
+File Elapsed Time: 0:00:01.144019
+Source file length: 20
 Target file length: 16
-Nodes: 468
-Gale-Church Elapsed Time: 2024-11-15 00:35:49.477669
-Align Elapsed Time: 0:00:01.501412
-Calc Anchors Elapsed Time: 2024-11-15 00:35:49.477670
-Greedy Algorithm Elapsed Time: 2024-11-15 00:35:49.477671
-Anchors: [[24, 16]]
+Nodes: 396
+Gale-Church Elapsed Time: 2024-11-16 00:05:05.999782
+Align Elapsed Time: 0:01:06.535250
+Calc Anchors Elapsed Time: 2024-11-16 00:05:05.999782
+Greedy Algorithm Elapsed Time: 2024-11-16 00:05:05.999783
+Anchors: [[20, 16]]

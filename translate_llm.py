@@ -15,7 +15,7 @@ def print_context(response, logger, tokenizer):
 
 
 def load_ofr_translations():
-    with open('ofr_old/all_text_mod.txt') as f:
+    with open('ofr_old/all_text.txt') as f:
         lines = f.readlines()
 
     source_line_dict = {}

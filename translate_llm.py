@@ -135,7 +135,7 @@ def main():
             # these will work for ofr_translations_old
             # the older translations in ofr_translations_older
             # require the old_dir and old_fn values from the config file
-            model_cfg['old_dir'] = out_dir
+            model_cfg['old_dir'] = model_fn
             model_cfg['old_fn'] = model_fn
 
             oto = 'ofr_translations_old'

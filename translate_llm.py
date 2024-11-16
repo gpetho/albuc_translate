@@ -3,6 +3,7 @@ import tqdm
 import os
 import logging
 import yaml
+import time
 import argparse
 from transformers import AutoTokenizer
 
@@ -174,6 +175,7 @@ def main():
                                                 options=options)
                     except:
                         print("response error on line", i)
+                        time.sleep(5)
                         continue
                 else:
                     try:

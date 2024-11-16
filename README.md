@@ -2,7 +2,7 @@
 
 Repository for examining the capability of several open and closed LLMs to translate Albucasis from various historical languages (Occitan, Arabic, Latin, Old French) into modern English.
 
-# Aligning a language
+## Aligning a language
 After a high-quality English translation has been generated for a language with an LLM (ChatGPT, Claude or Gemini), run `python divide_chatgpt_chapters.py` on that language like this:
 ```
 python divide_chatgpt_chapters.py lat chatgpt_lat/combined.txt

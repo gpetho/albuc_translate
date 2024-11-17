@@ -5,9 +5,14 @@ import logging
 import yaml
 import time
 import argparse
+import subprocess
 from transformers import AutoTokenizer
 
 MAX_ATTEMPTS = 3  # Maximum number of attempts to retry a failed generation
+RESTART_EVERY = 50  # Restart the model every n lines
+RESTART_WHICH = {
+    "phi3", "phi3.5"
+}
 
 
 def print_context(response, logger, tokenizer):
@@ -152,6 +157,9 @@ def main():
         skip_flag = False
 
         for i, line in tqdm.tqdm(enumerate(lines), total=len(lines)):
+            if args.model in RESTART_WHICH and i % RESTART_EVERY == 0:
+                # ollama stop model
+                subprocess.run(['ollama', 'stop', args.model])
             if fnum == args.start_number and args.start_line and i < args.start_line:
                 continue
             attempt = 0

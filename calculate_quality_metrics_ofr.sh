@@ -2,19 +2,19 @@
 cat eng_to_ofr/all_text.txt | python aligned_path_to_text.py 1 > aligned_sl_ofr/spink_lewis.ref.txt
 
 # Extract corresponding MT sentences from ChatGPT and Claude
-cat chatgpt_ofr/converted_all.txt | cut -f2 | python aligned_path_to_text.py  > aligned_sl_ofr/chatgpt.mt.txt
-cat claude_occ/sonnet_converted.txt | cut -f2 | python aligned_path_to_text.py  > aligned_sl_ofr/claude.mt.txt
+cat chatgpt_ofr/converted_all.txt | cut -f2 | python aligned_path_to_text.py 0 ofr > aligned_sl_ofr/chatgpt.mt.txt
+cat claude_occ/sonnet_converted.txt | cut -f2 | python aligned_path_to_text.py 0 ofr > aligned_sl_ofr/claude.mt.txt
 
 mkdir sacrebleu_output_ofr
-mkdir aligned_sl_ofr/ofr_translations
+mkdir aligned_sl_ofr/translations
 # for all other MT systems
-for subdir in `ls ofr_translations`; do mkdir aligned_sl_ofr/ofr_translations/$subdir; done
-mkdir sacrebleu_output_ofr/ofr_translations
-for subdir in `ls ofr_translations`; do mkdir sacrebleu_output_ofr/ofr_translations/$subdir; done
+for subdir in `ls ofr_translations`; do mkdir aligned_sl_ofr/translations/$subdir; done
+mkdir sacrebleu_output_ofr/translations
+for subdir in `ls ofr_translations`; do mkdir sacrebleu_output_ofr/translations/$subdir; done
 
 for subdir in `ls ofr_translations`; do
 for mt_file in `ls ofr_translations/$subdir`; do
-    cat ofr_translations/$subdir/$mt_file | cut -f2 | python aligned_path_to_text.py > aligned_sl_ofr/ofr_translations/$subdir/$mt_file
+    cat ofr_translations/$subdir/$mt_file | cut -f2 | python aligned_path_to_text.py 0 ofr > aligned_sl_ofr/translations/$subdir/$mt_file
 done
 done
 

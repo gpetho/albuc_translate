@@ -191,6 +191,7 @@ def main():
                                                 options=options)
                     except:
                         print("response error on line", i)
+                        time.sleep(5)
                         continue
                 if '\n' in response['response']:
                     if attempt < MAX_ATTEMPTS:

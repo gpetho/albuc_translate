@@ -1,3 +1,5 @@
+The pdf scan was downloaded from here: https://bipadi.ub.edu/digital/collection/salutdona/id/129608
+
 The XML contains one incorrectly identified chapter in book 1 and two in book 2, these were manually removed.
 
 Opening and closing tags of div elements within some chapters were removed.

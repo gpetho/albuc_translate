@@ -11,7 +11,7 @@ from transformers import AutoTokenizer
 MAX_ATTEMPTS = 3  # Maximum number of attempts to retry a failed generation
 RESTART_EVERY = 50  # Restart the model every n lines
 RESTART_WHICH = {
-    "phi3", "phi3.5"
+    "phi3", "phi3.5", "mixtral"
 }
 
 

@@ -5,8 +5,8 @@ import tqdm
 import bert_score
 
 
-input_dir = Path(argv[1])
-output_dir = Path(argv[2])
+input_dir = Path(f'aligned_sl_{argv[1]}')
+output_dir = Path(f'sacrebleu_output_{argv[1]}')
 
 TRUNCATE_CHARACTERS = 4000
 MODEL = 'microsoft/deberta-xlarge-mnli'
@@ -16,7 +16,7 @@ EXCLUDE_FILES = [
 reference_file = input_dir / "spink_lewis.ref.txt"
 mt_files = [
     input_dir / "chatgpt.mt.txt",
-#    input_dir / "claude.mt.txt",
+    input_dir / "claude.mt.txt",
 ]
 
 trans_dir = Path(input_dir) / 'translations'

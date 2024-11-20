@@ -4,8 +4,9 @@ from pathlib import Path
 import numpy as np
 import json
 
-metrics = ['BLEU', 'chrF2++', 'TER', 'NIST', 'METEOR', 'rouge1',
-           'rouge2', 'rougeL', 'BLEURT', 'BERTScore']
+metrics = ['BLEU', 'NIST', 'METEOR', 'rouge2',  
+#           'chrF2++', 'TER', 'rouge1', 'rougeL',
+           'BLEURT', 'BERTScore']
 
 model_to_size = {
     'granite3-dense': 2, 'llama3.2': 3, 'nemotron-mini': 4, 'phi3': 4,
@@ -23,8 +24,8 @@ model_display_name = {
     'phi3.5': 'Phi-3.5 3.8b', 'mistral': 'Mistral 7b', 'qwen2': 'Qwen2 7b',
     'qwen2.5': 'Qwen2.5 7b', 'aya': 'Aya 8b', 'aya-expanse': 'Aya Expanse 8b',
     'granite3-dense_8b': 'Granite3 Dense 8b', 'llama3': 'Llama 3 8b',
-    'llama3.1': 'Llama 3.1 8b', 'gemini-1.5-flash-8b': 'Gemini 1.5 Flash-8b',
-    'gemma': 'Gemma 9b', 'gemma2': 'Gemma 2 9b',
+    'llama3.1': 'Llama 3.1 8b', 'gemma': 'Gemma 9b', 'gemma2': 'Gemma 2 9b',
+    'gemini-1.5-flash-8b': 'Gemini 1.5 Flash-8b',
     'mistral-nemo': 'Mistral Nemo 12b', 'phi3_14b': 'Phi-3 14b',
     'qwen2.5_14b': 'Qwen2.5 14b', 'mistral-small': 'Mistral-Small 22b',
     'gemma2_27b': 'Gemma 2 27b', 'qwen2.5_32b': 'Qwen2.5 32b',
@@ -38,8 +39,8 @@ model_display_name = {
 model_order_by_size = [
     'granite3-dense', 'llama3.2', 'nemotron-mini', 'phi3', 'phi3.5', 
     'mistral', 'qwen2', 'qwen2.5', 'aya', 'aya-expanse',
-    'granite3-dense_8b', 'llama3', 'llama3.1', 'gemini-1.5-flash-8b',   
-    'gemma', 'gemma2', 'mistral-nemo', 'phi3_14b', 'qwen2.5_14b', 
+    'granite3-dense_8b', 'llama3', 'llama3.1', 'gemma', 'gemma2',
+    'gemini-1.5-flash-8b', 'mistral-nemo', 'phi3_14b', 'qwen2.5_14b', 
     'mistral-small', 'gemma2_27b', 'qwen2.5_32b', 'aya_35b',
     'command-r', 'mixtral', 'llama3_70b-instruct-q2_K',
     'gemini-1.5-flash-002', 'gemini-1.5-pro-002', 'claude_3.5_sonnet',
@@ -85,6 +86,7 @@ def plot_scores(all_scores_occ, all_scores_ofr, all_scores_ara, all_scores_lat, 
         means_lat, variances_lat = [], []
         
         for subdir in ordered_subdirs:
+            print(subdir)
             try:
                 if subdir in all_scores_occ and metric in all_scores_occ[subdir] and all_scores_occ[subdir][metric]:
                     means_occ.append(np.mean(all_scores_occ[subdir][metric]))
@@ -160,10 +162,10 @@ all_scores_ofr['chatGPT_GPT4o'] = extract_scores(ofr_dir, 'chatgpt')
 all_scores_ara['chatGPT_GPT4o'] = extract_scores(ara_dir, 'chatgpt')
 all_scores_lat['chatGPT_GPT4o'] = extract_scores(lat_dir, 'chatgpt')
 
-all_scores_occ['claude_sonnet_3.5'] = extract_scores(occ_dir, 'claude')
-all_scores_ofr['claude_sonnet_3.5'] = extract_scores(ofr_dir, 'claude')
-all_scores_ara['claude_sonnet_3.5'] = extract_scores(ara_dir, 'claude')
-all_scores_lat['claude_sonnet_3.5'] = extract_scores(lat_dir, 'claude')
+all_scores_occ['claude_3.5_sonnet'] = extract_scores(occ_dir, 'claude')
+all_scores_ofr['claude_3.5_sonnet'] = extract_scores(ofr_dir, 'claude')
+all_scores_ara['claude_3.5_sonnet'] = extract_scores(ara_dir, 'claude')
+all_scores_lat['claude_3.5_sonnet'] = extract_scores(lat_dir, 'claude')
 
 
 subdirs = [
@@ -240,10 +242,10 @@ for subdir in subdirs:
         all_scores_ara['granite3-dense_8b'] = extract_scores(scores_dir_ara) or {}
         all_scores_lat['granite3-dense_8b'] = extract_scores(scores_dir_lat) or {}
     elif subdir == 'llama3':
-        all_scores_occ['llama3_8b'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['llama3_8b'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['llama3_8b'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['llama3_8b'] = extract_scores(scores_dir_lat) or {}
+        all_scores_occ['llama3'] = extract_scores(scores_dir_occ) or {}
+        all_scores_ofr['llama3'] = extract_scores(scores_dir_ofr) or {}
+        all_scores_ara['llama3'] = extract_scores(scores_dir_ara) or {}
+        all_scores_lat['llama3'] = extract_scores(scores_dir_lat) or {}
     elif subdir == 'llama3_70b-instruct-q2_K':
         all_scores_occ['llama3_70b-instruct-q2_K'] = extract_scores(scores_dir_occ) or {}
         all_scores_ofr['llama3_70b-instruct-q2_K'] = extract_scores(scores_dir_ofr) or {}

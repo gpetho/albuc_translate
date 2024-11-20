@@ -4,13 +4,47 @@ from pathlib import Path
 import numpy as np
 import json
 
-metrics = ['BLEU', 'chrF2++', 'TER', 'NIST', 'METEOR','rouge1', 'rouge2','rougeL','BLEURT', 'BERTScore']
+metrics = ['BLEU', 'chrF2++', 'TER', 'NIST', 'METEOR', 'rouge1',
+           'rouge2', 'rougeL', 'BLEURT', 'BERTScore']
 
-model_order_by_size = ['aya', 'aya_35b', 'aya-expanse', 'command-r', 'gemini-1.5-flash-002', 'gemini-1.5-flash-8b', 'gemini-1.5-pro-002',
-                       'gemma', 'gemma2', 'gemma2_9b', 'gemma2_27b', 'granite3-dense', 'granite3-dense_8b', 'llama3', 'llama3_8b', 'llama3_70b-instruct-q2_K',
-                       'llama3.1', 'llama3.2', 'llama3_1_8b', 'mistral', 'mistral_7b', 'mistral-nemo', 'mistral_nemo_12b', 'mistral-small', 'mixtral', 'mixtral_8x7b',
-                       'nemotron-mini', 'phi3', 'phi3_3.8b', 'phi3_14b', 'phi3.5', 'qwen2', 'qwen2_7b', 'qwen2.5', 'qwen2.5_14b', 'qwen2.5_32b',
-                       'claude_sonnet_3.5', 'chatGPT_GPT4o']
+model_to_size = {
+    'granite3-dense': 2, 'llama3.2': 3, 'nemotron-mini': 4, 'phi3': 4,
+    'phi3.5': 4, 'mistral': 7, 'qwen2': 7, 'qwen2.5': 7, 'aya': 8,
+    'aya-expanse': 8, 'granite3-dense_8b': 8, 'llama3': 8, 'llama3.1': 8,
+    'gemini-1.5-flash-8b': 8, 'gemma': 9, 'gemma2': 9, 'mistral-nemo': 12,
+    'phi3_14b': 14, 'qwen2.5_14b': 14, 'mistral-small': 22, 'gemma2_27b': 27,
+    'qwen2.5_32b': 32, 'aya_35b': 35, 'command-r': 35, 'mixtral': 56,
+    'llama3_70b-instruct-q2_K': 70, 'gemini-1.5-flash-002': 0,
+    'gemini-1.5-pro-002': 0, 'claude_3.5_sonnet': 0, 'chatGPT_GPT4o': 0}
+
+model_display_name = {
+    'granite3-dense': 'Granite3 Dense 2b', 'llama3.2': 'Llama3.2 3b',
+    'nemotron-mini': 'Nemotron-Mini 4b', 'phi3': 'Phi-3 3.8b',
+    'phi3.5': 'Phi-3.5 3.8b', 'mistral': 'Mistral 7b', 'qwen2': 'Qwen2 7b',
+    'qwen2.5': 'Qwen2.5 7b', 'aya': 'Aya 8b', 'aya-expanse': 'Aya Expanse 8b',
+    'granite3-dense_8b': 'Granite3 Dense 8b', 'llama3': 'Llama 3 8b',
+    'llama3.1': 'Llama 3.1 8b', 'gemini-1.5-flash-8b': 'Gemini 1.5 Flash-8b',
+    'gemma': 'Gemma 9b', 'gemma2': 'Gemma 2 9b',
+    'mistral-nemo': 'Mistral Nemo 12b', 'phi3_14b': 'Phi-3 14b',
+    'qwen2.5_14b': 'Qwen2.5 14b', 'mistral-small': 'Mistral-Small 22b',
+    'gemma2_27b': 'Gemma 2 27b', 'qwen2.5_32b': 'Qwen2.5 32b',
+    'aya_35b': 'Aya 35b', 'command-r': 'Command-R 35b',
+    'mixtral': 'Mixtral 8x7b', 'llama3_70b-instruct-q2_K': 'Llama 3 70b',
+    'gemini-1.5-flash-002': 'Gemini 1.5 Flash',
+    'gemini-1.5-pro-002': 'Gemini 1.5 Pro',
+    'claude_3.5_sonnet': 'Claude 3.5 Sonnet', 'chatGPT_GPT4o': 'ChatGPT'}
+
+
+model_order_by_size = [
+    'granite3-dense', 'llama3.2', 'nemotron-mini', 'phi3', 'phi3.5', 
+    'mistral', 'qwen2', 'qwen2.5', 'aya', 'aya-expanse',
+    'granite3-dense_8b', 'llama3', 'llama3.1', 'gemini-1.5-flash-8b',   
+    'gemma', 'gemma2', 'mistral-nemo', 'phi3_14b', 'qwen2.5_14b', 
+    'mistral-small', 'gemma2_27b', 'qwen2.5_32b', 'aya_35b',
+    'command-r', 'mixtral', 'llama3_70b-instruct-q2_K',
+    'gemini-1.5-flash-002', 'gemini-1.5-pro-002', 'claude_3.5_sonnet',
+    'chatGPT_GPT4o']
+
 
 def extract_scores(directory, filter=None):
     # filter for file names that contain the substring "filter"
@@ -100,7 +134,9 @@ def plot_scores(all_scores_occ, all_scores_ofr, all_scores_ara, all_scores_lat, 
         axes[i].set_ylabel('Scores')
         axes[i].set_title(f'{metric} Scores by Model')
         axes[i].set_xticks(index)
-        axes[i].set_xticklabels(ordered_subdirs, rotation=90, fontsize='small')
+        display_names = [model_display_name[subdir]
+                         for subdir in ordered_subdirs]
+        axes[i].set_xticklabels(display_names, rotation=90, fontsize='small')
 
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, loc='upper left', ncol=4, fontsize='large')
@@ -130,10 +166,13 @@ all_scores_ara['claude_sonnet_3.5'] = extract_scores(ara_dir, 'claude')
 all_scores_lat['claude_sonnet_3.5'] = extract_scores(lat_dir, 'claude')
 
 
-subdirs = ['aya', 'aya_35b', 'aya-expanse', 'command-r', 'gemini-1.5-flash-002', 'gemini-1.5-flash-8b', 'gemini-1.5-pro-002',
-           'gemma', 'gemma2', 'gemma2_27b', 'granite3-dense', 'granite3-dense_8b', 'llama3', 'llama3_70b-instruct-q2_K',
-           'llama3.1', 'llama3.2', 'mistral', 'mistral-nemo', 'mistral-small', 'mixtral', 'nemotron-mini', 'phi3',
-           'phi3_14b', 'phi3.5', 'qwen2', 'qwen2.5', 'qwen2.5_14b', 'qwen2.5_32b']
+subdirs = [
+    'aya', 'aya_35b', 'aya-expanse', 'command-r',
+    'gemini-1.5-flash-002', 'gemini-1.5-flash-8b', 'gemini-1.5-pro-002',
+    'gemma', 'gemma2', 'gemma2_27b', 'granite3-dense', 'granite3-dense_8b',
+    'llama3', 'llama3_70b-instruct-q2_K', 'llama3.1', 'llama3.2', 'mistral',
+    'mistral-nemo', 'mistral-small', 'mixtral', 'nemotron-mini', 'phi3',
+    'phi3_14b', 'phi3.5', 'qwen2', 'qwen2.5', 'qwen2.5_14b', 'qwen2.5_32b']
 
 for subdir in subdirs:
     scores_dir_occ = occ_dir / 'translations' / subdir

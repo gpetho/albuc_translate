@@ -86,7 +86,7 @@ def plot_scores(all_scores_occ, all_scores_ofr, all_scores_ara, all_scores_lat, 
         means_lat, variances_lat = [], []
         
         for subdir in ordered_subdirs:
-            print(subdir)
+#            print(subdir)
             try:
                 if subdir in all_scores_occ and metric in all_scores_occ[subdir] and all_scores_occ[subdir][metric]:
                     means_occ.append(np.mean(all_scores_occ[subdir][metric]))

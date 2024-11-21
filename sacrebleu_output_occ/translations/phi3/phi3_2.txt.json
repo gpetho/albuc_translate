@@ -1,1 +1,38 @@
-[{"name": "BLEU", "score": 2.2, "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.4.2", "verbose_score": "24.0/4.0/0.9/0.3 (BP = 1.000 ratio = 1.465 hyp_len = 143522 ref_len = 97961)", "nrefs": "1", "case": "mixed", "eff": "no", "tok": "13a", "smooth": "exp", "version": "2.4.2"}, {"name": "chrF2++", "score": 26.3, "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.4.2", "nrefs": "1", "case": "mixed", "eff": "yes", "nc": "6", "nw": "2", "space": "no", "version": "2.4.2"}, {"name": "TER", "score": 133.0, "signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.4.2", "nrefs": "1", "case": "lc", "tok": "tercom", "norm": "no", "punct": "yes", "asian": "no", "version": "2.4.2"}, {"name": "NIST", "score": 1.7121797747236087, "implementation": "nltk.translate.nist_score.corpus_nist", "tok": "nltk.word_tokenize", "tok_preserve_line": "yes", "version": "3.8.1"}, {"name": "METEOR", "score": 0.2250119068441847, "implementation": "evaluate", "version": "0.4.1"}, {"name": "rouge1", "score": 0.24702486055102957, "implementation": "evaluate", "version": "0.4.1", "use_aggregator": "True", "use_stemmer": "True"}, {"name": "rouge2", "score": 0.04287020900351503, "implementation": "evaluate", "version": "0.4.1", "use_aggregator": "True", "use_stemmer": "True"}, {"name": "rougeL", "score": 0.1836280609751495, "implementation": "evaluate", "version": "0.4.1", "use_aggregator": "True", "use_stemmer": "True"}, {"name": "BLEURT", "score": 0.3845479549257269, "aggregation": "mean", "implementation": "evaluate", "version": "0.4.1"}, {"name": "BERTScore", "score": 0.154, "aggregation": "mean", "metric": "F1", "model_type": "microsoft/deberta-xlarge-mnli", "version": "0.3.13", "rescale_with_baseline": true, "truncate above characters": 4000}]
+[
+{
+ "name": "BLEU",
+ "score": 1.5,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.4.2",
+ "verbose_score": "20.6/2.7/0.6/0.2 (BP = 1.000 ratio = 1.805 hyp_len = 176775 ref_len = 97961)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.4.2"
+},
+{
+ "name": "chrF2++",
+ "score": 26.3,
+ "signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.4.2",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "yes",
+ "nc": "6",
+ "nw": "2",
+ "space": "no",
+ "version": "2.4.2"
+},
+{
+ "name": "TER",
+ "score": 168.9,
+ "signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.4.2",
+ "nrefs": "1",
+ "case": "lc",
+ "tok": "tercom",
+ "norm": "no",
+ "punct": "yes",
+ "asian": "no",
+ "version": "2.4.2"
+}
+]

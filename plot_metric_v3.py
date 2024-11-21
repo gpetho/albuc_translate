@@ -70,7 +70,7 @@ def plot_scores(all_scores_occ, all_scores_ofr, all_scores_ara, all_scores_lat, 
     n_metrics = len(metrics)
     n_rows = n_metrics  # Set to one row per plot
     n_cols = 1  # Set to 1 column
-    fig, axes = plt.subplots(n_rows, n_cols, figsize=(18, 6 * n_rows))  # Adjust rows and columns
+    fig, axes = plt.subplots(n_rows, n_cols, figsize=(18, 5 * n_rows))  # Adjust rows and columns
     axes = axes.flatten() if n_metrics > 1 else [axes]  # Flatten axes array if more than one plot
     
     bar_width = 0.2

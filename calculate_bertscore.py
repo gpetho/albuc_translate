@@ -27,8 +27,6 @@ trans_dir = Path(input_dir) / 'translations'
 
 for subdir in trans_dir.iterdir():
     if subdir.is_dir():
-        if subdir.name != 'mixtral':
-            continue
         for file in subdir.iterdir():
             if file.name not in EXCLUDE_FILES:
                 mt_files.append(file)

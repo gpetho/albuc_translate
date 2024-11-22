@@ -3,6 +3,7 @@ from pathlib import Path
 import json
 import tqdm
 import bert_score
+import torch
 
 
 input_dir = Path(f'aligned_sl_{argv[1]}')
@@ -26,6 +27,8 @@ trans_dir = Path(input_dir) / 'translations'
 
 for subdir in trans_dir.iterdir():
     if subdir.is_dir():
+        if subdir.name != 'mixtral':
+            continue
         for file in subdir.iterdir():
             if file.name not in EXCLUDE_FILES:
                 mt_files.append(file)
@@ -64,7 +67,11 @@ for mt_fname, json_fname in tqdm.tqdm(list(zip(mt_files, json_files))):
         mt_lines = mt_file.readlines()
         mt_lines = [line.strip()[:TRUNCATE_CHARACTERS] for line in mt_lines]
 
-        _, _, F1 = scorer.score(mt_lines, ref_lines, verbose=True)
+        try:
+            _, _, F1 = scorer.score(mt_lines, ref_lines, verbose=True)
+        except torch.OutOfMemoryError:
+            print(f"Out of memory for {mt_fname}")
+            continue
 
         data.append({'name': 'BERTScore',
                     'score': float(f'{F1.mean():.3f}'),

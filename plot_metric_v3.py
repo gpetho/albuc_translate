@@ -1,13 +1,44 @@
 import matplotlib.pyplot as plt
 import os
+import sys
 from pathlib import Path
 import numpy as np
 import json
+
+if len(sys.argv) < 2:
+    language = "eng"
+else:
+    language = sys.argv[1]
 
 metrics = ['BLEU', 'NIST', 'METEOR', 'rouge2',  
 #           'chrF2++', 'TER', 'rouge1', 'rougeL',
            'BLEURT', 'BERTScore']
 
+lang_labels = {
+    'eng': {
+        'occ': 'Old Occitan',
+        'ofr': 'Old French',
+        'ara': 'Arabic',
+        'lat': 'Latin'},
+    'hun': {
+        'occ': 'Óokcitán',
+        'ofr': 'Ófrancia',
+        'ara': 'Arab',
+        'lat': 'Latin'},
+    }
+
+legend_labels = {
+    'eng': {
+        'score': 'Score',
+        'model': 'Model',
+        'score_by_model': '{} Score by Model',
+    },
+    'hun': {
+        'score': 'Érték',
+        'model': 'Modell',
+        'score_by_model': 'Modellek {} értéke',
+    }
+}
 model_to_size = {
     'granite3-dense': 2, 'llama3.2': 3, 'nemotron-mini': 4, 'phi3': 4,
     'phi3.5': 4, 'mistral': 7, 'qwen2': 7, 'qwen2.5': 7, 'aya': 8,
@@ -33,7 +64,7 @@ model_display_name = {
     'mixtral': 'Mixtral 8x7b', 'llama3_70b-instruct-q2_K': 'Llama 3 70b',
     'gemini-1.5-flash-002': 'Gemini 1.5 Flash',
     'gemini-1.5-pro-002': 'Gemini 1.5 Pro',
-    'claude_3.5_sonnet': 'Claude 3.5 Sonnet', 'chatGPT_GPT4o': 'ChatGPT'}
+    'claude_3.5_sonnet': 'Claude 3.5 Sonnet', 'chatGPT_GPT4o': 'GPT-4o'}
 
 
 model_order_by_size = [
@@ -127,14 +158,16 @@ def plot_scores(all_scores_occ, all_scores_ofr, all_scores_ara, all_scores_lat, 
         
         index = np.arange(len(ordered_subdirs))
         
-        axes[i].bar(index - 1.5 * bar_width, means_occ, bar_width, alpha=opacity, label='Occitan', yerr=variances_occ, capsize=5, color='blue')
-        axes[i].bar(index - 0.5 * bar_width, means_ofr, bar_width, alpha=opacity, label='Old French', yerr=variances_ofr, capsize=5, color='red')
-        axes[i].bar(index + 0.5 * bar_width, means_ara, bar_width, alpha=opacity, label='Arabic', yerr=variances_ara, capsize=5, color='green')
-        axes[i].bar(index + 1.5 * bar_width, means_lat, bar_width, alpha=opacity, label='Latin', yerr=variances_lat, capsize=5, color='purple')
+        axes[i].bar(index - 1.5 * bar_width, means_occ, bar_width, alpha=opacity, label=lang_labels[language]['occ'], yerr=variances_occ, capsize=5, color='blue')
+        axes[i].bar(index - 0.5 * bar_width, means_ofr, bar_width, alpha=opacity, label=lang_labels[language]['ofr'], yerr=variances_ofr, capsize=5, color='red')
+        axes[i].bar(index + 0.5 * bar_width, means_ara, bar_width, alpha=opacity, label=lang_labels[language]['ara'], yerr=variances_ara, capsize=5, color='green')
+        axes[i].bar(index + 1.5 * bar_width, means_lat, bar_width, alpha=opacity, label=lang_labels[language]['lat'], yerr=variances_lat, capsize=5, color='orange')
         
-        axes[i].set_xlabel('Model')
-        axes[i].set_ylabel('Scores')
-        axes[i].set_title(f'{metric} Scores by Model')
+        axes[i].set_xlabel(legend_labels[language]['model'])
+        axes[i].set_ylabel(legend_labels[language]['score'])
+        if metric == 'rouge2':
+            metric = 'ROUGE-2'
+        axes[i].set_title(legend_labels[language]['score_by_model'].format(metric))
         axes[i].set_xticks(index)
         display_names = [model_display_name[subdir]
                          for subdir in ordered_subdirs]

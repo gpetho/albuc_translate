@@ -1,0 +1,4 @@
+Given the reference text and the hypothesis translation, list the aspects of the translation that are correct and incorrect. Indicate parts that match the reference meaning, parts that are good English, parts that are problematic, and parts that don't relate to the reference at all.
+
+Reference: {ref}
+Hypothesis: {hyp}

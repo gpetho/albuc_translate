@@ -157,12 +157,35 @@ def plot_scores(all_scores_occ, all_scores_ofr, all_scores_ara, all_scores_lat, 
                 variances_lat.append(np.nan)
         
         index = np.arange(len(ordered_subdirs))
-        
-        axes[i].bar(index - 1.5 * bar_width, means_occ, bar_width, alpha=opacity, label=lang_labels[language]['occ'], yerr=variances_occ, capsize=5, color='blue')
-        axes[i].bar(index - 0.5 * bar_width, means_ofr, bar_width, alpha=opacity, label=lang_labels[language]['ofr'], yerr=variances_ofr, capsize=5, color='red')
-        axes[i].bar(index + 0.5 * bar_width, means_ara, bar_width, alpha=opacity, label=lang_labels[language]['ara'], yerr=variances_ara, capsize=5, color='green')
-        axes[i].bar(index + 1.5 * bar_width, means_lat, bar_width, alpha=opacity, label=lang_labels[language]['lat'], yerr=variances_lat, capsize=5, color='orange')
-        
+
+        data_max = max(max(means_occ), max(means_ofr), max(means_ara), max(means_lat))
+        print(data_max)
+
+        # Restore the original y-axis limits
+#        ax.set_ylim(y_min, y_max)
+
+        axes[i].bar(index - 1.5 * bar_width, means_occ, bar_width, alpha=1, label=lang_labels[language]['occ'], yerr=variances_occ, capsize=5, color='blue')
+        axes[i].bar(index - 0.5 * bar_width, means_ofr, bar_width, alpha=1, label=lang_labels[language]['ofr'], yerr=variances_ofr, capsize=5, color='red')
+        axes[i].bar(index + 0.5 * bar_width, means_ara, bar_width, alpha=1, label=lang_labels[language]['ara'], yerr=variances_ara, capsize=5, color='green')
+        axes[i].bar(index + 1.5 * bar_width, means_lat, bar_width, alpha=1, label=lang_labels[language]['lat'], yerr=variances_lat, capsize=5, color='orange')
+
+        ax = axes[i]
+        # Save the original y-axis limits
+        y_min, y_max = ax.get_ylim()
+        print(y_min, y_max)
+
+        # Add horizontal guides
+        y_ticks = ax.get_yticks()
+        print(y_ticks)
+
+        for j in range(len(y_ticks) - 1):
+            ax.axhspan(y_ticks[j], y_ticks[j + 1], facecolor='lightgrey' if j % 2 == 0 else 'white', alpha=0.5)
+
+        axes[i].bar(index - 1.5 * bar_width, means_occ, bar_width, alpha=1, yerr=variances_occ, capsize=5, color='blue')
+        axes[i].bar(index - 0.5 * bar_width, means_ofr, bar_width, alpha=1, yerr=variances_ofr, capsize=5, color='red')
+        axes[i].bar(index + 0.5 * bar_width, means_ara, bar_width, alpha=1, yerr=variances_ara, capsize=5, color='green')
+        axes[i].bar(index + 1.5 * bar_width, means_lat, bar_width, alpha=1, yerr=variances_lat, capsize=5, color='orange')
+
         axes[i].set_xlabel(legend_labels[language]['model'])
         axes[i].set_ylabel(legend_labels[language]['score'])
         if metric == 'rouge2':

@@ -6,13 +6,32 @@ import numpy as np
 import json
 
 if len(sys.argv) < 2:
-    language = "eng"
+    legend_language = "eng"
 else:
-    language = sys.argv[1]
+    legend_language = sys.argv[1]
 
-metrics = ['BLEU', 'NIST', 'METEOR', 'rouge2',  
+plot_filename = 'plot_scores_v4.png'
+
+eval_languages = [
+    'occ',
+    'ofr',
+    # 'ara',
+    # 'lat'
+]
+
+lang_colour = {
+    'occ': 'blue',
+    'ofr': 'red',
+    'ara': 'green',
+    'lat': 'orange'
+}
+
+metrics = ['BLEU',
+#           'NIST', 'METEOR',
+           'rouge2',  
 #           'chrF2++', 'TER', 'rouge1', 'rougeL',
-           'BLEURT', 'BERTScore']
+#           'BLEURT', 'BERTScore'
+           ]
 
 lang_labels = {
     'eng': {
@@ -97,77 +116,62 @@ def extract_scores(directory, filter=None):
                     continue
     return scores
 
-def plot_scores(all_scores_occ, all_scores_ofr, all_scores_ara, all_scores_lat, model_order_by_size):
+def plot_scores(all_scores_dict, model_order_by_size):
     n_metrics = len(metrics)
     n_rows = n_metrics  # Set to one row per plot
     n_cols = 1  # Set to 1 column
-    fig, axes = plt.subplots(n_rows, n_cols, figsize=(18, 5 * n_rows))  # Adjust rows and columns
+    fig_width = len(eval_languages) * 4.5  # Adjust width according to number of languages
+    fig, axes = plt.subplots(n_rows, n_cols, figsize=(fig_width, 5 * n_rows))  # Adjust rows and columns
     axes = axes.flatten() if n_metrics > 1 else [axes]  # Flatten axes array if more than one plot
     
     bar_width = 0.2
     opacity = 0.8
     
     # Ensure the order of subdirs according to model_order_by_size
-    ordered_subdirs = [subdir for subdir in model_order_by_size if subdir in all_scores_occ and subdir in all_scores_ofr and subdir in all_scores_ara and subdir in all_scores_lat]
+    ordered_subdirs = []
+    for subdir in model_order_by_size:
+        if all([subdir in lang_subdirs for lang_subdirs in all_scores_dict.values()]):
+            ordered_subdirs.append(subdir)
+#    ordered_subdirs = [subdir for subdir in model_order_by_size if subdir in all_scores_occ and subdir in all_scores_ofr and subdir in all_scores_ara and subdir in all_scores_lat]
     
     for i, metric in enumerate(metrics):
-        means_occ, variances_occ = [], []
-        means_ofr, variances_ofr = [], []
-        means_ara, variances_ara = [], []
-        means_lat, variances_lat = [], []
-        
+        means = {lang: [] for lang in eval_languages}
+        variances = {lang: [] for lang in eval_languages}
+
         for subdir in ordered_subdirs:
 #            print(subdir)
-            try:
-                if subdir in all_scores_occ and metric in all_scores_occ[subdir] and all_scores_occ[subdir][metric]:
-                    means_occ.append(np.mean(all_scores_occ[subdir][metric]))
-                    variances_occ.append(np.var(all_scores_occ[subdir][metric]))
-                else:
-                    means_occ.append(np.nan)
-                    variances_occ.append(np.nan)
+            for lang in eval_languages:
+                try:
+                    if (subdir in all_scores_dict[lang]
+                        and metric in all_scores_dict[lang][subdir]
+                        and all_scores_dict[lang][subdir][metric]):
+                        means[lang].append(np.mean(all_scores_dict[lang][subdir][metric]))
+                        variances[lang].append(np.var(all_scores_dict[lang][subdir][metric]))
+                    else:
+                        means[lang].append(np.nan)
+                        variances[lang].append(np.nan)
 
-                if subdir in all_scores_ofr and metric in all_scores_ofr[subdir] and all_scores_ofr[subdir][metric]:
-                    means_ofr.append(np.mean(all_scores_ofr[subdir][metric]))
-                    variances_ofr.append(np.var(all_scores_ofr[subdir][metric]))
-                else:
-                    means_ofr.append(np.nan)
-                    variances_ofr.append(np.nan)
-                
-                if subdir in all_scores_ara and metric in all_scores_ara[subdir] and all_scores_ara[subdir][metric]:
-                    means_ara.append(np.mean(all_scores_ara[subdir][metric]))
-                    variances_ara.append(np.var(all_scores_ara[subdir][metric]))
-                else:
-                    means_ara.append(np.nan)
-                    variances_ara.append(np.nan)
-                
-                if subdir in all_scores_lat and metric in all_scores_lat[subdir] and all_scores_lat[subdir][metric]:
-                    means_lat.append(np.mean(all_scores_lat[subdir][metric]))
-                    variances_lat.append(np.var(all_scores_lat[subdir][metric]))
-                else:
-                    means_lat.append(np.nan)
-                    variances_lat.append(np.nan)
-            except IndexError:
-                means_occ.append(np.nan)
-                variances_occ.append(np.nan)
-                means_ofr.append(np.nan)
-                variances_ofr.append(np.nan)
-                means_ara.append(np.nan)
-                variances_ara.append(np.nan)
-                means_lat.append(np.nan)
-                variances_lat.append(np.nan)
+                except IndexError:
+                    for lang in eval_languages:
+                        means[lang].append(np.nan)
+                        variances[lang].append(np.nan)
         
-        index = np.arange(len(ordered_subdirs))
+        index = np.arange(len(ordered_subdirs)) * (len(eval_languages) * bar_width + 0.4)
 
-        data_max = max(max(means_occ), max(means_ofr), max(means_ara), max(means_lat))
+        data_max = max(max(means[lang]) for lang in eval_languages)
         print(data_max)
 
-        # Restore the original y-axis limits
-#        ax.set_ylim(y_min, y_max)
-
-        axes[i].bar(index - 1.5 * bar_width, means_occ, bar_width, alpha=1, label=lang_labels[language]['occ'], yerr=variances_occ, capsize=5, color='blue')
-        axes[i].bar(index - 0.5 * bar_width, means_ofr, bar_width, alpha=1, label=lang_labels[language]['ofr'], yerr=variances_ofr, capsize=5, color='red')
-        axes[i].bar(index + 0.5 * bar_width, means_ara, bar_width, alpha=1, label=lang_labels[language]['ara'], yerr=variances_ara, capsize=5, color='green')
-        axes[i].bar(index + 1.5 * bar_width, means_lat, bar_width, alpha=1, label=lang_labels[language]['lat'], yerr=variances_lat, capsize=5, color='orange')
+        if len(eval_languages) == 4:
+            offsets = [-1.5, -0.5, 0.5, 1.5]
+        else:
+            offsets = [-0.5, 0.5]
+        
+        for offset, lang in zip(offsets, eval_languages):
+            axes[i].bar(index + offset * bar_width,
+                        means[lang], bar_width, alpha=1,
+                        label=lang_labels[legend_language][lang],
+                        yerr=variances[lang], capsize=5,
+                        color=lang_colour[lang])
 
         ax = axes[i]
         # Save the original y-axis limits
@@ -181,16 +185,17 @@ def plot_scores(all_scores_occ, all_scores_ofr, all_scores_ara, all_scores_lat, 
         for j in range(len(y_ticks) - 1):
             ax.axhspan(y_ticks[j], y_ticks[j + 1], facecolor='lightgrey' if j % 2 == 0 else 'white', alpha=0.5)
 
-        axes[i].bar(index - 1.5 * bar_width, means_occ, bar_width, alpha=1, yerr=variances_occ, capsize=5, color='blue')
-        axes[i].bar(index - 0.5 * bar_width, means_ofr, bar_width, alpha=1, yerr=variances_ofr, capsize=5, color='red')
-        axes[i].bar(index + 0.5 * bar_width, means_ara, bar_width, alpha=1, yerr=variances_ara, capsize=5, color='green')
-        axes[i].bar(index + 1.5 * bar_width, means_lat, bar_width, alpha=1, yerr=variances_lat, capsize=5, color='orange')
+        for offset, lang in zip(offsets, eval_languages):
+            axes[i].bar(index + offset * bar_width,
+                        means[lang], bar_width, alpha=1,
+                        yerr=variances[lang], capsize=5,
+                        color=lang_colour[lang])
 
-        axes[i].set_xlabel(legend_labels[language]['model'])
-        axes[i].set_ylabel(legend_labels[language]['score'])
+        axes[i].set_xlabel(legend_labels[legend_language]['model'])
+        axes[i].set_ylabel(legend_labels[legend_language]['score'])
         if metric == 'rouge2':
             metric = 'ROUGE-2'
-        axes[i].set_title(legend_labels[language]['score_by_model'].format(metric))
+        axes[i].set_title(legend_labels[legend_language]['score_by_model'].format(metric))
         axes[i].set_xticks(index)
         display_names = [model_display_name[subdir]
                          for subdir in ordered_subdirs]
@@ -200,29 +205,17 @@ def plot_scores(all_scores_occ, all_scores_ofr, all_scores_ara, all_scores_lat, 
     fig.legend(handles, labels, loc='upper left', ncol=4, fontsize='large')
         
     plt.tight_layout()
-    plt.savefig('plot_scores_v3.png', dpi=300, bbox_inches='tight')
+    plt.savefig(plot_filename, dpi=300, bbox_inches='tight')
     plt.show()
 
-occ_dir = Path('sacrebleu_output_occ')
-ofr_dir = Path('sacrebleu_output_ofr')
-ara_dir = Path('sacrebleu_output_ara')
-lat_dir = Path('sacrebleu_output_lat')
 
-all_scores_occ = {}
-all_scores_ofr = {}
-all_scores_ara = {}
-all_scores_lat = {}
+lang_dir = {lang: Path(f'sacrebleu_output_{lang}') for lang in eval_languages}
 
-all_scores_occ['chatGPT_GPT4o'] = extract_scores(occ_dir, 'chatgpt')
-all_scores_ofr['chatGPT_GPT4o'] = extract_scores(ofr_dir, 'chatgpt')
-all_scores_ara['chatGPT_GPT4o'] = extract_scores(ara_dir, 'chatgpt')
-all_scores_lat['chatGPT_GPT4o'] = extract_scores(lat_dir, 'chatgpt')
+all_scores_dict = {lang: {} for lang in eval_languages}
 
-all_scores_occ['claude_3.5_sonnet'] = extract_scores(occ_dir, 'claude')
-all_scores_ofr['claude_3.5_sonnet'] = extract_scores(ofr_dir, 'claude')
-all_scores_ara['claude_3.5_sonnet'] = extract_scores(ara_dir, 'claude')
-all_scores_lat['claude_3.5_sonnet'] = extract_scores(lat_dir, 'claude')
-
+for lang in eval_languages:
+    all_scores_dict[lang]['chatGPT_GPT4o'] = extract_scores(lang_dir[lang], 'chatgpt')
+    all_scores_dict[lang]['claude_3.5_sonnet'] = extract_scores(lang_dir[lang], 'claude')
 
 subdirs = [
     'aya', 'aya_35b', 'aya-expanse', 'command-r',
@@ -233,149 +226,8 @@ subdirs = [
     'phi3_14b', 'phi3.5', 'qwen2', 'qwen2.5', 'qwen2.5_14b', 'qwen2.5_32b']
 
 for subdir in subdirs:
-    scores_dir_occ = occ_dir / 'translations' / subdir
-    scores_dir_ofr = ofr_dir / 'translations' / subdir
-    scores_dir_ara = ara_dir / 'translations' / subdir
-    scores_dir_lat = lat_dir / 'translations' / subdir
-    if subdir == 'aya':
-        all_scores_occ['aya'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['aya'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['aya'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['aya'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'aya_35b':
-        all_scores_occ['aya_35b'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['aya_35b'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['aya_35b'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['aya_35b'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'aya-expanse':
-        all_scores_occ['aya-expanse'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['aya-expanse'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['aya-expanse'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['aya-expanse'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'command-r':
-        all_scores_occ['command-r'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['command-r'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['command-r'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['command-r'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'gemini-1.5-flash-002':
-        all_scores_occ['gemini-1.5-flash-002'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['gemini-1.5-flash-002'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['gemini-1.5-flash-002'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['gemini-1.5-flash-002'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'gemini-1.5-flash-8b':
-        all_scores_occ['gemini-1.5-flash-8b'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['gemini-1.5-flash-8b'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['gemini-1.5-flash-8b'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['gemini-1.5-flash-8b'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'gemini-1.5-pro-002':
-        all_scores_occ['gemini-1.5-pro-002'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['gemini-1.5-pro-002'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['gemini-1.5-pro-002'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['gemini-1.5-pro-002'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'gemma':
-        all_scores_occ['gemma'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['gemma'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['gemma'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['gemma'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'gemma2':
-        all_scores_occ['gemma2'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['gemma2'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['gemma2'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['gemma2'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'gemma2_27b':
-        all_scores_occ['gemma2_27b'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['gemma2_27b'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['gemma2_27b'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['gemma2_27b'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'granite3-dense':
-        all_scores_occ['granite3-dense'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['granite3-dense'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['granite3-dense'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['granite3-dense'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'granite3-dense_8b':
-        all_scores_occ['granite3-dense_8b'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['granite3-dense_8b'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['granite3-dense_8b'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['granite3-dense_8b'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'llama3':
-        all_scores_occ['llama3'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['llama3'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['llama3'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['llama3'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'llama3_70b-instruct-q2_K':
-        all_scores_occ['llama3_70b-instruct-q2_K'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['llama3_70b-instruct-q2_K'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['llama3_70b-instruct-q2_K'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['llama3_70b-instruct-q2_K'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'llama3.1':
-        all_scores_occ['llama3.1'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['llama3.1'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['llama3.1'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['llama3.1'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'llama3.2':
-        all_scores_occ['llama3.2'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['llama3.2'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['llama3.2'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['llama3.2'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'mistral':
-        all_scores_occ['mistral'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['mistral'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['mistral'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['mistral'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'mistral-nemo':
-        all_scores_occ['mistral-nemo'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['mistral-nemo'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['mistral-nemo'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['mistral-nemo'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'mistral-small':
-        all_scores_occ['mistral-small'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['mistral-small'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['mistral-small'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['mistral-small'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'mixtral':
-        all_scores_occ['mixtral'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['mixtral'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['mixtral'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['mixtral'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'nemotron-mini':
-        all_scores_occ['nemotron-mini'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['nemotron-mini'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['nemotron-mini'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['nemotron-mini'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'phi3':
-        all_scores_occ['phi3'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['phi3'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['phi3'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['phi3'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'phi3_14b':
-        all_scores_occ['phi3_14b'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['phi3_14b'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['phi3_14b'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['phi3_14b'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'phi3.5':
-        all_scores_occ['phi3.5'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['phi3.5'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['phi3.5'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['phi3.5'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'qwen2':
-        all_scores_occ['qwen2'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['qwen2'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['qwen2'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['qwen2'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'qwen2.5':
-        all_scores_occ['qwen2.5'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['qwen2.5'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['qwen2.5'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['qwen2.5'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'qwen2.5_14b':
-        all_scores_occ['qwen2.5_14b'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['qwen2.5_14b'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['qwen2.5_14b'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['qwen2.5_14b'] = extract_scores(scores_dir_lat) or {}
-    elif subdir == 'qwen2.5_32b':
-        all_scores_occ['qwen2.5_32b'] = extract_scores(scores_dir_occ) or {}
-        all_scores_ofr['qwen2.5_32b'] = extract_scores(scores_dir_ofr) or {}
-        all_scores_ara['qwen2.5_32b'] = extract_scores(scores_dir_ara) or {}
-        all_scores_lat['qwen2.5_32b'] = extract_scores(scores_dir_lat) or {}
+    scores_dir = {lang: lang_dir[lang] / 'translations' / subdir for lang in eval_languages}
+    for lang in eval_languages:
+        all_scores_dict[lang][subdir] = extract_scores(scores_dir[lang]) or {}
 
-plot_scores(all_scores_occ, all_scores_ofr, all_scores_ara, all_scores_lat, model_order_by_size)
+plot_scores(all_scores_dict, model_order_by_size)

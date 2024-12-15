@@ -10,7 +10,7 @@ if len(sys.argv) < 2:
 else:
     legend_language = sys.argv[1]
 
-plot_filename = 'plot_scores_v4.png'
+plot_filename = 'plot_scores_ddhum.png'
 
 eval_languages = [
     'occ',
@@ -27,10 +27,13 @@ lang_colour = {
 }
 
 metrics = ['BLEU',
-#           'NIST', 'METEOR',
+           'NIST', 'METEOR',
+#           'chrF2++',
+           'TER', 
+            'rouge1',
            'rouge2',  
-#           'chrF2++', 'TER', 'rouge1', 'rougeL',
-#           'BLEURT', 'BERTScore'
+# 'rougeL',
+           'BLEURT', 'BERTScore'
            ]
 
 lang_labels = {
@@ -118,9 +121,9 @@ def extract_scores(directory, filter=None):
 
 def plot_scores(all_scores_dict, model_order_by_size):
     n_metrics = len(metrics)
-    n_rows = n_metrics  # Set to one row per plot
-    n_cols = 1  # Set to 1 column
-    fig_width = len(eval_languages) * 4.5  # Adjust width according to number of languages
+    n_cols = 2  # Set to 1 column
+    n_rows = int(n_metrics / n_cols) # Set to one row per plot
+    fig_width = len(eval_languages) * 10  # Adjust width according to number of languages
     fig, axes = plt.subplots(n_rows, n_cols, figsize=(fig_width, 5 * n_rows))  # Adjust rows and columns
     axes = axes.flatten() if n_metrics > 1 else [axes]  # Flatten axes array if more than one plot
     
@@ -156,7 +159,7 @@ def plot_scores(all_scores_dict, model_order_by_size):
                         means[lang].append(np.nan)
                         variances[lang].append(np.nan)
         
-        index = np.arange(len(ordered_subdirs)) * (len(eval_languages) * bar_width + 0.4)
+        index = np.arange(len(ordered_subdirs)) * (len(eval_languages) * bar_width + 0.2)
 
         data_max = max(max(means[lang]) for lang in eval_languages)
         print(data_max)

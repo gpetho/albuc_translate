@@ -35,7 +35,7 @@ def write_output_kv(key, value, last_output, file):
 
 for left_file, middle_file, output_file in indirect_pairs:
     aligned_pairs = {}
-    with open(middle_file) as middle_alignment:
+    with open("../" + middle_file) as middle_alignment:
         for line in middle_alignment:
             if not line.strip():
                 print(f"Warning: Empty line in indirect alignment file {middle_file}")

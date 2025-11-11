@@ -3,13 +3,13 @@ from collections import Counter
 import sys
 
 inputs_outputs = [
-    ("combined_path_manual.txt",
+    ("../combined_path_manual.txt",
      "noske_alignment_occ_eng.txt", "noske_alignment_eng_occ.txt",
      "occ", "eng"),
-    ("combined_path_lat_manual.txt",
+    ("../combined_path_lat_manual.txt",
      "noske_alignment_lat_eng.txt", "noske_alignment_eng_lat.txt",
      "lat", "eng"),
-    ("combined_path_ofr_manual.txt",
+    ("../combined_path_ofr_manual.txt",
      "noske_alignment_ofr_eng.txt", "noske_alignment_eng_ofr.txt",
      "ofr", "eng")
 ]
@@ -102,9 +102,9 @@ for input_file, output_file, reverse_file, left_dir, right_dir in inputs_outputs
             elif line.strip():
                 current_file = line.strip()
                 print(f"Processing file: {current_file}")
-                with open(f"{left_dir}/{current_file}") as left_file:
+                with open(f"../{left_dir}/{current_file}") as left_file:
                     left_text = left_file.readlines()
-                with open(f"{right_dir}/{current_file}") as right_file:
+                with open(f"../{right_dir}/{current_file}") as right_file:
                     right_text = right_file.readlines()
                 left_aligned = 0
                 right_aligned = 0
